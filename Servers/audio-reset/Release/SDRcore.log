@@ -1,0 +1,9 @@
+﻿  main.c
+  Generating code
+  1 of 10 functions (10.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SDRcore.vcxproj -> G:\Ham Radio\ominaSDR\Hardware\MSCC-PW\audio-reset\Release\bin\audio-reset.exe
+  G:\Ham Radio\ominaSDR\Hardware\MSCC-PW\audio-reset\LIBS\pthreadVC2.dll -> G:\Ham Radio\ominaSDR\Hardware\MSCC-PW\audio-reset\Release\bin\pthreadVC2.dll
+  1 File(s) copied

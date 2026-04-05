@@ -1,0 +1,523 @@
+[2] Logfile Opened.  Logfile: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/logs/sdrcore-trans.log
+[23:23:08:27][3] Main Thread. SDRcore Log file opened
+[23:23:08:27][4] Main Thread - sdrcore-trans. starting. Compile Date Feb 14 2025, Compile Time 08:17:39 
+[23:23:08:27][5] check_for_power_ini_file. Called.
+[23:23:08:27][6] check_for_power_ini_file. File Exists 
+[23:23:08:27][7] check_for_power_ini_file. Finished.
+[23:23:08:27][8] Main Thread. power.ini file exists
+[23:23:08:27][9] Main Thread.  Starting UDP Thread
+[23:23:08:27][10] Main Thread. SDRcore Starting Flusher Thread
+[23:23:08:27][11] Main Thread. SDRcore Starting Overdriven Thread
+[23:23:08:27][12] Main Thread. SDRcore Starting VU Thread
+[23:23:08:27][13] Main Thread. SDRcore Starting Drive_Manager Thread
+[23:23:08:27][14] Get_Operator_Sound_Device. STARTED. sound-device.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/operator-microphone.ini
+[23:23:08:27][15] Setup_UDP -> Initializing Winsock...
+[23:23:08:27][16] Drive_Manager. Started. Sleeping for 6 seconds.
+[23:23:08:27][17] Setup_UDP Thread -> Socket Created
+[23:23:08:27][18] Setup_UDP -> Invalid DLL Port. Using default: 9200
+[23:23:08:27][19] Setup_UDP -> Invalid MS-SDR Port. Using default: 8888
+[23:23:08:27][20] Setup_UDP ->ms_sdr_s -> Socket Created
+[23:23:08:27][21] UDP Thread. Running
+[23:23:08:27][22] UDP Thread. Waiting for data...
+[23:23:08:27][23] ALC_Meter_thread. Thread STARTED.
+[23:23:08:27][24] Overdriven_thread - Thread has started
+[23:23:08:27][25] Get_Operator_Sound_Device. input record: Operator-Microphone , audio_device: Operator-Microphone 
+[23:23:08:27][26] Get_Digital_Sound_Device. STARTED. sound-device.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/digital-microphone.ini
+[23:23:08:27][27] Get_Digital_Sound_Device. input record: MSCC-Digital-Microphone , audio_device: MSCC-Digital-Microphone 
+[23:23:08:27][28] Get_Digital_Sound_Device. FINISHED
+[23:23:08:28][29] build_input_devices. Operator-Microphone  FOUND
+[23:23:08:28][30] build_digital_input_devices. MSCC-Digital-Microphone  FOUND
+[23:23:08:28][31] main. Proficio found: Line (Multus IQ Sound)
+[23:23:08:28][32] Main Thread. manage_stream. STARTED. start_stop: 0, stream_running: 0
+[23:23:08:28][33] Main Thread. manage_stream.  FINISHED. stream_running: 0, status: 0
+[23:23:08:28][34] Main Thread. manage_stream. STARTED. stream_running: 0 Device: 1, Channels 1
+[23:23:08:28][35] Main Thread. manage_stream. starting stream.  Device: 1, Channels 1
+[23:23:08:28][36] Main Thread. manage_stream.  FINISHED. stream_running: 1, status: 0
+[23:23:08:28][37] UDP Thread. CMD_SET_PCB_VERSION. Version: 6
+[23:23:08:28][38] Check_iq_ini_file. STARTED 
+[23:23:08:28][39] Load_Defaults. Called 
+[23:23:08:28][40] Load_Defaults. C:\Users\Ron\AppData\Local/MSCC-GEMINUS/rev-g/iq.ini OPENED 
+ [23:23:08:28][41] Load_Defaults. Record: 0, Offset: -104 
+[23:23:08:28][42] Load_Defaults. Record: 1, Offset: -97 
+[23:23:08:28][43] Load_Defaults. Record: 2, Offset: -77 
+[23:23:08:28][44] Load_Defaults. Record: 3, Offset: -60 
+[23:23:08:28][45] Load_Defaults. Record: 4, Offset: -43 
+[23:23:08:28][46] Load_Defaults. Record: 5, Offset: -33 
+[23:23:08:28][47] Load_Defaults. Record: 6, Offset: -31 
+[23:23:08:28][48] Load_Defaults. Record: 7, Offset: -6 
+[23:23:08:28][49] Load_Defaults. Record: 8, Offset: -5 
+[23:23:08:28][50] Load_Defaults. Record: 9, Offset: 8 
+[23:23:08:28][51] Load_Defaults. Record: 10, Offset: 8 
+[23:23:08:28][52] Load_Defaults. Record: 11, Offset: 8 
+[23:23:08:28][53] Load_Defaults. record load finished
+ [23:23:08:28][54] Load_Defaults. Finished 
+[23:23:08:28][55] create_iq_ini_file. File exists. Not creating iq.ini file
+[23:23:08:28][56] Check_iq_ini_file. Finished 
+[23:23:08:28][57] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:08:28][58] init_IQ_structure. Finished
+[23:23:08:28][59] UDP_Thread. init_IQ_structure . Successful 
+[23:23:08:28][60] Create_amplifier_calibration_file. Called.  force:0 
+[23:23:08:28][61] Create_amplifier_calibration_file. File exists. Not creating amplifier_cal.ini file
+[23:23:08:28][62] UDP Thread. Init_Power_All. Called 
+[23:23:08:28][63] init_power_ini. Called.
+[23:23:08:28][64] init_power_ini. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:08:28][65] init_power_ini. power.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:08:28][66] init_power_ini. Finished
+[23:23:08:28][67] Initialize_power_calibration. Finished
+[23:23:08:28][68] Initialize_amplifier_calibration. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:08:28][69] Initialize_amplifier_calibration. File: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/amplifier_cal.ini
+[23:23:08:28][70] Initialize_amplifier_calibration. record: 0, band: 0, power_level: -50
+[23:23:08:28][71] Initialize_amplifier_calibration. record: 1, band: 1, power_level: -82
+[23:23:08:28][72] Initialize_amplifier_calibration. record: 2, band: 2, power_level: -78
+[23:23:08:28][73] Initialize_amplifier_calibration. record: 3, band: 3, power_level: -83
+[23:23:08:28][74] Initialize_amplifier_calibration. record: 4, band: 4, power_level: -84
+[23:23:08:28][75] Initialize_amplifier_calibration. record: 5, band: 5, power_level: -77
+[23:23:08:28][76] Initialize_amplifier_calibration. record: 6, band: 6, power_level: -79
+[23:23:08:28][77] Initialize_amplifier_calibration. record: 7, band: 7, power_level: -61
+[23:23:08:28][78] Initialize_amplifier_calibration. record: 8, band: 8, power_level: -73
+[23:23:08:28][79] Initialize_amplifier_calibration. record: 9, band: 9, power_level: -74
+[23:23:08:28][80] Initialize_amplifier_calibration. record: 10, band: 10, power_level: -50
+[23:23:08:28][81] Initialize_amplifier_calibration. record: 11, band: 11, power_level: -50
+[23:23:08:28][82] Initialize_amplifier_calibration. Finished
+[23:23:08:28][83] UDP Thread. Init_Power_All. Finished 
+[23:23:08:28][84] Create_amplifier_calibration_file. Finished 
+[23:23:08:28][85] UDP Thread. Init_Power_All. Called 
+[23:23:08:28][86] init_power_ini. Called.
+[23:23:08:28][87] init_power_ini. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:08:28][88] init_power_ini. power.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:08:28][89] init_power_ini. Finished
+[23:23:08:28][90] Initialize_power_calibration. Finished
+[23:23:08:28][91] Initialize_amplifier_calibration. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:08:28][92] Initialize_amplifier_calibration. File: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/amplifier_cal.ini
+[23:23:08:28][93] Initialize_amplifier_calibration. record: 0, band: 0, power_level: -50
+[23:23:08:28][94] Initialize_amplifier_calibration. record: 1, band: 1, power_level: -82
+[23:23:08:28][95] Initialize_amplifier_calibration. record: 2, band: 2, power_level: -78
+[23:23:08:28][96] Initialize_amplifier_calibration. record: 3, band: 3, power_level: -83
+[23:23:08:28][97] Initialize_amplifier_calibration. record: 4, band: 4, power_level: -84
+[23:23:08:28][98] Initialize_amplifier_calibration. record: 5, band: 5, power_level: -77
+[23:23:08:28][99] Initialize_amplifier_calibration. record: 6, band: 6, power_level: -79
+[23:23:08:28][100] Initialize_amplifier_calibration. record: 7, band: 7, power_level: -61
+[23:23:08:28][101] Initialize_amplifier_calibration. record: 8, band: 8, power_level: -73
+[23:23:08:28][102] Initialize_amplifier_calibration. record: 9, band: 9, power_level: -74
+[23:23:08:28][103] Initialize_amplifier_calibration. record: 10, band: 10, power_level: -50
+[23:23:08:28][104] Initialize_amplifier_calibration. record: 11, band: 11, power_level: -50
+[23:23:08:28][105] Initialize_amplifier_calibration. Finished
+[23:23:08:28][106] UDP Thread. Init_Power_All. Finished 
+[23:23:08:28][107] UDP Thread. CMD_SET_MIC_VOLUME.  volume: 0
+[23:23:08:28][108] Set_Mic_Volume. mic_gain_step: 0, current_mic_volume: 0, G_mic_volume: 0.000000
+[23:23:08:28][109] UDP Thread. CMD_SET_MIC_VOLUME in U/L mode. mystate.txPower: 0.000000, G_mic_volume 0.000000
+[23:23:08:28][110] UDP Thread. CMD_SET_MIC_VOLUME. Finished. New Mic Volume: 0.000000, peek: 0.000000
+[23:23:08:29][111] UDP Thread. CMD_SET_MIC_VOLUME.  volume: 30
+[23:23:08:29][112] Set_Mic_Volume. mic_gain_step: 0, current_mic_volume: 30, G_mic_volume: 0.150000
+[23:23:08:29][113] UDP Thread. CMD_SET_MIC_VOLUME in U/L mode. mystate.txPower: 0.000000, G_mic_volume 0.150000
+[23:23:08:29][114] UDP Thread. CMD_SET_MIC_VOLUME. Finished. New Mic Volume: 0.150000, peek: 0.000000
+[23:23:08:29][115] UDP Thread. CMD_SET_MIC_MUTE: 0 
+[23:23:08:29][116] Set_Mic_Mute. mic_status: 0, G_mic_volume: 0.150000
+[23:23:08:29][117] UDP Thread. CMD_SET_MIC_MUTE. Finished
+[23:23:08:29][118] UDP Thread. CMD_SET_COMPRESSION_STATE. state: 0
+[23:23:08:29][119] UDP Thread. CMD_SET_COMPRESSION_LEVEL. level: 5
+[23:23:08:29][120] UDP Thread. CMD_SET_PA_BYPASS. G_QRP_mode: 1
+[23:23:08:33][121] Drive_Manager. In QRP mode 
+[23:23:08:33][122] get_QRP_power_level. Finished. Band: 0, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:08:33][123] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:08:33][124] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:08:39][125] UDP Thread. CMD_SET_MIC_MUTE: 0 
+[23:23:08:39][126] Set_Mic_Mute. mic_status: 0, G_mic_volume: 0.150000
+[23:23:08:39][127] UDP Thread. CMD_SET_MIC_MUTE. Finished
+[23:23:08:39][128] UDP Thread. CMD_SET_MIC_GAIN. mic_gain_step: 3
+[23:23:08:39][129] Set_Mic_Volume. mic_gain_step: 3, current_mic_volume: 30, G_mic_volume: 0.330000
+[23:23:08:39][130] UDP Thread. CMD_SET_DIGITAL_MIC_GAIN. mic_digital_gain_step: 0
+[23:23:08:39][131] Set_Digital_Mic_Volume. mic_gain_step: 3, current_mic_volume: 30, G_mic_volume: 0.150000
+[23:23:08:39][132] UDP Thread. CMD_SET_ALC_MULTIPLIER. received_data: 11, G_ALC_multiplier: 1.100000
+[23:23:08:39][133] UDP Thread. CMD_SET_CONFIGURATION. t_opcode_data: 1
+[23:23:08:39][134] Main Thread. manage_stream. STARTED.  stream_running: 1, Device: 5, Channels 1
+[23:23:08:39][135] Main Thread. manage_stream. Stoping Stream.  New device: 5, New Channels 1
+[23:23:08:39][136] Main Thread. manage_stream.  FINISHED. stream_running: 0, status: 0
+[23:23:08:39][137] Main Thread. manage_stream. STARTED. stream_running: 0 Device: 1, Channels 1
+[23:23:08:39][138] Main Thread. manage_stream. starting stream.  Device: 1, Channels 1
+[23:23:08:39][139] Main Thread. manage_stream.  FINISHED. stream_running: 1, status: 0
+[23:23:08:39][140] UDP Thread. CMD_SET_MIC_VOLUME.  volume: 30
+[23:23:08:39][141] Set_Mic_Volume. mic_gain_step: 3, current_mic_volume: 30, G_mic_volume: 0.330000
+[23:23:08:39][142] UDP Thread. CMD_SET_MIC_VOLUME in U/L mode. mystate.txPower: 0.990000, G_mic_volume 0.330000
+[23:23:08:39][143] UDP Thread. CMD_SET_MIC_VOLUME. Finished. New Mic Volume: 0.330000, peek: 0.000490
+[23:23:08:39][144] UDP Thread. CMD_SET_MIC_GAIN. mic_gain_step: 3
+[23:23:08:39][145] Set_Mic_Volume. mic_gain_step: 3, current_mic_volume: 30, G_mic_volume: 0.330000
+[23:23:08:39][146] Drive_Manager. In QRP mode 
+[23:23:08:39][147] get_QRP_power_level. Finished. Band: 0, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:08:39][148] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:08:39][149] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:08:40][150] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 630
+[23:23:08:40][151] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:08:40][152] init_IQ_structure. Finished
+[23:23:08:40][153] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:08:40][154] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 10
+[23:23:08:40][155] Drive_Manager. In QRP mode 
+[23:23:08:40][156] get_QRP_power_level. Finished. Band: 10, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:08:40][157] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:08:40][158] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:08:40][159] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:08:40][160] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:08:40][161] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:08:40][162] Drive_Manager. In QRP mode 
+[23:23:08:40][163] get_QRP_power_level. Finished. Band: 10, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:08:40][164] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:08:40][165] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:08:41][166] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:08:41][167] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:08:41][168] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:08:41][169] UDP Thread. CMD_SET_ALC_MULTIPLIER. received_data: 11, G_ALC_multiplier: 1.100000
+[23:23:09:04][170] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:04][171] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:04][172] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:05][173] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:05][174] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:05][175] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:09][176] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:09][177] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:09][178] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:09][179] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:09][180] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:09][181] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:27][182] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:27][183] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:27][184] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:27][185] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:27][186] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:27][187] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:34][188] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:34][189] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:34][190] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:34][191] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:34][192] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:34][193] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:35][194] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:35][195] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:09:35][196] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:35][197] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 2200
+[23:23:09:35][198] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:09:35][199] init_IQ_structure. Finished
+[23:23:09:35][200] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:09:35][201] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 11
+[23:23:09:35][202] Drive_Manager. In QRP mode 
+[23:23:09:35][203] get_QRP_power_level. Finished. Band: 11, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:35][204] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:35][205] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:36][206] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:36][207] UDP Thread. CMD_SET_MAIN_MODE: New Mode: U, Mic Volume: 0.330000
+[23:23:09:36][208] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:36][209] Drive_Manager. In QRP mode 
+[23:23:09:36][210] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:36][211] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:36][212] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:42][213] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 1
+[23:23:09:42][214] Set_Mic_Mute. mic_status: 0, G_mic_volume: 0.330000
+[23:23:09:42][215] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 1. FINISHED
+[23:23:09:42][216] ALC_average RESET
+[23:23:09:42][216] Result_average RESET
+[23:23:09:45][216] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0
+[23:23:09:45][217] Set_Mic_Mute. mic_status: 1, G_mic_volume: 0.000000
+[23:23:09:45][218] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0. FINISHED
+[23:23:09:45][219] Drive_Manager. In QRP mode 
+[23:23:09:45][220] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:45][221] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:45][222] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:46][223] UDP Thread. CMD_SET_TUNE_POWER. power: 100 
+[23:23:09:46][224] set_selected_power. Called with power_field: 4, power_value: 100
+[23:23:09:46][225] set_selected_power. Finished
+[23:23:09:46][226] set_QRO_power_level. STARTED. band:11, mode:4, user_power: 100 
+[23:23:09:46][227] set_QRO_power_level. Proficio Calibration value: 99, 
+[23:23:09:46][228] set_QRO_power_level. Finished. drive_level: 49.500000 
+[23:23:09:46][229] set_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Calibration: 99, Proficio User Power: 100, Proficio Drive Value: 0.990000
+[23:23:09:46][230] UDP Thread. CMD_SET_TUNE_POWER. Finished.
+[23:23:09:46][231] Update_Proficio_User_Power_ini. Called.
+[23:23:09:46][232] Update_Proficio_User_Power_ini.  Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:09:46][233] Update_Proficio_User_Power_ini. Finished
+[23:23:09:46][234] Update_amplifier_calibration. Called 
+[23:23:09:46][235] Update_amplifier_calibration. Finished 
+[23:23:09:46][236] UDP Thread. Init_Power_All. Called 
+[23:23:09:46][237] init_power_ini. Called.
+[23:23:09:46][238] init_power_ini. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:09:46][239] init_power_ini. power.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:09:46][240] init_power_ini. Finished
+[23:23:09:46][241] Initialize_power_calibration. Finished
+[23:23:09:46][242] Initialize_amplifier_calibration. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:09:46][243] Initialize_amplifier_calibration. File: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/amplifier_cal.ini
+[23:23:09:46][244] Initialize_amplifier_calibration. record: 0, band: 0, power_level: -50
+[23:23:09:46][245] Initialize_amplifier_calibration. record: 1, band: 1, power_level: -82
+[23:23:09:46][246] Initialize_amplifier_calibration. record: 2, band: 2, power_level: -78
+[23:23:09:46][247] Initialize_amplifier_calibration. record: 3, band: 3, power_level: -83
+[23:23:09:46][248] Initialize_amplifier_calibration. record: 4, band: 4, power_level: -84
+[23:23:09:46][249] Initialize_amplifier_calibration. record: 5, band: 5, power_level: -77
+[23:23:09:46][250] Initialize_amplifier_calibration. record: 6, band: 6, power_level: -79
+[23:23:09:46][251] Initialize_amplifier_calibration. record: 7, band: 7, power_level: -61
+[23:23:09:46][252] Initialize_amplifier_calibration. record: 8, band: 8, power_level: -73
+[23:23:09:46][253] Initialize_amplifier_calibration. record: 9, band: 9, power_level: -74
+[23:23:09:46][254] Initialize_amplifier_calibration. record: 10, band: 10, power_level: -50
+[23:23:09:46][255] Initialize_amplifier_calibration. record: 11, band: 11, power_level: -50
+[23:23:09:46][256] Initialize_amplifier_calibration. Finished
+[23:23:09:46][257] UDP Thread. Init_Power_All. Finished 
+[23:23:09:46][258] Drive_Manager. In QRP mode 
+[23:23:09:46][259] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:46][260] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:46][261] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:46][262] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:46][263] UDP Thread. CMD_SET_MAIN_MODE: New Mode: T,
+[23:23:09:46][264] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:46][265] Drive_Manager. In QRP mode 
+[23:23:09:46][266] get_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:46][267] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:46][268] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:46][269] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 1
+[23:23:09:46][270] Set_Mic_Mute. mic_status: 0, G_mic_volume: 0.330000
+[23:23:09:46][271] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 1. FINISHED
+[23:23:09:46][272] Drive_Manager. In QRP mode 
+[23:23:09:46][273] get_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:46][274] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:46][275] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:48][276] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0
+[23:23:09:48][277] Set_Mic_Mute. mic_status: 1, G_mic_volume: 0.000000
+[23:23:09:48][278] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0. FINISHED
+[23:23:09:48][279] Drive_Manager. In QRP mode 
+[23:23:09:48][280] get_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:48][281] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:48][282] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:48][283] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:09:48][284] UDP Thread. CMD_SET_MAIN_MODE: New Mode: U, Mic Volume: 0.000000
+[23:23:09:48][285] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:09:48][286] Drive_Manager. In QRP mode 
+[23:23:09:48][287] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:48][288] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:48][289] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:49][290] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 1
+[23:23:09:49][291] Set_Mic_Mute. mic_status: 0, G_mic_volume: 0.330000
+[23:23:09:49][292] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 1. FINISHED
+[23:23:09:49][293] ALC_average RESET
+[23:23:09:49][293] Result_average RESET
+[23:23:09:49][293] Drive_Manager. In QRP mode 
+[23:23:09:49][294] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:49][295] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:49][296] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:09:50][297] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0
+[23:23:09:50][298] Set_Mic_Mute. mic_status: 1, G_mic_volume: 0.000000
+[23:23:09:50][299] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0. FINISHED
+[23:23:09:50][300] Drive_Manager. In QRP mode 
+[23:23:09:50][301] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:09:50][302] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:09:50][303] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:04][304] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:04][305] UDP Thread. CMD_SET_MAIN_MODE: New Mode: C,
+[23:23:12:04][306] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:04][307] Drive_Manager. In QRP mode 
+[23:23:12:04][308] get_QRP_power_level. Finished. Band: 11, Mode: 3, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:04][309] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:04][310] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:07][311] UDP Thread. CMD_SET_TUNE_POWER. power: 100 
+[23:23:12:07][312] set_selected_power. Called with power_field: 4, power_value: 100
+[23:23:12:07][313] set_selected_power. Finished
+[23:23:12:07][314] set_QRO_power_level. STARTED. band:11, mode:4, user_power: 100 
+[23:23:12:07][315] set_QRO_power_level. Proficio Calibration value: 99, 
+[23:23:12:07][316] set_QRO_power_level. Finished. drive_level: 49.500000 
+[23:23:12:07][317] set_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Calibration: 99, Proficio User Power: 100, Proficio Drive Value: 0.990000
+[23:23:12:07][318] UDP Thread. CMD_SET_TUNE_POWER. Finished.
+[23:23:12:07][319] Update_Proficio_User_Power_ini. Called.
+[23:23:12:07][320] Update_Proficio_User_Power_ini.  Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:12:07][321] Update_Proficio_User_Power_ini. Finished
+[23:23:12:07][322] Update_amplifier_calibration. Called 
+[23:23:12:07][323] Update_amplifier_calibration. Finished 
+[23:23:12:07][324] UDP Thread. Init_Power_All. Called 
+[23:23:12:07][325] init_power_ini. Called.
+[23:23:12:07][326] init_power_ini. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:12:07][327] init_power_ini. power.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:12:07][328] init_power_ini. Finished
+[23:23:12:07][329] Initialize_power_calibration. Finished
+[23:23:12:07][330] Initialize_amplifier_calibration. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:12:07][331] Initialize_amplifier_calibration. File: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/amplifier_cal.ini
+[23:23:12:07][332] Initialize_amplifier_calibration. record: 0, band: 0, power_level: -50
+[23:23:12:07][333] Initialize_amplifier_calibration. record: 1, band: 1, power_level: -82
+[23:23:12:07][334] Initialize_amplifier_calibration. record: 2, band: 2, power_level: -78
+[23:23:12:07][335] Initialize_amplifier_calibration. record: 3, band: 3, power_level: -83
+[23:23:12:07][336] Initialize_amplifier_calibration. record: 4, band: 4, power_level: -84
+[23:23:12:07][337] Initialize_amplifier_calibration. record: 5, band: 5, power_level: -77
+[23:23:12:07][338] Initialize_amplifier_calibration. record: 6, band: 6, power_level: -79
+[23:23:12:07][339] Initialize_amplifier_calibration. record: 7, band: 7, power_level: -61
+[23:23:12:07][340] Initialize_amplifier_calibration. record: 8, band: 8, power_level: -73
+[23:23:12:07][341] Initialize_amplifier_calibration. record: 9, band: 9, power_level: -74
+[23:23:12:07][342] Initialize_amplifier_calibration. record: 10, band: 10, power_level: -50
+[23:23:12:07][343] Initialize_amplifier_calibration. record: 11, band: 11, power_level: -50
+[23:23:12:07][344] Initialize_amplifier_calibration. Finished
+[23:23:12:07][345] UDP Thread. Init_Power_All. Finished 
+[23:23:12:07][346] Drive_Manager. In QRP mode 
+[23:23:12:07][347] get_QRP_power_level. Finished. Band: 11, Mode: 3, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:07][348] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:07][349] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:07][350] UDP Thread. CMD_SET_TUNE_POWER. power: 100 
+[23:23:12:07][351] set_selected_power. Called with power_field: 4, power_value: 100
+[23:23:12:07][352] set_selected_power. Finished
+[23:23:12:07][353] set_QRO_power_level. STARTED. band:11, mode:4, user_power: 100 
+[23:23:12:07][354] set_QRO_power_level. Proficio Calibration value: 99, 
+[23:23:12:07][355] set_QRO_power_level. Finished. drive_level: 49.500000 
+[23:23:12:07][356] set_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Calibration: 99, Proficio User Power: 100, Proficio Drive Value: 0.990000
+[23:23:12:07][357] UDP Thread. CMD_SET_TUNE_POWER. Finished.
+[23:23:12:07][358] UDP Thread. CMD_SET_TUNE_POWER. power: 100 
+[23:23:12:07][359] set_selected_power. Called with power_field: 4, power_value: 100
+[23:23:12:07][360] set_selected_power. Finished
+[23:23:12:07][361] set_QRO_power_level. STARTED. band:11, mode:4, user_power: 100 
+[23:23:12:07][362] set_QRO_power_level. Proficio Calibration value: 99, 
+[23:23:12:07][363] set_QRO_power_level. Finished. drive_level: 49.500000 
+[23:23:12:07][364] set_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Calibration: 99, Proficio User Power: 100, Proficio Drive Value: 0.990000
+[23:23:12:07][365] UDP Thread. CMD_SET_TUNE_POWER. Finished.
+[23:23:12:08][366] Update_Proficio_User_Power_ini. Called.
+[23:23:12:08][367] Update_Proficio_User_Power_ini.  Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:12:08][368] Update_Proficio_User_Power_ini. Finished
+[23:23:12:08][369] Update_amplifier_calibration. Called 
+[23:23:12:08][370] Update_amplifier_calibration. Finished 
+[23:23:12:08][371] UDP Thread. Init_Power_All. Called 
+[23:23:12:08][372] init_power_ini. Called.
+[23:23:12:08][373] init_power_ini. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:12:08][374] init_power_ini. power.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:12:08][375] init_power_ini. Finished
+[23:23:12:08][376] Initialize_power_calibration. Finished
+[23:23:12:08][377] Initialize_amplifier_calibration. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:12:08][378] Initialize_amplifier_calibration. File: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/amplifier_cal.ini
+[23:23:12:08][379] Initialize_amplifier_calibration. record: 0, band: 0, power_level: -50
+[23:23:12:08][380] Initialize_amplifier_calibration. record: 1, band: 1, power_level: -82
+[23:23:12:08][381] Initialize_amplifier_calibration. record: 2, band: 2, power_level: -78
+[23:23:12:08][382] Initialize_amplifier_calibration. record: 3, band: 3, power_level: -83
+[23:23:12:08][383] Initialize_amplifier_calibration. record: 4, band: 4, power_level: -84
+[23:23:12:08][384] Initialize_amplifier_calibration. record: 5, band: 5, power_level: -77
+[23:23:12:08][385] Initialize_amplifier_calibration. record: 6, band: 6, power_level: -79
+[23:23:12:08][386] Initialize_amplifier_calibration. record: 7, band: 7, power_level: -61
+[23:23:12:08][387] Initialize_amplifier_calibration. record: 8, band: 8, power_level: -73
+[23:23:12:08][388] Initialize_amplifier_calibration. record: 9, band: 9, power_level: -74
+[23:23:12:08][389] Initialize_amplifier_calibration. record: 10, band: 10, power_level: -50
+[23:23:12:08][390] Initialize_amplifier_calibration. record: 11, band: 11, power_level: -50
+[23:23:12:08][391] Initialize_amplifier_calibration. Finished
+[23:23:12:08][392] UDP Thread. Init_Power_All. Finished 
+[23:23:12:08][393] Drive_Manager. In QRP mode 
+[23:23:12:08][394] get_QRP_power_level. Finished. Band: 11, Mode: 3, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:08][395] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:08][396] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:08][397] UDP Thread. CMD_SET_PA_BYPASS. G_QRP_mode: 1
+[23:23:12:12][398] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 0
+[23:23:12:12][399] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:12:12][400] init_IQ_structure. Finished
+[23:23:12:12][401] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:12][402] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 11
+[23:23:12:21][403] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 630
+[23:23:12:21][404] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:12:21][405] init_IQ_structure. Finished
+[23:23:12:21][406] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:21][407] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 10
+[23:23:12:21][408] Drive_Manager. In QRP mode 
+[23:23:12:21][409] get_QRP_power_level. Finished. Band: 10, Mode: 3, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:21][410] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:21][411] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:22][412] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 2200
+[23:23:12:22][413] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:12:22][414] init_IQ_structure. Finished
+[23:23:12:22][415] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:22][416] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 11
+[23:23:12:22][417] Drive_Manager. In QRP mode 
+[23:23:12:22][418] get_QRP_power_level. Finished. Band: 11, Mode: 3, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:22][419] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:22][420] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:28][421] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0
+[23:23:12:28][422] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0. FINISHED
+[23:23:12:28][423] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0
+[23:23:12:28][424] UDP Thread. CMD_SET_TX_ON. G_tx_mode: 0. FINISHED
+[23:23:12:28][425] UDP Thread. CMD_SET_TUNE_POWER. power: 100 
+[23:23:12:28][426] set_selected_power. Called with power_field: 4, power_value: 100
+[23:23:12:28][427] set_selected_power. Finished
+[23:23:12:28][428] set_QRO_power_level. STARTED. band:11, mode:4, user_power: 100 
+[23:23:12:28][429] set_QRO_power_level. Proficio Calibration value: 99, 
+[23:23:12:28][430] set_QRO_power_level. Finished. drive_level: 49.500000 
+[23:23:12:28][431] set_QRP_power_level. Finished. Band: 11, Mode: 4, Proficio Calibration: 99, Proficio User Power: 100, Proficio Drive Value: 0.990000
+[23:23:12:28][432] UDP Thread. CMD_SET_TUNE_POWER. Finished.
+[23:23:12:28][433] Update_Proficio_User_Power_ini. Called.
+[23:23:12:28][434] Update_Proficio_User_Power_ini.  Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:12:28][435] Update_Proficio_User_Power_ini. Finished
+[23:23:12:28][436] Update_amplifier_calibration. Called 
+[23:23:12:28][437] Update_amplifier_calibration. Finished 
+[23:23:12:28][438] UDP Thread. Init_Power_All. Called 
+[23:23:12:28][439] init_power_ini. Called.
+[23:23:12:28][440] init_power_ini. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:12:28][441] init_power_ini. power.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/power.ini
+[23:23:12:28][442] init_power_ini. Finished
+[23:23:12:28][443] Initialize_power_calibration. Finished
+[23:23:12:28][444] Initialize_amplifier_calibration. Default Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS
+[23:23:12:28][445] Initialize_amplifier_calibration. File: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/amplifier_cal.ini
+[23:23:12:28][446] Initialize_amplifier_calibration. record: 0, band: 0, power_level: -50
+[23:23:12:28][447] Initialize_amplifier_calibration. record: 1, band: 1, power_level: -82
+[23:23:12:28][448] Initialize_amplifier_calibration. record: 2, band: 2, power_level: -78
+[23:23:12:28][449] Initialize_amplifier_calibration. record: 3, band: 3, power_level: -83
+[23:23:12:28][450] Initialize_amplifier_calibration. record: 4, band: 4, power_level: -84
+[23:23:12:28][451] Initialize_amplifier_calibration. record: 5, band: 5, power_level: -77
+[23:23:12:28][452] Initialize_amplifier_calibration. record: 6, band: 6, power_level: -79
+[23:23:12:28][453] Initialize_amplifier_calibration. record: 7, band: 7, power_level: -61
+[23:23:12:28][454] Initialize_amplifier_calibration. record: 8, band: 8, power_level: -73
+[23:23:12:28][455] Initialize_amplifier_calibration. record: 9, band: 9, power_level: -74
+[23:23:12:28][456] Initialize_amplifier_calibration. record: 10, band: 10, power_level: -50
+[23:23:12:28][457] Initialize_amplifier_calibration. record: 11, band: 11, power_level: -50
+[23:23:12:28][458] Initialize_amplifier_calibration. Finished
+[23:23:12:28][459] UDP Thread. Init_Power_All. Finished 
+[23:23:12:28][460] Drive_Manager. In QRP mode 
+[23:23:12:28][461] get_QRP_power_level. Finished. Band: 11, Mode: 3, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:28][462] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:28][463] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:29][464] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:29][465] UDP Thread. CMD_SET_MAIN_MODE: New Mode: U, Mic Volume: 0.000000
+[23:23:12:29][466] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:29][467] Drive_Manager. In QRP mode 
+[23:23:12:29][468] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:29][469] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:29][470] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:43][471] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:43][472] UDP Thread. CMD_SET_MAIN_MODE: New Mode: U, Mic Volume: 0.000000
+[23:23:12:43][473] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:43][474] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 630
+[23:23:12:43][475] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:12:43][476] init_IQ_structure. Finished
+[23:23:12:43][477] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:43][478] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 10
+[23:23:12:43][479] Drive_Manager. In QRP mode 
+[23:23:12:43][480] get_QRP_power_level. Finished. Band: 10, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:43][481] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:43][482] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:43][483] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:43][484] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:12:43][485] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:43][486] Drive_Manager. In QRP mode 
+[23:23:12:43][487] get_QRP_power_level. Finished. Band: 10, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:43][488] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:43][489] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:47][490] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:47][491] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:12:47][492] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:48][493] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:48][494] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:12:48][495] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:51][496] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:51][497] UDP Thread. CMD_SET_MAIN_MODE: New Mode: A,
+[23:23:12:51][498] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:52][499] UDP Thread. CMD_SET_SDR_CORE_BAND. Called, operating_band: 2200
+[23:23:12:52][500] init_IQ_structure. iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/iq.ini
+[23:23:12:52][501] init_IQ_structure. Finished
+[23:23:12:52][502] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:52][503] UDP Thread. CMD_SET_SDR_CORE_BAND. Finished. band: 11
+[23:23:12:52][504] Drive_Manager. In QRP mode 
+[23:23:12:52][505] get_QRP_power_level. Finished. Band: 11, Mode: 1, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:52][506] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:52][507] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:12:52][508] UDP Thread. CMD_SET_MAIN_MODE. Called
+[23:23:12:52][509] UDP Thread. CMD_SET_MAIN_MODE: New Mode: U, Mic Volume: 0.000000
+[23:23:12:52][510] UDP Thread. CMD_SET_MAIN_MODE. Finished
+[23:23:12:52][511] Drive_Manager. In QRP mode 
+[23:23:12:52][512] get_QRP_power_level. Finished. Band: 11, Mode: 0, Proficio Drive Value: 99, user_power_value: 100, calibration_value: 0.990000
+[23:23:12:52][513] Drive_Manager. Driver_Get_QRP_Power. configured_drive 0.990000
+[23:23:12:52][514] Drive_Manager. G_ALC_limit: 0.990000 
+[23:23:13:02][515] UDP Thread. CMD_SET_STOP: 0. sdrcore-trans stopped
+[23:23:13:02][516] Update_amplifier_calibration. Called 
+[23:23:13:02][517] Update_amplifier_calibration. Finished 
+[23:23:13:02][518] UDP Thread. Exit
+[23:23:13:02][519] Drive_Manager. Normal Exit
+[23:23:13:02][520] ALC_Meter_thread. Normal Exit

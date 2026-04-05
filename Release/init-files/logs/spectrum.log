@@ -1,0 +1,621 @@
+19:05:16 Thursday, January 23, 2025 87
+  :0 Form1_Load Called
+-------------------------------
+19:05:17 Thursday, January 23, 2025 36
+  :1 Setup_Server_Send_Connection -> Remote Host: 10.2.0.2
+-------------------------------
+19:05:17 Thursday, January 23, 2025 0
+  :2 Setup_Server_Send_Connection -> MS-SDR Target IP Address: 10.2.0.2 Port: 8888
+-------------------------------
+19:05:17 Thursday, January 23, 2025 2
+  :3 Setup_GUI_Send_Connection -> Remote Host: 10.2.0.2
+-------------------------------
+19:05:17 Thursday, January 23, 2025 0
+  :4 Setup_GUI_Send_Connection -> MS-SDR Target IP Address: 10.2.0.2 Port: 8889
+-------------------------------
+19:05:17 Thursday, January 23, 2025 7
+  :5 Get_Starup_Position: New Position: {X=8,Y=344}
+-------------------------------
+19:05:17 Thursday, January 23, 2025 3
+  :6 Initialize_Spectrum START
+-------------------------------
+19:05:17 Thursday, January 23, 2025 1
+  :7 pic_size W: 792 H: 76 pic X location: 4
+-------------------------------
+19:05:17 Thursday, January 23, 2025 1
+  :8 Initialize_Spectrum FINSHED
+-------------------------------
+19:05:18 Thursday, January 23, 2025 1242
+  :9 CMD_SET_CW_PITCH received
+-------------------------------
+19:05:28 Thursday, January 23, 2025 9790
+  :10 CMD_GET_SET_MSSDR_STATUS received: True
+-------------------------------
+19:05:28 Thursday, January 23, 2025 141
+  :11 Update_init.  Spectrum_Master_Controls.System_Ready: True
+-------------------------------
+19:05:29 Thursday, January 23, 2025 1039
+  :12 CMD_SET_STEP_VALUE received: 3
+-------------------------------
+19:05:29 Thursday, January 23, 2025 185
+  :13 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+19:05:29 Thursday, January 23, 2025 264
+  :14 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:05:29 Thursday, January 23, 2025 61
+  :15 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+19:05:29 Thursday, January 23, 2025 63
+  :16 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+19:05:30 Thursday, January 23, 2025 250
+  :17 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:05:30 Thursday, January 23, 2025 61
+  :18 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+19:05:30 Thursday, January 23, 2025 63
+  :19 CMD_SET_STEP_VALUE received: 3
+-------------------------------
+19:05:30 Thursday, January 23, 2025 206
+  :20 CMD_SET_BW_HICUT received: 1
+-------------------------------
+19:05:30 Thursday, January 23, 2025 64
+  :21 Unknown Opcode Received: 208
+-------------------------------
+19:05:30 Thursday, January 23, 2025 199
+  :22 CMD_SET_CW_PITCH received
+-------------------------------
+19:05:32 Thursday, January 23, 2025 2139
+  :23 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:05:32 Thursday, January 23, 2025 71
+  :24 CMD_SET_TX_ON received: 1
+-------------------------------
+19:05:37 Thursday, January 23, 2025 4818
+  :25 CMD_SET_TX_ON received: 0
+-------------------------------
+19:05:37 Thursday, January 23, 2025 237
+  :26 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:05:42 Thursday, January 23, 2025 4769
+  :27 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:05:42 Thursday, January 23, 2025 71
+  :28 CMD_SET_TX_ON received: 1
+-------------------------------
+19:06:00 Thursday, January 23, 2025 17678
+  :29 CMD_SET_TX_ON received: 0
+-------------------------------
+19:06:00 Thursday, January 23, 2025 250
+  :30 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:04 Thursday, January 23, 2025 3404
+  :31 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+19:06:04 Thursday, January 23, 2025 253
+  :32 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:04 Thursday, January 23, 2025 62
+  :33 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+19:06:04 Thursday, January 23, 2025 63
+  :34 CMD_SET_DISPLAY_FREQ: 24900000
+-------------------------------
+19:06:04 Thursday, January 23, 2025 249
+  :35 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:04 Thursday, January 23, 2025 62
+  :36 CMD_SET_DISPLAY_FREQ: 24900000
+-------------------------------
+19:06:05 Thursday, January 23, 2025 981
+  :37 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:06:05 Thursday, January 23, 2025 70
+  :38 CMD_SET_TX_ON received: 1
+-------------------------------
+19:06:31 Thursday, January 23, 2025 25547
+  :39 CMD_SET_TX_ON received: 0
+-------------------------------
+19:06:31 Thursday, January 23, 2025 264
+  :40 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:32 Thursday, January 23, 2025 1089
+  :41 CMD_SET_DISPLAY_FREQ: 24900000
+-------------------------------
+19:06:32 Thursday, January 23, 2025 251
+  :42 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:33 Thursday, January 23, 2025 62
+  :43 CMD_SET_DISPLAY_FREQ: 24900000
+-------------------------------
+19:06:33 Thursday, January 23, 2025 62
+  :44 CMD_SET_DISPLAY_FREQ: 28074000
+-------------------------------
+19:06:33 Thursday, January 23, 2025 248
+  :45 Spectrum_Last_used.Current_mode: U
+-------------------------------
+19:06:33 Thursday, January 23, 2025 63
+  :46 CMD_SET_DISPLAY_FREQ: 28074000
+-------------------------------
+19:06:35 Thursday, January 23, 2025 1613
+  :47 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:06:35 Thursday, January 23, 2025 71
+  :48 CMD_SET_TX_ON received: 1
+-------------------------------
+19:06:37 Thursday, January 23, 2025 1950
+  :49 CMD_SET_TX_ON received: 0
+-------------------------------
+19:06:37 Thursday, January 23, 2025 252
+  :50 Spectrum_Last_used.Current_mode: U
+-------------------------------
+19:06:38 Thursday, January 23, 2025 1306
+  :51 CMD_SET_DISPLAY_FREQ: 28074000
+-------------------------------
+19:06:38 Thursday, January 23, 2025 247
+  :52 Spectrum_Last_used.Current_mode: U
+-------------------------------
+19:06:38 Thursday, January 23, 2025 61
+  :53 CMD_SET_DISPLAY_FREQ: 28074000
+-------------------------------
+19:06:38 Thursday, January 23, 2025 62
+  :54 CMD_SET_DISPLAY_FREQ: 1810000
+-------------------------------
+19:06:39 Thursday, January 23, 2025 248
+  :55 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:39 Thursday, January 23, 2025 62
+  :56 CMD_SET_DISPLAY_FREQ: 1810000
+-------------------------------
+19:06:40 Thursday, January 23, 2025 1152
+  :57 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:06:40 Thursday, January 23, 2025 71
+  :58 CMD_SET_TX_ON received: 1
+-------------------------------
+19:06:42 Thursday, January 23, 2025 2354
+  :59 CMD_SET_TX_ON received: 0
+-------------------------------
+19:06:43 Thursday, January 23, 2025 253
+  :60 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:43 Thursday, January 23, 2025 777
+  :61 CMD_SET_DISPLAY_FREQ: 1810000
+-------------------------------
+19:06:44 Thursday, January 23, 2025 251
+  :62 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:44 Thursday, January 23, 2025 62
+  :63 CMD_SET_DISPLAY_FREQ: 1810000
+-------------------------------
+19:06:44 Thursday, January 23, 2025 62
+  :64 CMD_SET_DISPLAY_FREQ: 3510000
+-------------------------------
+19:06:44 Thursday, January 23, 2025 247
+  :65 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:06:44 Thursday, January 23, 2025 62
+  :66 CMD_SET_DISPLAY_FREQ: 3510000
+-------------------------------
+19:06:45 Thursday, January 23, 2025 544
+  :67 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:06:45 Thursday, January 23, 2025 70
+  :68 CMD_SET_TX_ON received: 1
+-------------------------------
+19:07:04 Thursday, January 23, 2025 18855
+  :69 CMD_SET_TX_ON received: 0
+-------------------------------
+19:07:04 Thursday, January 23, 2025 240
+  :70 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:07:26 Thursday, January 23, 2025 22125
+  :71 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:07:26 Thursday, January 23, 2025 70
+  :72 CMD_SET_TX_ON received: 1
+-------------------------------
+19:08:26 Thursday, January 23, 2025 60278
+  :73 CMD_SET_TX_ON received: 0
+-------------------------------
+19:08:27 Thursday, January 23, 2025 243
+  :74 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:08:28 Thursday, January 23, 2025 1690
+  :75 CMD_SET_DISPLAY_FREQ: 3510000
+-------------------------------
+19:08:28 Thursday, January 23, 2025 241
+  :76 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:08:29 Thursday, January 23, 2025 62
+  :77 CMD_SET_DISPLAY_FREQ: 3510000
+-------------------------------
+19:08:29 Thursday, January 23, 2025 62
+  :78 CMD_SET_DISPLAY_FREQ: 7074000
+-------------------------------
+19:08:29 Thursday, January 23, 2025 251
+  :79 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:08:29 Thursday, January 23, 2025 61
+  :80 CMD_SET_DISPLAY_FREQ: 7074000
+-------------------------------
+19:08:30 Thursday, January 23, 2025 1027
+  :81 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:08:30 Thursday, January 23, 2025 70
+  :82 CMD_SET_TX_ON received: 1
+-------------------------------
+19:09:10 Thursday, January 23, 2025 39951
+  :83 CMD_SET_TX_ON received: 0
+-------------------------------
+19:09:10 Thursday, January 23, 2025 242
+  :84 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:09:12 Thursday, January 23, 2025 1827
+  :85 CMD_SET_DISPLAY_FREQ: 7074000
+-------------------------------
+19:09:12 Thursday, January 23, 2025 238
+  :86 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:09:12 Thursday, January 23, 2025 62
+  :87 CMD_SET_DISPLAY_FREQ: 7074000
+-------------------------------
+19:09:12 Thursday, January 23, 2025 60
+  :88 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+19:09:13 Thursday, January 23, 2025 248
+  :89 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:09:13 Thursday, January 23, 2025 63
+  :90 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+19:09:14 Thursday, January 23, 2025 1597
+  :91 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:09:14 Thursday, January 23, 2025 71
+  :92 CMD_SET_TX_ON received: 1
+-------------------------------
+19:09:58 Thursday, January 23, 2025 44093
+  :93 CMD_SET_TX_ON received: 0
+-------------------------------
+19:09:59 Thursday, January 23, 2025 241
+  :94 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:10:05 Thursday, January 23, 2025 6132
+  :95 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:10:05 Thursday, January 23, 2025 70
+  :96 CMD_SET_TX_ON received: 1
+-------------------------------
+19:10:14 Thursday, January 23, 2025 9203
+  :97 CMD_SET_TX_ON received: 0
+-------------------------------
+19:10:14 Thursday, January 23, 2025 244
+  :98 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:10:30 Thursday, January 23, 2025 15312
+  :99 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:10:30 Thursday, January 23, 2025 71
+  :100 CMD_SET_TX_ON received: 1
+-------------------------------
+19:10:49 Thursday, January 23, 2025 19619
+  :101 CMD_SET_TX_ON received: 0
+-------------------------------
+19:10:50 Thursday, January 23, 2025 238
+  :102 Spectrum_Last_used.Current_mode: C
+-------------------------------
+19:11:04 Thursday, January 23, 2025 14627
+  :103 Spectrum_Last_used.Current_mode: A
+-------------------------------
+19:11:05 Thursday, January 23, 2025 840
+  :104 Spectrum_Last_used.Current_mode: L
+-------------------------------
+19:11:08 Thursday, January 23, 2025 2600
+  :105 Spectrum_Last_used.Current_mode: U
+-------------------------------
+19:11:10 Thursday, January 23, 2025 2440
+  :106 Spectrum_Last_used.Current_mode: T
+-------------------------------
+19:11:10 Thursday, January 23, 2025 71
+  :107 CMD_SET_TX_ON received: 1
+-------------------------------
+19:11:31 Thursday, January 23, 2025 20985
+  :108 CMD_SET_TX_ON received: 0
+-------------------------------
+19:11:31 Thursday, January 23, 2025 243
+  :109 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:01 Thursday, January 23, 2025 10470081
+  :110 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:06:02 Thursday, January 23, 2025 70
+  :111 CMD_SET_TX_ON received: 1
+-------------------------------
+22:06:14 Thursday, January 23, 2025 12574
+  :112 CMD_SET_TX_ON received: 0
+-------------------------------
+22:06:14 Thursday, January 23, 2025 240
+  :113 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:17 Thursday, January 23, 2025 2575
+  :114 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:17 Thursday, January 23, 2025 247
+  :115 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:17 Thursday, January 23, 2025 63
+  :116 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:17 Thursday, January 23, 2025 62
+  :117 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:18 Thursday, January 23, 2025 263
+  :118 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:06:18 Thursday, January 23, 2025 62
+  :119 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:19 Thursday, January 23, 2025 1046
+  :120 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:19 Thursday, January 23, 2025 239
+  :121 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:06:19 Thursday, January 23, 2025 62
+  :122 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:19 Thursday, January 23, 2025 62
+  :123 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:19 Thursday, January 23, 2025 247
+  :124 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:19 Thursday, January 23, 2025 62
+  :125 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:20 Thursday, January 23, 2025 1093
+  :126 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:06:20 Thursday, January 23, 2025 70
+  :127 CMD_SET_TX_ON received: 1
+-------------------------------
+22:06:31 Thursday, January 23, 2025 10328
+  :128 CMD_SET_TX_ON received: 0
+-------------------------------
+22:06:31 Thursday, January 23, 2025 238
+  :129 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:33 Thursday, January 23, 2025 1825
+  :130 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:33 Thursday, January 23, 2025 247
+  :131 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:33 Thursday, January 23, 2025 62
+  :132 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:33 Thursday, January 23, 2025 62
+  :133 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:33 Thursday, January 23, 2025 248
+  :134 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:06:34 Thursday, January 23, 2025 63
+  :135 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:34 Thursday, January 23, 2025 172
+  :136 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:34 Thursday, January 23, 2025 248
+  :137 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:06:34 Thursday, January 23, 2025 62
+  :138 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:06:34 Thursday, January 23, 2025 62
+  :139 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:34 Thursday, January 23, 2025 251
+  :140 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:06:34 Thursday, January 23, 2025 62
+  :141 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:06:35 Thursday, January 23, 2025 764
+  :142 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:06:35 Thursday, January 23, 2025 71
+  :143 CMD_SET_TX_ON received: 1
+-------------------------------
+22:06:37 Thursday, January 23, 2025 2054
+  :144 CMD_SET_TX_ON received: 0
+-------------------------------
+22:06:38 Thursday, January 23, 2025 246
+  :145 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:35 Thursday, January 23, 2025 57295
+  :146 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:07:35 Thursday, January 23, 2025 69
+  :147 CMD_SET_TX_ON received: 1
+-------------------------------
+22:07:37 Thursday, January 23, 2025 2323
+  :148 CMD_SET_TX_ON received: 0
+-------------------------------
+22:07:37 Thursday, January 23, 2025 253
+  :149 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:39 Thursday, January 23, 2025 1573
+  :150 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:39 Thursday, January 23, 2025 247
+  :151 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:39 Thursday, January 23, 2025 64
+  :152 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:39 Thursday, January 23, 2025 63
+  :153 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:40 Thursday, January 23, 2025 248
+  :154 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:07:40 Thursday, January 23, 2025 60
+  :155 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:40 Thursday, January 23, 2025 295
+  :156 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:40 Thursday, January 23, 2025 248
+  :157 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:07:40 Thursday, January 23, 2025 63
+  :158 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:40 Thursday, January 23, 2025 61
+  :159 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:41 Thursday, January 23, 2025 249
+  :160 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:41 Thursday, January 23, 2025 61
+  :161 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:42 Thursday, January 23, 2025 1274
+  :162 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:07:42 Thursday, January 23, 2025 72
+  :163 CMD_SET_TX_ON received: 1
+-------------------------------
+22:07:45 Thursday, January 23, 2025 2472
+  :164 CMD_SET_TX_ON received: 0
+-------------------------------
+22:07:45 Thursday, January 23, 2025 245
+  :165 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:46 Thursday, January 23, 2025 953
+  :166 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:46 Thursday, January 23, 2025 253
+  :167 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:46 Thursday, January 23, 2025 62
+  :168 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:46 Thursday, January 23, 2025 63
+  :169 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:46 Thursday, January 23, 2025 248
+  :170 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:07:46 Thursday, January 23, 2025 61
+  :171 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:48 Thursday, January 23, 2025 1155
+  :172 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:48 Thursday, January 23, 2025 246
+  :173 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:07:48 Thursday, January 23, 2025 62
+  :174 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:07:48 Thursday, January 23, 2025 62
+  :175 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:48 Thursday, January 23, 2025 250
+  :176 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:07:48 Thursday, January 23, 2025 63
+  :177 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:07:55 Thursday, January 23, 2025 6760
+  :178 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:07:55 Thursday, January 23, 2025 71
+  :179 CMD_SET_TX_ON received: 1
+-------------------------------
+22:08:01 Thursday, January 23, 2025 6102
+  :180 CMD_SET_TX_ON received: 0
+-------------------------------
+22:08:01 Thursday, January 23, 2025 241
+  :181 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:08:16 Thursday, January 23, 2025 14301
+  :182 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:08:16 Thursday, January 23, 2025 70
+  :183 CMD_SET_TX_ON received: 1
+-------------------------------
+22:08:17 Thursday, January 23, 2025 1455
+  :184 CMD_SET_TX_ON received: 0
+-------------------------------
+22:08:18 Thursday, January 23, 2025 245
+  :185 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:08:20 Thursday, January 23, 2025 2479
+  :186 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:08:20 Thursday, January 23, 2025 243
+  :187 Spectrum_Last_used.Current_mode: U
+-------------------------------
+22:08:20 Thursday, January 23, 2025 61
+  :188 CMD_SET_DISPLAY_FREQ: 10110000
+-------------------------------
+22:08:20 Thursday, January 23, 2025 63
+  :189 CMD_SET_DISPLAY_FREQ: 18078000
+-------------------------------
+22:08:21 Thursday, January 23, 2025 249
+  :190 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:08:21 Thursday, January 23, 2025 61
+  :191 CMD_SET_DISPLAY_FREQ: 18078000
+-------------------------------
+22:08:22 Thursday, January 23, 2025 1181
+  :192 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:08:22 Thursday, January 23, 2025 69
+  :193 CMD_SET_TX_ON received: 1
+-------------------------------
+22:08:25 Thursday, January 23, 2025 2608
+  :194 CMD_SET_TX_ON received: 0
+-------------------------------
+22:08:25 Thursday, January 23, 2025 239
+  :195 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:08:26 Thursday, January 23, 2025 1073
+  :196 CMD_SET_DISPLAY_FREQ: 18078000
+-------------------------------
+22:08:26 Thursday, January 23, 2025 251
+  :197 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:08:26 Thursday, January 23, 2025 63
+  :198 CMD_SET_DISPLAY_FREQ: 18078000
+-------------------------------
+22:08:26 Thursday, January 23, 2025 62
+  :199 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:08:26 Thursday, January 23, 2025 248
+  :200 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:08:27 Thursday, January 23, 2025 63
+  :201 CMD_SET_DISPLAY_FREQ: 14074000
+-------------------------------
+22:08:28 Thursday, January 23, 2025 1231
+  :202 Spectrum_Last_used.Current_mode: T
+-------------------------------
+22:08:28 Thursday, January 23, 2025 71
+  :203 CMD_SET_TX_ON received: 1
+-------------------------------
+22:08:44 Thursday, January 23, 2025 15761
+  :204 CMD_SET_TX_ON received: 0
+-------------------------------
+22:08:44 Thursday, January 23, 2025 244
+  :205 Spectrum_Last_used.Current_mode: C
+-------------------------------
+22:08:49 Thursday, January 23, 2025 5540
+  :206 Stop Command Received
+-------------------------------

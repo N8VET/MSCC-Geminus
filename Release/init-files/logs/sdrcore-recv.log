@@ -1,0 +1,211 @@
+[2] Logfile Opened.  Logfile: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/logs/sdrcore-recv.log
+[23:23:08:27][3] SDRcore Log file opened
+[23:23:08:27][4] sdrcore-recv -> starting -> Compile Date Feb 13 2025, Compile Time 14:38:41 
+[23:23:08:27][5] main -> Starting UDP Thread
+[23:23:08:27][6] main -> Starting Flusher Thread
+[23:23:08:27][7] main -> Starting S-meter Thread
+[23:23:08:27][8] main -> Check_Image_Level_thread Thread
+[23:23:08:27][9] main -> Starting Panadapter Thread
+[23:23:08:27][10] Get_Sound_Device. STARTED. sound-device.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/operator-speaker.ini
+[23:23:08:27][11] Setup_UDP -> Initializing Winsock...
+[23:23:08:27][12] Check_Image_Level_thread . Started.
+[23:23:08:27][13] Panadapter_thread -> Started -> Delaying 5 seconds before the start of Panadapter Data
+[23:23:08:27][14] Setup_UDP Thread -> Socket Created
+[23:23:08:27][15] Setup_UDP -> Invalid DLL Port. Using default: 9000
+[23:23:08:27][16] Setup_UDP -> Invalid MS-SDR Port. Using default: 8888
+[23:23:08:27][17] Setup_UDP ->ms_sdr_s -> Socket Created
+[23:23:08:27][18] UDP Thread. Running
+[23:23:08:27][19] UDP Thread.Waiting for data...
+[23:23:08:27][20] set_cw_bandwidth.Filter cw_size: 0, cw_center: 0
+[23:23:08:27][21] Load_IQ_Defaults. Called 
+[23:23:08:27][22] Load_IQ_Defaults. C:\Users\Ron\AppData\Local/MSCC-GEMINUS/rev-g/recv-iq.ini
+[23:23:08:27][23] Get_Sound_Device. input record: Samsung , audio_device: Samsung 
+[23:23:08:27][24] Get_Sound_Device. FINISHED
+[23:23:08:27][25] Get_Digital_Sound_Device. STARTED. sound-device.ini Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/digital-speaker.ini
+[23:23:08:27][26] Load_IQ_Defaults.record: 0, offset: -99 record: 1, offset: -99 record: 2, offset: -99 record: 3, offset: -99 record: 4, offset: -83 record: 5, offset: -94 record: 6, offset: -114 record: 7, offset: -99 record: 8, offset: -105 record: 9, offset: -99 record: 10, offset: -99 record: 11, offset: -99 
+[23:23:08:27][26] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:08:27][27] Get_Digital_Sound_Device. input record: MSCC-Digital-Speakers , audio_device: MSCC-Digital-Speakers 
+[23:23:08:27][28] Get_Digital_Sound_Device. FINISHED
+[23:23:08:27][29] Init_IQ_structure. Finished
+[23:23:08:28][30] main -> PortAudio Version: 0x  130700
+[23:23:08:28][31] main -> PortAudio Version text: 'PortAudio V19.7.0-devel, revision unknown'
+[23:23:08:28][32] main -> Host API: MME
+[23:23:08:28][33] main -> Host API: Windows WASAPI
+[23:23:08:28][34] main -> Host API: Windows WDM-KS
+[23:23:08:28][35] Multus SDR device found: Line (Multus IQ Sound)
+[23:23:08:28][36] build_output_devices -> Samsung  FOUND
+[23:23:08:28][37] build_digital_output_devices. MSCC-Digital-Speakers  FOUND
+[23:23:08:28][38] Main Thread. manage_stream. STARTED.  Device: 9, Channels 2
+[23:23:08:28][39] Main Thread. manage_stream. starting stream.  Device: 9, Channels 2
+[23:23:08:28][40] Main Thread. manage_stream.  FINISHED. status: 0
+[23:23:08:28][41] UDP Thread. CMD_SET_PCB_VERSION. Version: 6
+[23:23:08:28][42] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:08:28][43] Init_IQ_structure. Finished
+[23:23:08:28][44] UDP_Thread. init_IQ_structure. FINISHED 
+[23:23:08:28][45] UDP Thread . CMD_SET_SPEAKER_VOLUME, t_opcode_data: 0 master_volume: 0.000000 
+[23:23:08:29][46] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 2700.000000 
+[23:23:08:29][47] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 4000.000000, CW MODE: 0
+[23:23:08:29][48] UDP Thread. CMD_SET_CW_BW. cw_bw_received: 2
+[23:23:08:29][49] set_cw_bandwidth.Filter cw_size: 0, cw_center: 0
+[23:23:08:29][50] UDP Thread. CMD_SET_CW_BW. cw_bw: 0,New filter . Low: 75.000000, High: 4000.000000, cw_mode: 0
+[23:23:08:29][23:23:08:29][51] initBlanker . nbstate.threshold: 0.005000
+[23:23:08:29][52] UDP Thread . CMD_GET_SET_NB_ENABLE . NB_Enable: 0
+[23:23:08:29][53] UDP Thread . NB_PULSE_WIDTH . NB_Pulse_Width: 74
+[23:23:08:29][54] UDP Thread . CMD_GET_SET_NB_THRESHOLD . s_opcode_data: 792
+[23:23:08:29][55] UDP Thread . CMD_GET_SET_NB_THRESHOLD . NB_Threshold: 2.080000
+[23:23:08:29][56] UDP Thread. CMD_SET_CW_PITCH: 1
+[23:23:08:29][57] set_cw_bandwidth.Filter cw_size: 0, cw_center: 1
+[23:23:08:29][58] UDP Thread. CMD_SET_CW_PITCH. FINISHED
+[23:23:08:29][59] UDP Thread . CMD_GET_SET_PANADAPTER_REFRESH: 4
+[23:23:08:29][60] UDP Thread . CMD_GET_SET_AGC. index: 2, AGC_Release: 1.000000 
+[23:23:08:29][61] UDP Thread . CMD_GET_SET_AGC.  releasems: 1.000000, AGC_Initializing: 0
+[23:23:08:29][62] UDP Thread . CMD_SET_AGC_FAST_LEVEL. AGC_Release_level: 1.000000 
+[23:23:08:29][63] UDP Thread . CMD_SET_AGC_FAST_LEVEL. releasems: 1.000000, AGC_Initializing: 0
+[23:23:08:29][64] UDP Thread . CMD_GET_SET_AUTO_NOTCH . Enabled: 0
+[23:23:08:32][65] Panadapter_thread -> Started -> Panadapter Data Processing Started 
+[23:23:08:33][66] Send_smeter_thread . Started.
+[23:23:08:33][67] Send_smeter_thread . Started . Send of S-Meter data started 
+[23:23:08:39][68] UDP Thread. CMD_SET_CONFIGURATION. t_opcode_data: 1
+[23:23:08:39][69] Main Thread. manage_stream. STARTED.  Device: 12, Channels 2
+[23:23:08:39][70] Main Thread. manage_stream. Stoping Stream.  New device: 12, New Channels 2
+[23:23:08:39][71] Main Thread. manage_stream.  FINISHED. status: 0
+[23:23:08:39][72] Main Thread. manage_stream. STARTED.  Device: 9, Channels 2
+[23:23:08:39][73] Main Thread. manage_stream. starting stream.  Device: 9, Channels 2
+[23:23:08:39][74] Main Thread. manage_stream.  FINISHED. status: 0
+[23:23:08:39][75] UDP Thread . CMD_SET_SPEAKER_VOLUME, t_opcode_data: 99 master_volume: 0.990000 
+[23:23:08:39][76] UDP Thread . CMD_SET_VOLUME_ATTN . volume_attn: 1.000000, master_volume: 0.990000, G_volumeLevel: 0.990000
+[23:23:08:39][77] UDP Thread . CMD_SET_SPEAKER_MUTE: 0 
+[23:23:08:40][78] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:08:40][79] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:08:40][80] UDP Thread . CMD_SET_SDR_CORE_BAND . Called
+[23:23:08:40][81] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:08:40][82] Init_IQ_structure. Finished
+[23:23:08:40][83] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:08:40][84] UDP Thread . CMD_SET_SDR_CORE_BAND . band: 630
+[23:23:08:40][85] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:08:40][86] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:08:40][87] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:08:41][88] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:08:41][89] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:08:41][90] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:08:41][91] UDP Thread. CMD_SET_CW_BW. cw_bw_received: 2
+[23:23:08:41][92] set_cw_bandwidth.Filter cw_size: 0, cw_center: 1
+[23:23:08:41][93] UDP Thread. CMD_SET_CW_BW. cw_bw: 0,New filter . Low: 75.000000, High: 3000.000000, cw_mode: 0
+[23:23:08:41][94] UDP Thread. CMD_SET_CW_PITCH: 1
+[23:23:08:41][95] set_cw_bandwidth.Filter cw_size: 0, cw_center: 1
+[23:23:08:41][96] UDP Thread. CMD_SET_CW_PITCH. FINISHED
+[23:23:08:41][97] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 4000.000000, CW MODE: 0
+[23:23:09:04][98] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:04][99] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:04][100] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:05][101] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:05][102] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:05][103] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:05][104] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:09][105] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:09][106] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:09][107] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:09][108] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:09][109] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:09][110] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:26][111] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:26][112] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:27][113] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:27][114] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:27][115] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:27][116] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:33][117] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:33][118] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:34][119] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:34][120] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:34][121] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:34][122] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:35][123] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:35][124] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:35][125] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:09:35][126] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:09:35][127] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:09:35][128] UDP Thread . CMD_SET_SDR_CORE_BAND . Called
+[23:23:09:35][129] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:09:35][130] Init_IQ_structure. Finished
+[23:23:09:35][131] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:09:35][132] UDP Thread . CMD_SET_SDR_CORE_BAND . band: 2200
+[23:23:09:36][133] UDP Thread . CMD_SET_MAIN_MODE: New Mode U
+[23:23:09:42][134] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 1
+[23:23:09:42][135] UDP Thread . CMD_SET_TX_ON 
+[23:23:09:42][136] UDP Thread . CMD_SET_TX_ON . G_Monitor: 0 
+[23:23:09:45][137] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 0
+[23:23:09:45][138] UDP Thread . CMD_SET_TX_ON 
+[23:23:09:45][139] UDP Thread . CMD_SET_TX_ON . G_Monitor: 0 
+[23:23:09:46][140] UDP Thread . CMD_SET_SPEAKER_MUTE: 1 
+[23:23:09:46][141] UDP Thread . CMD_SET_MAIN_MODE: New Mode T
+[23:23:09:46][142] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 1
+[23:23:09:46][143] UDP Thread . CMD_SET_TX_ON 
+[23:23:09:46][144] UDP Thread . CMD_SET_TX_ON . G_Monitor: 0 
+[23:23:09:47][145] UDP Thread . CMD_SET_SPEAKER_MUTE: 0 
+[23:23:09:48][146] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 0
+[23:23:09:48][147] UDP Thread . CMD_SET_TX_ON 
+[23:23:09:48][148] UDP Thread . CMD_SET_TX_ON . G_Monitor: 0 
+[23:23:09:48][149] UDP Thread . CMD_SET_MAIN_MODE: New Mode U
+[23:23:09:49][150] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 1
+[23:23:09:49][151] UDP Thread . CMD_SET_TX_ON 
+[23:23:09:49][152] UDP Thread . CMD_SET_TX_ON . G_Monitor: 0 
+[23:23:09:50][153] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 0
+[23:23:09:50][154] UDP Thread . CMD_SET_TX_ON 
+[23:23:09:50][155] UDP Thread . CMD_SET_TX_ON . G_Monitor: 0 
+[23:23:12:04][156] UDP Thread . CMD_SET_MAIN_MODE: New Mode C
+[23:23:12:07][157] UDP Thread. CMD_START_STOP_IMAGE_VALUE . G_Image_Check: 0
+[23:23:12:07][158] UDP Thread. CMD_SET_CW_BW. cw_bw_received: 2
+[23:23:12:07][159] set_cw_bandwidth.Filter cw_size: 0, cw_center: 1
+[23:23:12:07][160] UDP Thread. CMD_SET_CW_BW. cw_bw: 0,New filter . Low: 500.000000, High: 700.000000, cw_mode: 1
+[23:23:12:07][161] UDP Thread. CMD_SET_CW_PITCH: 1
+[23:23:12:07][162] set_cw_bandwidth.Filter cw_size: 0, cw_center: 1
+[23:23:12:07][163] UDP Thread. CMD_SET_CW_PITCH. FINISHED
+[23:23:12:07][164] UDP Thread . CMD_SET_CAL_LOOSE . Value: 1000000
+[23:23:12:07][165] UDP Thread . CMD_SET_SPEAKER_MUTE: 1 
+[23:23:12:12][166] UDP Thread . CMD_SET_SPEAKER_MUTE: 0 
+[23:23:12:12][167] UDP Thread . CMD_SET_SPEAKER_MUTE: 0 
+[23:23:12:21][168] UDP Thread . CMD_SET_SDR_CORE_BAND . Called
+[23:23:12:21][169] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:12:21][170] Init_IQ_structure. Finished
+[23:23:12:21][171] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:21][172] UDP Thread . CMD_SET_SDR_CORE_BAND . band: 630
+[23:23:12:22][173] UDP Thread . CMD_SET_SDR_CORE_BAND . Called
+[23:23:12:22][174] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:12:22][175] Init_IQ_structure. Finished
+[23:23:12:22][176] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:22][177] UDP Thread . CMD_SET_SDR_CORE_BAND . band: 2200
+[23:23:12:28][178] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 0
+[23:23:12:28][179] UDP Thread . CMD_SET_TX_ON . G_tx_mode: 0
+[23:23:12:28][180] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 500.000000, High: 700.000000, CW MODE: 1
+[23:23:12:28][181] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 500.000000, High 700.000000 
+[23:23:12:29][182] UDP Thread . CMD_SET_MAIN_MODE: New Mode U
+[23:23:12:42][183] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:12:42][184] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:12:43][185] UDP Thread . CMD_SET_MAIN_MODE: New Mode U
+[23:23:12:43][186] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:12:43][187] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:12:43][188] UDP Thread . CMD_SET_SDR_CORE_BAND . Called
+[23:23:12:43][189] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:12:43][190] Init_IQ_structure. Finished
+[23:23:12:43][191] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:43][192] UDP Thread . CMD_SET_SDR_CORE_BAND . band: 630
+[23:23:12:43][193] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:12:47][194] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:12:47][195] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:12:47][196] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:12:47][197] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:12:47][198] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:12:48][199] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:12:51][200] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:12:51][201] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:12:51][202] UDP Thread . CMD_SET_MAIN_MODE: New Mode A
+[23:23:12:51][203] UDP Thread . CMD_SET_BW_HICUT: New filter . Low: 75.000000, High: 3000.000000, CW MODE: 0
+[23:23:12:51][204] UDP Thread . CMD_SET_BW_LOCUT: New filter: Low: 75.000000, High 3000.000000 
+[23:23:12:52][205] UDP Thread . CMD_SET_SDR_CORE_BAND . Called
+[23:23:12:52][206] Init_IQ_structure. recv-iq.ini. Path: C:\Users\Ron\AppData\Local/MSCC-GEMINUS/recv-iq.ini
+[23:23:12:52][207] Init_IQ_structure. Finished
+[23:23:12:52][208] IQ_calc. iq_offset: 0, Imult: 1.000000, Qmult: 1.000000
+[23:23:12:52][209] UDP Thread . CMD_SET_SDR_CORE_BAND . band: 2200
+[23:23:12:52][210] UDP Thread . CMD_SET_MAIN_MODE: New Mode U
+[23:23:13:02][211] UDP Thread . CMD_SET_STOP: 0. sdrcore-recv stopped

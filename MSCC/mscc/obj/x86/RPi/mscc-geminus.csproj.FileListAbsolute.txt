@@ -1,0 +1,27 @@
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\mscc-geminus.exe.config
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\mscc-geminus.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\mscc-geminus.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\mscc-geminus.csproj.AssemblyReference.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.console.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.Main_form.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.panadapter_control.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.shutdown.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.MonitorForm.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.Properties.Resources.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\mscc-geminus.csproj.GenerateResource.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\mscc-geminus.csproj.CoreCompileInputs.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\mscc-geminus.csproj.CopyComplete
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\mscc-geminus.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC\mscc\obj\x86\RPi\mscc-geminus.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\mscc-geminus.csproj.AssemblyReference.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\OmniaGUI.console.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\OmniaGUI.Main_form.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\OmniaGUI.panadapter_control.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\OmniaGUI.shutdown.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\OmniaGUI.MonitorForm.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\OmniaGUI.Properties.Resources.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\mscc-geminus.csproj.GenerateResource.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\mscc-geminus.csproj.CoreCompileInputs.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\mscc-geminus.csproj.CopyComplete
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\mscc-geminus.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\MSCC - Copy\mscc\obj\x86\RPi\mscc-geminus.pdb

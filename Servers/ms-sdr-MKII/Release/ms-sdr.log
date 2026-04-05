@@ -1,0 +1,26 @@
+﻿  amplifier.c
+  calibrate.c
+  comm-port.c
+  crc.c
+  cw-snap.c
+  favorites.c
+  freq_queue.c
+  iq.c
+  last_used.c
+  main-controller.c
+  main.c
+  message_queue.c
+  power_calibration.c
+  proficio-temperature.c
+  usbcmd.c
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Servers\ms-sdr-MKII\source\usbcmd.c(90,26): warning C4133: 'function': incompatible types - from 'const TCHAR *' to 'const char *'
+G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Servers\ms-sdr-MKII\source\usbcmd.c(90,32): warning C4133: 'function': incompatible types - from 'TCHAR *' to 'const char *'
+  user_controls.c
+  Generating code
+  1 of 150 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  ms-sdr.vcxproj -> G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\ms-sdr-geminus.exe
+  G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Servers\ms-sdr-MKII\LIBS\pthreadVC2.dll -> G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\pthreadVC2.dll
+  1 File(s) copied

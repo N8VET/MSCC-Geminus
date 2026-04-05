@@ -1,0 +1,2209 @@
+[2] Logfile Opened.  Logfile: C:\Users\Ron\AppData\Local/mscc-GEMINUS/logs/ms-sdr.log
+[23:23:08:27:842][3] main starting . Compile Date Feb 19 2025, Compile Time 18:47:56 
+[23:23:08:27:842][4] main . Calling: Get_serial_number 
+[23:23:08:27:842][5] main . Calling: srOpen . USB VID: 16C0, USB PID 5DC 
+[23:23:08:27:843][6] srOpen . Proficio found
+[23:23:08:27:870][7] srOpen. G_serial_number: 060401F7341F0722, status: 17
+[23:23:08:27:870][7] srOpen . G_Usb_serial_number: 060401F7341F0722, status: 17
+[23:23:08:27:870][7] main . Calling srGetVersion
+[23:23:08:27:870][8] srGetVersion. 
+[23:23:08:27:873][9] srGetVersion - 0xA55A. major: 3, minor: 140
+[23:23:08:27:873][10] main . srGetVersion returned Transceiver Firmware Version: 3.140 
+[23:23:08:27:873][11] main . Firmware OK. 
+[23:23:08:27:873][12] main . Sending Si5351 DLL . Calling usbControlMsgOUT 
+[23:23:08:27:873][13] cw_send_parameters called. Opcode: 0xA0, Value: 1, Size: 4
+[23:23:08:27:873][14] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:27:954][15] main . Sending Si5351 DLL . Finished-> mode: 1, status: 4
+[23:23:08:27:954][16] main . Calling get_cw_params 
+[23:23:08:27:954][17] get_cw_params . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:27:954][18] get_cw_params. File: C:\Users\Ron\AppData\Local/mscc-GEMINUS/cw.ini
+[23:23:08:27:962][19] Parse_cw_init . CW_Keyer_Installed: 1
+[23:23:08:27:962][20] Parse_cw_init . CW_Keyer_Mode: 0
+[23:23:08:27:962][21] Parse_cw_init . CW_Spacing: 0
+[23:23:08:27:963][22] Parse_cw_init . CW_Paddle: 0
+[23:23:08:27:963][23] Parse_cw_init . CW_Weight: 50
+[23:23:08:27:963][24] Parse_cw_init . CW_Tx_Hold: 15
+[23:23:08:27:963][25] Parse_cw_init . CW_Speed: 18
+[23:23:08:27:963][26] get_cw_params . Finished
+[23:23:08:27:963][27] main . Calling initialize_msccs 
+[23:23:08:27:963][28] initialize_mscc. Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:27:963][29] initialize_mscc. File: C:\Users\Ron\AppData\Local/mscc-GEMINUS/mscc.ini
+[23:23:08:27:971][30] Parse_mscc_record. MSCC_PORT: 8889
+[23:23:08:27:971][31] Parse_mscc_record. G_Client_Host_Name: Ron-PC
+[23:23:08:27:971][32] Parse_mscc_record. G_pcb_version: 6
+[23:23:08:27:971][33] initialize_mscc. Finished
+[23:23:08:27:971][34] Create_power_ini_file . Called 
+[23:23:08:27:978][35] Create_power_ini_file . File exists . Not creating power_cal.ini file
+[23:23:08:27:978][36] Create_power_ini_file . Finished 
+
+[23:23:08:27:978][37] Check_Amplifier_Version . Called.
+[23:23:08:27:978][38] Check_Amplifier_Version . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:27:978][39] Check_Amplifier_Version . amplifier.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:27:986][40] Check_Amplifier_Version . File Open 
+[23:23:08:27:986][41] Check_Amplifier_Version . Calling Parse_User_Controls. field VERSION
+[23:23:08:27:986][42] Check_Amplifier_Version . Finished.
+[23:23:08:27:986][43] Create_amplifier_ini_file . Called 
+[23:23:08:27:986][44] Create_amplifier_ini_file . File exists . Not creating amplifier.ini file
+[23:23:08:27:986][45] Create_amplifier_ini_file . Finished 
+[23:23:08:27:986][46] main . Calling Init_last_used_VFO_A 
+
+[23:23:08:27:986][47] Init_last_used_VFO_A . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:27:986][48] Init_last_used_VFO_A . Last_used Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini
+[23:23:08:27:994][49] Init_last_used_VFO_A . Band: 0, Frequency: 481000, MODE: A
+[23:23:08:27:994][50] Init_last_used_VFO_A . Band: 1, Frequency: 24900000, MODE: C
+[23:23:08:27:994][51] Init_last_used_VFO_A . Band: 2, Frequency: 21074000, MODE: C
+[23:23:08:27:994][52] Init_last_used_VFO_A . Band: 3, Frequency: 18100000, MODE: C
+[23:23:08:27:994][53] Init_last_used_VFO_A . Band: 4, Frequency: 14074000, MODE: C
+[23:23:08:27:994][54] Init_last_used_VFO_A . Band: 5, Frequency: 10136000, MODE: C
+[23:23:08:27:994][55] Init_last_used_VFO_A . Band: 6, Frequency: 7074000, MODE: C
+[23:23:08:27:994][56] Init_last_used_VFO_A . Band: 7, Frequency: 5330500, MODE: C
+[23:23:08:27:994][57] Init_last_used_VFO_A . Band: 8, Frequency: 3510000, MODE: C
+[23:23:08:27:994][58] Init_last_used_VFO_A . Band: 9, Frequency: 2002200, MODE: A
+[23:23:08:27:994][59] Init_last_used_VFO_A . Band: 10, Frequency: 477000, MODE: A
+[23:23:08:27:994][60] Init_last_used_VFO_A . Band: 11, Frequency: 136000, MODE: U
+[23:23:08:27:994][61] Init_last_used_VFO_A . Finished
+[23:23:08:27:994][62] main . Calling Init_last_used_VFO_B 
+
+[23:23:08:27:994][63] Init_last_used_VFO_B . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:27:994][64] Init_last_used_VFO_B . Last_used Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfob/Last_used.ini
+[23:23:08:28:002][65] Init_last_used_VFO_B . Band: 0, Frequency: 28600000, MODE: A
+[23:23:08:28:002][66] Init_last_used_VFO_B . Band: 1, Frequency: 24900000, MODE: A
+[23:23:08:28:002][67] Init_last_used_VFO_B . Band: 2, Frequency: 21000000, MODE: A
+[23:23:08:28:002][68] Init_last_used_VFO_B . Band: 3, Frequency: 18140000, MODE: U
+[23:23:08:28:002][69] Init_last_used_VFO_B . Band: 4, Frequency: 14076000, MODE: U
+[23:23:08:28:002][70] Init_last_used_VFO_B . Band: 5, Frequency: 10111900, MODE: U
+[23:23:08:28:002][71] Init_last_used_VFO_B . Band: 6, Frequency: 7000000, MODE: A
+[23:23:08:28:002][72] Init_last_used_VFO_B . Band: 7, Frequency: 5331500, MODE: U
+[23:23:08:28:002][73] Init_last_used_VFO_B . Band: 8, Frequency: 4000000, MODE: A
+[23:23:08:28:002][74] Init_last_used_VFO_B . Band: 9, Frequency: 2000000, MODE: A
+[23:23:08:28:002][75] Init_last_used_VFO_B . Band: 10, Frequency: 10000000, MODE: N
+[23:23:08:28:002][76] Init_last_used_VFO_B . Band: 11, Frequency: 10000000, MODE: N
+[23:23:08:28:002][77] Init_last_used_VFO_B . Finished
+[23:23:08:28:017][78] main. Calling Init_User_Controls 
+
+[23:23:08:28:017][79] Init_User_Controls . Called.
+[23:23:08:28:017][80] Init_User_Controls . Calling . Check_Version
+[23:23:08:28:017][81] Check_Version . Called.
+[23:23:08:28:017][82] Check_Version . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:28:017][83] Check_Version . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:28:017][84] Check_Version . File Open 
+[23:23:08:28:017][85] Check_Version . File Open 
+[23:23:08:28:017][86] Check_Version . Calling Parse_User_Controls. field VERSION
+[23:23:08:28:017][87] Check_Version . VERSION: 13
+[23:23:08:28:017][88] Init_User_Controls . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:28:017][89] Init_User_Controls . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:28:017][90] Init_User_Controls . Source record: VERSION=13;
+[23:23:08:28:017][91] Init_User_Controls . VERSION: 13
+[23:23:08:28:017][92] Init_User_Controls . Source record: SPEAKER_VOLUME=99;
+[23:23:08:28:017][93] Init_User_Controls . SPEAKER_VOLUME: 99
+[23:23:08:28:017][94] Init_User_Controls . Source record: SPEAKER_MUTE=0;
+[23:23:08:28:017][95] Init_User_Controls . SPEAKER_MUTE: 0
+[23:23:08:28:017][96] Init_User_Controls . Source record: MIC_VOLUME=30;
+[23:23:08:28:017][97] Init_User_Controls . MIC_VOLUME: 30
+[23:23:08:28:017][98] Init_User_Controls . Source record: MIC_MUTE=0; 
+[23:23:08:28:017][99] Init_User_Controls . MIC_MUTE: 0
+[23:23:08:28:017][100] Init_User_Controls . Source record: FILTER_LOW_INDEX=4;
+[23:23:08:28:017][101] Init_User_Controls . FILTER_LOW_INDEX: 4
+[23:23:08:28:017][102] Init_User_Controls . Source record: FILTER_HIGH_INDEX=1;
+[23:23:08:28:017][103] Init_User_Controls . FILTER_HIGH_INDEX: 1
+[23:23:08:28:017][104] Init_User_Controls . Source record: AGC_INDEX=2;
+[23:23:08:28:017][105] Init_User_Controls . AGC_INDEX: 2
+[23:23:08:28:017][106] Init_User_Controls . Source record: ALC_VALUE=1;
+[23:23:08:28:017][107] Init_User_Controls . ALC_VALUE: 1
+[23:23:08:28:017][108] Init_User_Controls . Source record: NR_VALUE=0;
+[23:23:08:28:017][109] Init_User_Controls . NR_VALUE: 0
+[23:23:08:28:017][110] Init_User_Controls . Source record: NB_STATUS=0;
+[23:23:08:28:017][111] Init_User_Controls . NB_STATUS: 0
+[23:23:08:28:017][112] Init_User_Controls . Source record: NB_THRESHOLD=792;
+[23:23:08:28:017][113] Init_User_Controls . NB_THRESHOLD: 792
+[23:23:08:28:017][114] Init_User_Controls . Source record: NB_PULSE_WIDTH=74;
+[23:23:08:28:017][115] Init_User_Controls . NB_PULSE_WIDTH: 74
+[23:23:08:28:017][116] Init_User_Controls . Source record: COMPRESSION_STATUS=0;
+[23:23:08:28:017][117] Init_User_Controls . COMPRESSION_STATUS: 0
+[23:23:08:28:017][118] Init_User_Controls . Source record: COMPRESSION_LEVEL=5;
+[23:23:08:28:017][119] Init_User_Controls . COMPRESSION_LEVEL: 5
+[23:23:08:28:017][120] Init_User_Controls . Source record: PANADAPTER_AVERAGE=1;
+[23:23:08:28:017][121] Init_User_Controls . PANADAPTER_AVERAGE: 1
+[23:23:08:28:017][122] Init_User_Controls . Source record: PANADAPTER_FILL=6;
+[23:23:08:28:017][123] Init_User_Controls . PANADAPTER_FILL: 6
+[23:23:08:28:017][124] Init_User_Controls . Source record: PANADAPTER_LINE=4;
+[23:23:08:28:017][125] Init_User_Controls . PANADAPTER_LINE: 4
+[23:23:08:28:017][126] Init_User_Controls . Source record: PANADAPTER_MARKER=4;
+[23:23:08:28:017][127] Init_User_Controls . PANADAPTER_MARKER: 4
+[23:23:08:28:017][128] Init_User_Controls . Source record: PANADAPTER_BACKGROUND=1;
+[23:23:08:28:017][129] Init_User_Controls . PANADAPTER_BACKGROUND: 1
+[23:23:08:28:017][130] Init_User_Controls . Source record: CW_PITCH=1;
+[23:23:08:28:017][131] Init_User_Controls . CW_PITCH: 1
+[23:23:08:28:017][132] Init_User_Controls . Source record: PANADAPTER_CURSOR=4;
+[23:23:08:28:017][133] Init_User_Controls . PANADAPTER_CURSOR: 4
+[23:23:08:28:017][134] Init_User_Controls . Source record: PANADAPTER_REFRESH=4;
+[23:23:08:28:017][135] Init_User_Controls . PANADAPTER_REFRESH: 4
+[23:23:08:28:017][136] Init_User_Controls . Source record: PANADAPTER_BASE=7;
+[23:23:08:28:017][137] Init_User_Controls . PANADAPTER_BASE: 7
+[23:23:08:28:017][138] Init_User_Controls . Source record: PANADAPTER_GAIN=0;
+[23:23:08:28:017][139] Init_User_Controls . PANADAPTER_GAIN: 0
+[23:23:08:28:017][140] Init_User_Controls . Source record: AUTO_NOTCH=0;
+[23:23:08:28:017][141] Init_User_Controls . AUTO_NOTCH: 0
+[23:23:08:28:017][142] Init_User_Controls . Source record: FILTER_CW_INDEX=2;
+[23:23:08:28:017][143] Init_User_Controls . FILTER_CW_INDEX: 2
+[23:23:08:28:017][144] Init_User_Controls . Source record: AUTO_SNAP_STATUS=1;
+[23:23:08:28:017][145] Init_User_Controls . AUTO_SNAP_STATUS: 1
+[23:23:08:28:017][146] Init_User_Controls . Source record: AUTO_SNAP_INDEX=1;
+[23:23:08:28:017][147] Init_User_Controls . AUTO_SNAP_INDEX: 1
+[23:23:08:28:017][148] Init_User_Controls . Source record: QRP=0;
+[23:23:08:28:017][149] Init_User_Controls . QRP: 0
+[23:23:08:28:017][150] Init_User_Controls . Source record: PANADAPTER_STATUS=0;
+[23:23:08:28:017][151] Init_User_Controls . PANADAPTER_STATUS: 0
+[23:23:08:28:017][152] Init_User_Controls . Source record: SMETER_STATUS=0;
+[23:23:08:28:017][153] Init_User_Controls . SMETER_STATUS: 0
+[23:23:08:28:017][154] Init_User_Controls . Source record: MICROPHONE_STATUS=1;
+[23:23:08:28:017][155] Init_User_Controls . MICROPHONE_STATUS: 1
+[23:23:08:28:017][156] Init_User_Controls . Source record: WATERFALL_STATUS=0
+[23:23:08:28:017][157] Init_User_Controls . WATERFALL_STATUS: 0
+[23:23:08:28:017][158] Init_User_Controls . Source record: WATERFALL_GRID=5;
+[23:23:08:28:017][159] Init_User_Controls . WATERFALL_GRID: 5
+[23:23:08:28:017][160] Init_User_Controls . Source record: WATERFALL_PALLET=0;
+[23:23:08:28:017][161] Init_User_Controls . WATERFALL_PALLET: 0
+[23:23:08:28:017][162] Init_User_Controls . Source record: WATERFALL_DIRECTION=0;
+[23:23:08:28:017][163] Init_User_Controls . WATERFALL_DIRECTION: 0
+[23:23:08:28:017][164] Init_User_Controls . Source record: WATERFALL_GAIN=0;
+[23:23:08:28:017][165] Init_User_Controls . WATERFALL_GAIN: 0
+[23:23:08:28:017][166] Init_User_Controls . Source record: WATERFALL_ZERO=0;
+[23:23:08:28:017][167] Init_User_Controls . WATERFALL_ZERO: 0
+[23:23:08:28:017][168] Init_User_Controls . Source record: WATERFALL_SPEED=41;
+[23:23:08:28:017][169] Init_User_Controls . WATERFALL_SPEED: 41
+[23:23:08:28:017][170] main. Waiting for network to initialize 
+
+[23:23:08:28:017][171] main. Start_Threads CALLED, 
+[23:23:08:28:017][172] main . Starting Gui_send_message thread 
+[23:23:08:28:017][173] main . Start Gui_send_message thread Started, return code: 0
+[23:23:08:28:017][174] main. Starting Flusher_thread 
+[23:23:08:28:017][175] main. Start Flusher_thread thread started, return code from pthread_create() is 0
+[23:23:08:28:017][176] main . Starting Check_temperature thread 
+[23:23:08:28:017][177] main . Start Check_temperature thread Started, return code from pthread_create() is 0
+[23:23:08:28:017][178] main. Starting Command Interface Thread 
+[23:23:08:28:018][179] Gui_send_message. STARTED
+[23:23:08:28:018][180] Flusher_thread. thread started 
+[23:23:08:28:018][181] main. Start Command_Interface thread Started, return code from pthread_create() is 0
+[23:23:08:28:018][182] Check_temperature. Started. 
+[23:23:08:28:033][183] CW_Command_Interface . Started
+[23:23:08:28:034][184] Command_Interface. ms-sdr Socket Created
+[23:23:08:28:034][185] Command_Interface. ms-sdr Server Port. Using default: 8888
+[23:23:08:28:034][186] Command_Interface. Invalid ClientPort. Using default: 8889
+[23:23:08:28:034][187] Command_Interface. Remote Client Socket Created
+[23:23:08:28:041][188] Command_Interface. Client IP Address: Name: Ron-PC, IP: 192.168.12.100
+[23:23:08:28:041][189] Command_Interface. SDRcore-recv Socket Created
+[23:23:08:28:041][190] Command_Interface. Invalid SDRcore Port. Using default: 9000
+[23:23:08:28:041][191] Command_Interface. SDRcore-trans Socket Created
+[23:23:08:28:041][192] Command_Interface. Invalid SDRcore Port. Using default: 9200
+[23:23:08:28:041][193] Command_Interface. spectrum_s Socket Created
+[23:23:08:28:041][194] Command_Interface. Invalid G_spectrum_port. Using default: 9700
+[23:23:08:28:041][195] Command_Interface. waterfall_s Socket Created
+[23:23:08:28:041][196] Command_Interface. Invalid G_waterfall_port. Using default: 9800
+[23:23:08:28:041][197] Command_Interface. Network Interface Setup FINISHED
+[23:23:08:28:041][198] Command_Interface. Version Date: Feb 14 2025, string year: 2025, month: 200, Major: 125 Minor: 214 
+
+[23:23:08:28:857][199] Command_Interface . CMD_CHECK_GUI_STATUS . Setting G_gui_runnning to: 1 
+[23:23:08:28:857][200] Command_Interface . CMD_SET_FIRMWARE_VERSION: Major: 3, Minor: 140
+[23:23:08:28:898][201] Command_Interface . CMD_GET_SET_MSSDR_VERSION: Major: 3, Minor: 140
+[23:23:08:29:146][202] Command_Interface. CMD_SET_SOLIDUS_STATUS . G_Transceiver_type: 6 
+
+[23:23:08:29:162][203] Sending User Values to GUI
+[23:23:08:29:162][204] Spectrum_Waterfall_send_param. op_code: 0xD2, op_data: 1
+[23:23:08:29:551][205] Update_User_Controls . QRP: 0
+[23:23:08:29:614][206] Update_User_Controls . Finished
+[23:23:08:29:645][207] Send_last_used_VFO_A-> band 160, element 0
+[23:23:08:29:645][208] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 2002200 
+[23:23:08:29:768][209] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:29:999][210] Send_last_used_VFO_A-> Finished . band: 9, freq: 2002200, mode: A
+[23:23:08:30:015][211] Send_last_used_VFO_A-> band 80, element 0
+[23:23:08:30:015][212] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 3510000 
+[23:23:08:30:031][213] main. Starting Update_last_used_thread 
+[23:23:08:30:031][214] main. Start Update_last_used_thread thread Started, return code from pthread_create() is 0
+[23:23:08:30:031][215] main. Starting Freq_Dequeue_thread 
+[23:23:08:30:031][216] main. Start Freq_Dequeue_thread thread Started, return code from pthread_create() is 0
+[23:23:08:30:031][217] main. Starting Start_Key_PTT_status_thread thread 
+[23:23:08:30:031][218] main.  G_Get_Key_Down_Status_thread Started, return code from pthread_create() is 0
+[23:23:08:30:031][219] Update_last_used_thread . Started
+[23:23:08:30:031][220] Freq_Dequeue_thread . Started.
+[23:23:08:30:031][221] Get_Key_Status. Polling for key down and PTT status
+[23:23:08:30:139][222] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:30:371][223] Send_last_used_VFO_A-> Finished . band: 8, freq: 3510000, mode: C
+[23:23:08:30:386][224] Send_last_used_VFO_A-> band 60, element 0
+[23:23:08:30:386][225] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 5330500 
+[23:23:08:30:509][226] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:30:741][227] Send_last_used_VFO_A-> Finished . band: 7, freq: 5330500, mode: C
+[23:23:08:30:757][228] Send_last_used_VFO_A-> band 40, element 0
+[23:23:08:30:757][229] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 7074000 
+[23:23:08:30:881][230] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:31:035][231] main. Starting Start_PTT_thread thread 
+[23:23:08:31:035][232] main. Start Start_PTT_thread thread Started, return code from pthread_create() is 0
+[23:23:08:31:113][233] Send_last_used_VFO_A-> Finished . band: 6, freq: 7074000, mode: C
+[23:23:08:31:128][234] Send_last_used_VFO_A-> band 30, element 0
+[23:23:08:31:128][235] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 10136000 
+[23:23:08:31:252][236] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:31:484][237] Send_last_used_VFO_A-> Finished . band: 5, freq: 10136000, mode: C
+[23:23:08:31:499][238] Send_last_used_VFO_A-> band 20, element 0
+[23:23:08:31:500][239] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 14074000 
+[23:23:08:31:623][240] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:31:857][241] Send_last_used_VFO_A-> Finished . band: 4, freq: 14074000, mode: C
+[23:23:08:31:873][242] Send_last_used_VFO_A-> band 17, element 0
+[23:23:08:31:873][243] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 18100000 
+[23:23:08:31:996][244] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+
+[23:23:08:32:043][245] Start_Serial_Port. STARTED
+[23:23:08:32:043][246] Start_Serial_Port. serial port INI filename: C:\Users\Ron\AppData\Local/mscc-GEMINUS/comm-port.ini
+[23:23:08:32:049][247] Start_Serial_Port. Pin: 1 
+[23:23:08:32:049][248] Start_Serial_Port. COMM_PORT_NAME=COM5,COMM_PORT_INDEX=0,BAUD_RATE_INDEX=3,PARITY_INDEX=0,DATA_BITS_INDEX=1,STOP_BITS_INDEX=0,PIN=1
+[23:23:08:32:049][249] open_comm_port -> Finished
+[23:23:08:32:049][250] Start_Serial_Port. Starting Comms_port_thread 
+[23:23:08:32:151][251] Start_Serial_Port. Starting Pin_Check_Thread 
+[23:23:08:32:151][252] Start_Serial_Port. FINISHED
+[23:23:08:32:151][253] main. Start_Threads FINISHED 
+
+[23:23:08:32:151][254] main. Calling initialize_keyer
+[23:23:08:32:229][255] Send_last_used_VFO_A-> Finished . band: 3, freq: 18100000, mode: C
+[23:23:08:32:245][256] Send_last_used_VFO_A-> band 15, element 0
+[23:23:08:32:245][257] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 21074000 
+[23:23:08:32:369][258] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:32:601][259] Send_last_used_VFO_A-> Finished . band: 2, freq: 21074000, mode: C
+[23:23:08:32:616][260] Send_last_used_VFO_A-> band 12, element 0
+[23:23:08:32:616][261] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 24900000 
+[23:23:08:32:742][262] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: C 
+[23:23:08:32:975][263] Send_last_used_VFO_A-> Finished . band: 1, freq: 24900000, mode: C
+[23:23:08:32:990][264] Send_last_used_VFO_A-> band 10, element 0
+[23:23:08:32:990][265] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 481000 
+[23:23:08:33:037][266] Update_last_used_VFO_A . Previous Freq: 0, G_tune_freq: 0, Previous Mode n, G_mode U 
+[23:23:08:33:037][267] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:08:33:037][268] Update_last_used_VFO_A . Update . Band: 0, Freq: 481000, Mode: A 
+[23:23:08:33:037][269] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:08:33:037][270] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:08:33:037][271] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:08:33:037][272] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:08:33:037][273] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:08:33:037][274] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:08:33:037][275] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:08:33:037][276] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:08:33:038][277] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:08:33:038][278] Update_last_used_VFO_A . Update . Band: 10, Freq: 477000, Mode: A 
+[23:23:08:33:038][279] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:08:33:038][280] Update_last_used_VFO_A . Finished 
+[23:23:08:33:038][281] Update_last_used_VFO_A . Last_used File Closed
+
+[23:23:08:33:053][282] Comms_port_thread. Started 
+[23:23:08:33:115][283] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:33:162][284] initialize_keyer. calling cw_send_parameters. SET_KEYER_INSTALLED. data: 1
+[23:23:08:33:162][285] cw_send_parameters called. Opcode: 0x7D, Value: 1, Size: 4
+[23:23:08:33:162][23:23:08:33:162][286] cw_send_parameters. Calling usbControlMsgOUT
+[287] Pin_Check_Thread. STARTED. 
+[23:23:08:33:225][288] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:348][289] Send_last_used_VFO_A-> Finished . band: 0, freq: 481000, mode: A
+[23:23:08:33:364][290] Send_last_used_VFO_A-> band 2200, element 0
+[23:23:08:33:364][291] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 136000 
+[23:23:08:33:487][292] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: U 
+[23:23:08:33:535][293] initialize_keyer. calling cw_send_parameters.  SET_SPACING. data: 0
+[23:23:08:33:535][294] cw_send_parameters called. Opcode: 0x75, Value: 0, Size: 4
+[23:23:08:33:535][295] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:33:596][296] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:596][297] initialize_keyer. calling cw_send_parameters.  SET_CW_PADDLE. data: 0
+[23:23:08:33:596][298] cw_send_parameters called. Opcode: 0x73, Value: 0, Size: 4
+[23:23:08:33:596][299] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:33:658][300] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:658][301] initialize_keyer. calling cw_send_parameters.  SET_WEIGHT. data: 50
+[23:23:08:33:658][302] cw_send_parameters called. Opcode: 0x77, Value: 50, Size: 4
+[23:23:08:33:658][303] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:33:721][23:23:08:33:721][304] Send_last_used_VFO_A-> Finished . band: 11, freq: 136000, mode: U
+[305] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:721][306] initialize_keyer. calling cw_send_parameters.  SET_TX_HOLD. data: 15
+[23:23:08:33:721][307] cw_send_parameters called. Opcode: 0x7A, Value: 15, Size: 4
+[23:23:08:33:721][308] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:33:737][309] Send_last_used_VFO_A-> band 630, element 0
+[23:23:08:33:737][310] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 477000 
+[23:23:08:33:783][311] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:783][312] initialize_keyer. calling cw_send_parameters.  SET_WPM. data: 18
+[23:23:08:33:783][313] cw_send_parameters called. Opcode: 0x7B, Value: 18, Size: 4
+[23:23:08:33:783][314] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:33:846][315] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:846][316] initialize_keyer. calling cw_send_parameters.  SET_KEYER_MODE. data: 0
+[23:23:08:33:846][317] cw_send_parameters called. Opcode: 0x71, Value: 0, Size: 4
+[23:23:08:33:846][318] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:33:862][319] Send_last_used_VFO_A . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:33:908][320] initialize_keyer. cw_send_parameters returned with status: 4
+[23:23:08:33:908][321] initialize_keyer. FINISHED
+[23:23:08:33:908][322] main. initialize_keyer FINISHED.
+[23:23:08:33:908][323] main. Initializing FINISHED
+[23:23:08:33:908][324] main. Running 
+[23:23:08:34:095][325] Send_last_used_VFO_A-> Finished . band: 10, freq: 477000, mode: A
+[23:23:08:34:157][326] Send_last_used_VFO_B-> band 160, element 0
+[23:23:08:34:157][327] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 2000000 
+[23:23:08:34:282][328] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:34:516][329] Send_last_used_VFO_B-> Finished . band: 9, freq: 2000000, mode: A
+[23:23:08:34:531][330] Send_last_used_VFO_B-> band 80, element 0
+[23:23:08:34:531][331] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 4000000 
+[23:23:08:34:654][332] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:34:887][333] Send_last_used_VFO_B-> Finished . band: 8, freq: 4000000, mode: A
+[23:23:08:34:903][334] Send_last_used_VFO_B-> band 60, element 0
+[23:23:08:34:903][335] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 5331500 
+[23:23:08:35:027][23:23:08:35:027][336] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: U 
+[337] Check_temperature . Initialize_band_data . Called. 
+[23:23:08:35:261][338] Send_last_used_VFO_B-> Finished . band: 7, freq: 5331500, mode: U
+[23:23:08:35:276][339] Send_last_used_VFO_B-> band 40, element 0
+[23:23:08:35:276][340] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 7000000 
+[23:23:08:35:400][341] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:35:635][342] Send_last_used_VFO_B-> Finished . band: 6, freq: 7000000, mode: A
+[23:23:08:35:650][343] Send_last_used_VFO_B-> band 30, element 0
+[23:23:08:35:650][344] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 10111900 
+[23:23:08:35:774][345] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: U 
+[23:23:08:36:006][346] Send_last_used_VFO_B-> Finished . band: 5, freq: 10111900, mode: U
+[23:23:08:36:022][347] Send_last_used_VFO_B-> band 20, element 0
+[23:23:08:36:022][348] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 14076000 
+[23:23:08:36:147][349] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: U 
+[23:23:08:36:381][350] Send_last_used_VFO_B-> Finished . band: 4, freq: 14076000, mode: U
+[23:23:08:36:397][351] Send_last_used_VFO_B-> band 17, element 0
+[23:23:08:36:397][352] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 18140000 
+[23:23:08:36:521][353] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: U 
+[23:23:08:36:753][354] Send_last_used_VFO_B-> Finished . band: 3, freq: 18140000, mode: U
+[23:23:08:36:769][355] Send_last_used_VFO_B-> band 15, element 0
+[23:23:08:36:769][356] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 21000000 
+[23:23:08:36:894][357] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:37:126][358] Send_last_used_VFO_B-> Finished . band: 2, freq: 21000000, mode: A
+[23:23:08:37:142][359] Send_last_used_VFO_B-> band 12, element 0
+[23:23:08:37:142][360] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 24900000 
+[23:23:08:37:267][361] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:37:497][362] Send_last_used_VFO_B-> Finished . band: 1, freq: 24900000, mode: A
+[23:23:08:37:513][363] Send_last_used_VFO_B-> band 10, element 0
+[23:23:08:37:513][364] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 28600000 
+[23:23:08:37:637][365] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: A 
+[23:23:08:37:868][366] Send_last_used_VFO_B-> Finished . band: 0, freq: 28600000, mode: A
+[23:23:08:37:883][367] Send_last_used_VFO_B-> band 2200, element 0
+[23:23:08:37:883][368] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 10000000 
+[23:23:08:38:007][369] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: N 
+[23:23:08:38:240][370] Send_last_used_VFO_B-> Finished . band: 11, freq: 10000000, mode: N
+[23:23:08:38:255][371] Send_last_used_VFO_B-> band 630, element 0
+[23:23:08:38:255][372] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_FREQ . Frequency: 10000000 
+[23:23:08:38:379][373] Send_last_used_VFO_B . Calling Gui_send_param . CMD_GET_SET_LAST_USED_MODE . Mode: N 
+[23:23:08:38:612][374] Send_last_used_VFO_B-> Finished . band: 10, freq: 10000000, mode: N
+[23:23:08:38:645][375] Get_Startup - Called. 
+[23:23:08:38:651][376] Get_Startup.  Freq: 477000, mode A 
+[23:23:08:38:651][377] Get_Startup . Finished
+[23:23:08:38:651][378] Command_Interface . Start Up Frequency: 477000
+[23:23:08:38:651][379] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:08:38:651][380] Set_band_normal . Finished . Band: 630
+[23:23:08:38:651][381] Command_Interface . Start Up Band: 630
+[23:23:08:38:651][382] Command_Interface . CMD_GET_MIA_STATUS. r: 0 ,mia_status: 0
+[23:23:08:38:753][383] Command_Interface . Sending Start Up Band 630
+[23:23:08:38:892][384] Spectrum_Waterfall_send_param. op_code: 0xF5, op_data: 1
+
+[23:23:08:38:954][385] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT_DEFAULT Called 
+[23:23:08:38:954][386] Update_User_Controls_ini . Called.
+[23:23:08:38:954][387] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:38:954][388] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:38:955][389] Update_User_Controls_ini . Finished.
+
+[23:23:08:38:955][390] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT_DEFAULT Called 
+[23:23:08:38:955][391] Update_User_Controls_ini . Called.
+[23:23:08:38:955][392] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:38:955][393] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:38:955][394] Update_User_Controls_ini . Finished.
+
+[23:23:08:38:955][395] Process_User_Controls . Command_Interface . CMD_SET_CW_BW_DEFAULT Called 
+[23:23:08:38:955][396] Update_User_Controls_ini . Called.
+[23:23:08:38:955][397] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:38:955][398] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:38:956][399] Update_User_Controls_ini . Finished.
+[23:23:08:38:969][400] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 0
+[23:23:08:38:970][401] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 1
+[23:23:08:38:970][402] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 0
+[23:23:08:38:970][403] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 1
+[23:23:08:38:970][404] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 0
+[23:23:08:38:970][405] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 1
+[23:23:08:38:970][406] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 0
+[23:23:08:38:970][407] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 1
+[23:23:08:38:970][408] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 0
+[23:23:08:38:970][409] Gui_get_parm. CMD_GET_SET_PANADAPTER. Receive Count: 802, Sequence 1
+[23:23:08:39:062][410] Update_last_used_VFO_A . Previous Freq: 0, G_tune_freq: 477000, Previous Mode U, G_mode A 
+[23:23:08:39:062][411] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:08:39:063][412] Update_last_used_VFO_A . Update . Band: 0, Freq: 481000, Mode: A 
+[23:23:08:39:063][413] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:08:39:063][414] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:08:39:063][415] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:08:39:063][416] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:08:39:063][417] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:08:39:063][418] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:08:39:063][419] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:08:39:063][420] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:08:39:063][421] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:08:39:063][422] Update_last_used_VFO_A . Update . Band: 10, Freq: 477000, Mode: A 
+[23:23:08:39:063][423] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:08:39:063][424] Update_last_used_VFO_A . Finished 
+[23:23:08:39:063][425] Update_last_used_VFO_A . Last_used File Closed
+[23:23:08:39:063][426] Update_Startup - Called. freq: 477000, mode: A
+[23:23:08:39:063][427] Update_Startup - Finished 
+
+[23:23:08:39:855][428] Process_User_Controls . CMD_SET_MIC_MUTE . MUTE: 0 
+[23:23:08:39:856][429] Process_User_Controls . CMD_SET_MIC_MUTE . Finished 
+[23:23:08:39:856][430] Update_User_Controls_ini . Called.
+[23:23:08:39:856][431] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:856][432] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:856][433] Update_User_Controls_ini . Finished.
+[23:23:08:39:856][434] Process_User_Controls . CMD_SET_MIC_GAIN . VALUE: 3 
+[23:23:08:39:856][435] Update_User_Controls_ini . Called.
+[23:23:08:39:856][436] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:856][437] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:857][438] Update_User_Controls_ini . Finished.
+[23:23:08:39:857][439] Process_User_Controls . CMD_SET_DIGITAL_MIC_GAIN . VALUE: 0 
+[23:23:08:39:857][440] Update_User_Controls_ini . Called.
+[23:23:08:39:857][441] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:857][442] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:857][443] Update_User_Controls_ini . Finished.
+[23:23:08:39:857][444] Extended_command . CMD_SET_METER_HOLD Opcode: 26, Data: 0
+[23:23:08:39:858][445] Command_Interface . CMD_SET_ALC_MULTIPLIER: 11
+[23:23:08:39:859][446] Command_Interface . CMD_SET_CONFIGURATION_COMMAND. t_opcode_data: 1
+[23:23:08:39:859][447] Manage_Configuration_Command . OPERATOR_AUDIO . ret: 0, error: test
+
+[23:23:08:39:859][448] Process_User_Controls . CMD_SET_MIC_VOLUME . VALUE: 30 
+[23:23:08:39:859][449] Process_User_Controls . CMD_SET_MIC_VOLUME . Finished 
+[23:23:08:39:859][450] Update_User_Controls_ini . Called.
+[23:23:08:39:859][451] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:859][452] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:860][453] Update_User_Controls_ini . Finished.
+
+[23:23:08:39:860][454] Process_User_Controls . CMD_SET_SPEAKER_VOLUME . VALUE: 99 
+[23:23:08:39:860][455] Process_User_Controls . CMD_SET_SPEAKER_VOLUME . Finished .  G_Speaker_volume: 99
+[23:23:08:39:860][456] Update_User_Controls_ini . Called.
+[23:23:08:39:860][457] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:860][458] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:860][459] Update_User_Controls_ini . Finished.
+[23:23:08:39:860][460] Process_User_Controls . CMD_SET_VOLUME_ATTN . VALUE: 0 
+[23:23:08:39:860][461] Update_User_Controls_ini . Called.
+[23:23:08:39:860][462] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:860][463] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:861][464] Update_User_Controls_ini . Finished.
+[23:23:08:39:861][465] Process_User_Controls . CMD_SET_MIC_GAIN . VALUE: 3 
+[23:23:08:39:861][466] Update_User_Controls_ini . Called.
+[23:23:08:39:861][467] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:861][468] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:861][469] Update_User_Controls_ini . Finished.
+
+[23:23:08:39:861][470] Process_User_Controls . CMD_SET_SPEAKER_MUTE . MUTE: 0 
+[23:23:08:39:861][471] Process_User_Controls . CMD_SET_SPEAKER_MUTE . Finished 
+[23:23:08:39:861][472] Update_User_Controls_ini . Called.
+[23:23:08:39:861][473] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:39:861][474] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:39:862][475] Update_User_Controls_ini . Finished.
+[23:23:08:39:877][476] cw_send_parameters called. Opcode: 0x72, Value: 0, Size: 4
+[23:23:08:39:877][477] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:40:083][478] Extended_command . CMD_SET_RIT_STEP Opcode: 27, Data: 1
+[23:23:08:40:091][479] Command_Interface . CMD_SET_STEP_VALUE . Value: 3
+[23:23:08:40:091][480] Spectrum_Waterfall_send_param. op_code: 0xCE, op_data: 3
+[23:23:08:40:253][481] Extended_command . CMD_SET_METER_HOLD Opcode: 26, Data: 0
+[23:23:08:40:253][482] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:08:40:314][483] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:08:40:314][484] Update_User_Controls_ini . Called.
+[23:23:08:40:314][485] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:40:314][486] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:40:315][487] Update_User_Controls_ini . Finished.
+[23:23:08:40:315][488] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:08:40:375][489] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:08:40:375][490] Update_User_Controls_ini . Called.
+[23:23:08:40:375][491] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:40:375][492] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:40:376][493] Update_User_Controls_ini . Finished.
+
+[23:23:08:40:376][494] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:08:40:376][495] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:08:40:376][496] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:08:40:376][497] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:08:40:376][498] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:08:40:390][499] SetHWLO_queue. CMD_SET_SPEAKER_MUTE. mute_active: 1, delta_freq 477000
+[23:23:08:40:421][500] SetHWLO_queue . CMD_SET_SPEAKER_MUTE . mute_active: 0, Delta Freq 477000
+[23:23:08:40:421][501] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:08:40:421][502] Set_band_normal . Finished . Band: 630
+[23:23:08:40:422][503] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:40:422][504] Set_last_used_VFO_A . finished 
+[23:23:08:40:436][505] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:08:40:436][506] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:08:40:436][507] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:08:40:437][508] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:08:40:437][509] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:40:559][510] ModeChanged. mode: A, Return Status: 4
+[23:23:08:40:559][511] ModeChanged. Calling set_last_used for mode A 
+[23:23:08:40:559][512] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:40:559][513] Set_last_used_VFO_A . finished 
+[23:23:08:40:559][514] ModeChanged. FINISHED 
+[23:23:08:40:607][515] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:08:40:607][516] Set_band_normal . Finished . Band: 630
+[23:23:08:40:607][517] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:40:607][518] Set_last_used_VFO_A . finished 
+[23:23:08:40:622][519] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:08:40:684][520] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:08:40:684][521] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:08:40:684][522] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:08:40:747][523] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:08:40:747][524] Update_User_Controls_ini . Called.
+[23:23:08:40:747][525] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:40:747][526] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:40:747][527] Update_User_Controls_ini . Finished.
+[23:23:08:40:747][528] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:08:40:808][529] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:08:40:808][530] Update_User_Controls_ini . Called.
+[23:23:08:40:808][531] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:40:808][532] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:40:809][533] Update_User_Controls_ini . Finished.
+
+[23:23:08:40:809][534] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:08:40:809][535] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:08:40:809][536] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:08:40:809][537] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:08:40:809][538] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:08:40:839][539] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:08:40:839][540] Set_band_normal . Finished . Band: 630
+[23:23:08:40:839][541] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:40:839][542] Set_last_used_VFO_A . finished 
+[23:23:08:40:870][543] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:08:40:870][544] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:08:40:870][545] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:08:40:871][546] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:08:40:871][547] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:40:995][548] ModeChanged. mode: A, Return Status: 4
+[23:23:08:40:995][549] ModeChanged. Calling set_last_used for mode A 
+[23:23:08:40:995][550] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:40:995][551] Set_last_used_VFO_A . finished 
+[23:23:08:40:995][552] ModeChanged. FINISHED 
+[23:23:08:41:042][553] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:08:41:042][554] Set_band_normal . Finished . Band: 630
+[23:23:08:41:042][555] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:41:042][556] Set_last_used_VFO_A . finished 
+[23:23:08:41:058][557] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:08:41:121][558] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:08:41:121][559] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:08:41:121][560] Extended_command . CMD_MFC_AUTO_ZERO Opcode: 13, Data: 1
+[23:23:08:41:137][561] Command_Interface . CMD_SET_ALC_MULTIPLIER: 11
+[23:23:08:41:137][562] Command_Interface . CMD_SET_STEP_VALUE . Value: 3
+[23:23:08:41:137][563] Spectrum_Waterfall_send_param. op_code: 0xCE, op_data: 3
+[23:23:08:41:321][564] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 2
+[23:23:08:41:336][565] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:08:41:398][566] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:08:41:398][567] Update_User_Controls_ini . Called.
+[23:23:08:41:398][568] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:41:398][569] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:41:399][570] Update_User_Controls_ini . Finished.
+[23:23:08:41:399][571] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:08:41:460][572] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:08:41:460][573] Update_User_Controls_ini . Called.
+[23:23:08:41:460][574] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:41:460][575] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:41:461][576] Update_User_Controls_ini . Finished.
+
+[23:23:08:41:461][577] Process_User_Controls . Command_Interface . CMD_SET_CW_BW: 2 
+[23:23:08:41:461][578] Update_User_Controls_ini . Called.
+[23:23:08:41:461][579] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:41:461][580] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:41:461][581] Update_User_Controls_ini . Finished.
+
+[23:23:08:41:461][582] Process_User_Controls. CMD_SET_CW_PITCH
+[23:23:08:41:461][583] cw_send_parameters called. Opcode: 0x90, Value: 1, Size: 4
+[23:23:08:41:461][584] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:41:522][585] cw_send_parameters called. Opcode: 0x7F, Value: 1, Size: 4
+[23:23:08:41:522][586] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:08:41:600][587] Spectrum_Waterfall_send_param. op_code: 0xD2, op_data: 1
+[23:23:08:41:615][588] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:08:41:615][589] Set_band_normal . Finished . Band: 630
+[23:23:08:41:615][590] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:08:41:615][591] Set_last_used_VFO_A . finished 
+[23:23:08:41:661][592] Process_User_Controls. CMD_SET_CW_PITCH. G_cw_pitch: -600, Index: 1
+[23:23:08:41:661][593] Process_User_Controls. CMD_SET_CW_PITCH FINISHED
+[23:23:08:41:661][594] Update_User_Controls_ini . Called.
+[23:23:08:41:661][595] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:41:661][596] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:41:661][597] Update_User_Controls_ini . Finished.
+[23:23:08:41:723][598] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 1
+
+[23:23:08:41:785][599] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 1 
+[23:23:08:41:785][600] Update_User_Controls_ini . Called.
+[23:23:08:41:786][601] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:08:41:786][602] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:08:41:786][603] Update_User_Controls_ini . Finished.
+[23:23:08:41:879][604] Command_Interface . CMD_SET_TRANSCEIVER_DISPLAY . Value: 1
+[23:23:08:41:879][605] Extended_command . CMD_SET_KNOB_SWITCH Opcode: 20, Data: 1
+[23:23:08:42:004][606] Command_Interface . CMD_SET_TRANSCEIVER_DISPLAY . Value: 21
+[23:23:08:42:004][607] Extended_command . CMD_SET_LEFT_SWITCH Opcode: 21, Data: 5
+[23:23:08:42:516][608] Command_Interface . CMD_SET_TRANSCEIVER_DISPLAY . Value: 38
+[23:23:08:42:516][609] Extended_command . CMD_SET_MIDDLE_SWITCH Opcode: 22, Data: 6
+[23:23:08:43:016][610] Command_Interface . CMD_SET_TRANSCEIVER_DISPLAY . Value: 55
+[23:23:08:43:016][611] Extended_command . CMD_SET_RIGHT_SWITCH Opcode: 23, Data: 7
+[23:23:09:04:613][612] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:04:671][613] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:04:671][614] Update_User_Controls_ini . Called.
+[23:23:09:04:671][615] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:04:671][616] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:04:672][617] Update_User_Controls_ini . Finished.
+[23:23:09:04:672][618] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:04:733][619] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:04:733][620] Update_User_Controls_ini . Called.
+[23:23:09:04:733][621] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:04:733][622] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:04:734][623] Update_User_Controls_ini . Finished.
+
+[23:23:09:04:734][624] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:09:04:734][625] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:09:04:734][626] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:09:04:734][627] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:04:734][628] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:09:04:780][629] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:04:780][630] Set_band_normal . Finished . Band: 630
+[23:23:09:04:780][631] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:04:780][632] Set_last_used_VFO_A . finished 
+[23:23:09:04:795][633] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:04:795][634] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:04:795][635] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:04:795][636] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:04:795][637] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:04:920][638] ModeChanged. mode: A, Return Status: 4
+[23:23:09:04:920][639] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:04:920][640] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:04:920][641] Set_last_used_VFO_A . finished 
+[23:23:09:04:920][642] ModeChanged. FINISHED 
+[23:23:09:04:965][643] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:04:965][644] Set_band_normal . Finished . Band: 630
+[23:23:09:04:965][645] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:04:965][646] Set_last_used_VFO_A . finished 
+[23:23:09:04:981][647] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:05:043][648] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:05:043][649] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:05:043][650] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:05:106][651] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:05:106][652] Update_User_Controls_ini . Called.
+[23:23:09:05:106][653] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:05:106][654] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:05:107][655] Update_User_Controls_ini . Finished.
+[23:23:09:05:107][656] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:05:167][657] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:05:167][658] Update_User_Controls_ini . Called.
+[23:23:09:05:167][659] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:05:167][660] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:05:168][661] Update_User_Controls_ini . Finished.
+
+[23:23:09:05:168][662] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:09:05:168][663] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:09:05:168][664] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:09:05:168][665] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:05:168][666] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:09:05:214][667] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:05:214][668] Set_band_normal . Finished . Band: 630
+[23:23:09:05:214][669] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:05:214][670] Set_last_used_VFO_A . finished 
+[23:23:09:05:229][671] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:05:229][672] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:05:229][673] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:05:229][674] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:05:229][675] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:05:355][676] ModeChanged. mode: A, Return Status: 4
+[23:23:09:05:355][677] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:05:355][678] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:05:355][679] Set_last_used_VFO_A . finished 
+[23:23:09:05:355][680] ModeChanged. FINISHED 
+[23:23:09:05:402][681] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:05:402][682] Set_band_normal . Finished . Band: 630
+[23:23:09:05:402][683] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:05:402][684] Set_last_used_VFO_A . finished 
+[23:23:09:05:418][685] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:05:480][686] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:05:480][687] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:05:495][688] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:05:557][689] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:05:557][690] Update_User_Controls_ini . Called.
+[23:23:09:05:558][691] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:05:558][692] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:05:558][693] Update_User_Controls_ini . Finished.
+[23:23:09:09:023][694] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:09:086][695] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:09:086][696] Update_User_Controls_ini . Called.
+[23:23:09:09:086][697] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:09:086][698] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:09:086][699] Update_User_Controls_ini . Finished.
+[23:23:09:09:086][700] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:09:147][701] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:09:147][702] Update_User_Controls_ini . Called.
+[23:23:09:09:147][703] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:09:147][704] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:09:148][705] Update_User_Controls_ini . Finished.
+
+[23:23:09:09:148][706] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:09:09:148][707] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:09:09:148][708] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:09:09:148][709] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:09:148][710] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:09:09:194][711] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:09:194][712] Set_band_normal . Finished . Band: 630
+[23:23:09:09:194][713] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:09:194][714] Set_last_used_VFO_A . finished 
+[23:23:09:09:210][715] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:09:210][716] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:09:210][717] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:09:210][718] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:09:210][719] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:09:334][720] ModeChanged. mode: A, Return Status: 4
+[23:23:09:09:334][721] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:09:334][722] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:09:334][723] Set_last_used_VFO_A . finished 
+[23:23:09:09:334][724] ModeChanged. FINISHED 
+[23:23:09:09:365][725] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:09:365][726] Set_band_normal . Finished . Band: 630
+[23:23:09:09:365][727] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:09:365][728] Set_last_used_VFO_A . finished 
+[23:23:09:09:397][729] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:09:459][730] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:09:459][731] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:09:459][732] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:09:520][733] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:09:520][734] Update_User_Controls_ini . Called.
+[23:23:09:09:520][735] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:09:520][736] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:09:520][737] Update_User_Controls_ini . Finished.
+[23:23:09:09:520][738] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:09:582][739] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:09:582][740] Update_User_Controls_ini . Called.
+[23:23:09:09:582][741] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:09:582][742] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:09:583][743] Update_User_Controls_ini . Finished.
+
+[23:23:09:09:583][744] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:09:09:583][745] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:09:09:583][746] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:09:09:583][747] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:09:583][748] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:09:09:629][749] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:09:629][750] Set_band_normal . Finished . Band: 630
+[23:23:09:09:629][751] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:09:629][752] Set_last_used_VFO_A . finished 
+[23:23:09:09:644][753] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:09:644][754] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:09:644][755] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:09:644][756] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:09:644][757] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:09:769][758] ModeChanged. mode: A, Return Status: 4
+[23:23:09:09:769][759] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:09:769][760] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:09:769][761] Set_last_used_VFO_A . finished 
+[23:23:09:09:769][762] ModeChanged. FINISHED 
+[23:23:09:09:815][763] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:09:815][764] Set_band_normal . Finished . Band: 630
+[23:23:09:09:815][765] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:09:815][766] Set_last_used_VFO_A . finished 
+[23:23:09:09:830][767] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:09:892][768] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:09:892][769] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:10:157][770] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 3
+
+[23:23:09:10:728][771] Command_Interface. CMD_SET_MAIN_FREQ: 478000
+[23:23:09:10:728][772] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 478000
+[23:23:09:10:728][773] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 478000
+[23:23:09:10:728][774] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:10:728][775] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 478000
+[23:23:09:10:772][776] Set_band_normal . Frequency: 478000, Offset: 12000 
+[23:23:09:10:772][777] Set_band_normal . Finished . Band: 630
+[23:23:09:10:772][778] Set_last_used_VFO_A called . Freq: 478000, Mode: A 
+[23:23:09:10:772][779] Set_last_used_VFO_A . finished 
+[23:23:09:10:788][780] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:10:788][781] Command_Interface. CMD_SET_MAIN_FREQ: 479000
+[23:23:09:10:788][782] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 479000
+[23:23:09:10:788][783] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 479000
+[23:23:09:10:788][784] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:10:788][785] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 479000
+[23:23:09:10:819][786] Set_band_normal . Frequency: 479000, Offset: 12000 
+[23:23:09:10:819][787] Set_band_normal . Finished . Band: 630
+[23:23:09:10:819][788] Set_last_used_VFO_A called . Freq: 479000, Mode: A 
+[23:23:09:10:819][789] Set_last_used_VFO_A . finished 
+[23:23:09:10:850][790] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:10:866][791] Command_Interface. CMD_SET_MAIN_FREQ: 480000
+[23:23:09:10:866][792] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 480000
+[23:23:09:10:866][793] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 480000
+[23:23:09:10:866][794] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:10:866][795] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 480000
+[23:23:09:10:911][796] Set_band_normal . Frequency: 480000, Offset: 12000 
+[23:23:09:10:911][797] Set_band_normal . Finished . Band: 630
+[23:23:09:10:911][798] Set_last_used_VFO_A called . Freq: 480000, Mode: A 
+[23:23:09:10:911][799] Set_last_used_VFO_A . finished 
+[23:23:09:10:927][800] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:10:927][801] Command_Interface. CMD_SET_MAIN_FREQ: 481000
+[23:23:09:10:927][802] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 481000
+[23:23:09:10:927][803] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 481000
+[23:23:09:10:927][804] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:10:927][805] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 481000
+[23:23:09:10:973][806] Set_band_normal . Frequency: 481000, Offset: 12000 
+[23:23:09:10:974][807] Set_band_normal . Finished . Band: 630
+[23:23:09:10:974][808] Set_last_used_VFO_A called . Freq: 481000, Mode: A 
+[23:23:09:10:974][809] Set_last_used_VFO_A . finished 
+[23:23:09:10:989][810] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:11:005][811] Command_Interface. CMD_SET_MAIN_FREQ: 482000
+[23:23:09:11:005][812] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 482000
+[23:23:09:11:005][813] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 482000
+[23:23:09:11:005][814] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:11:005][815] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 482000
+[23:23:09:11:035][816] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:09:11:035][817] Set_band_normal . Finished . Band: 630
+[23:23:09:11:035][818] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:09:11:035][819] Set_last_used_VFO_A . finished 
+[23:23:09:11:067][820] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:11:571][821] Command_Interface. CMD_SET_MAIN_FREQ: 481000
+[23:23:09:11:571][822] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 481000
+[23:23:09:11:571][823] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 481000
+[23:23:09:11:571][824] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:11:571][825] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 481000
+[23:23:09:11:613][826] Set_band_normal . Frequency: 481000, Offset: 12000 
+[23:23:09:11:613][827] Set_band_normal . Finished . Band: 630
+[23:23:09:11:613][828] Set_last_used_VFO_A called . Freq: 481000, Mode: A 
+[23:23:09:11:613][829] Set_last_used_VFO_A . finished 
+[23:23:09:11:628][830] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:11:644][831] Command_Interface. CMD_SET_MAIN_FREQ: 480000
+[23:23:09:11:644][832] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 480000
+[23:23:09:11:644][833] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 480000
+[23:23:09:11:644][834] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:11:644][835] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 480000
+[23:23:09:11:691][836] Set_band_normal . Frequency: 480000, Offset: 12000 
+[23:23:09:11:691][837] Set_band_normal . Finished . Band: 630
+[23:23:09:11:691][838] Set_last_used_VFO_A called . Freq: 480000, Mode: A 
+[23:23:09:11:691][839] Set_last_used_VFO_A . finished 
+[23:23:09:11:705][840] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:11:784][841] Command_Interface. CMD_SET_MAIN_FREQ: 479000
+[23:23:09:11:784][842] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 479000
+[23:23:09:11:784][843] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 479000
+[23:23:09:11:785][844] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:11:785][845] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 479000
+[23:23:09:11:829][846] Set_band_normal . Frequency: 479000, Offset: 12000 
+[23:23:09:11:829][847] Set_band_normal . Finished . Band: 630
+[23:23:09:11:829][848] Set_last_used_VFO_A called . Freq: 479000, Mode: A 
+[23:23:09:11:829][849] Set_last_used_VFO_A . finished 
+[23:23:09:11:844][850] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:11:868][851] Command_Interface. CMD_SET_MAIN_FREQ: 478000
+[23:23:09:11:868][852] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 478000
+[23:23:09:11:868][853] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 478000
+[23:23:09:11:868][854] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:11:868][855] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 478000
+[23:23:09:11:890][856] Set_band_normal . Frequency: 478000, Offset: 12000 
+[23:23:09:11:890][857] Set_band_normal . Finished . Band: 630
+[23:23:09:11:890][858] Set_last_used_VFO_A called . Freq: 478000, Mode: A 
+[23:23:09:11:890][859] Set_last_used_VFO_A . finished 
+[23:23:09:11:921][860] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:09:12:139][861] Update_last_used_VFO_A . Previous Freq: 477000, G_tune_freq: 478000, Previous Mode A, G_mode A 
+[23:23:09:12:139][862] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:09:12:139][863] Update_last_used_VFO_A . Update . Band: 0, Freq: 481000, Mode: A 
+[23:23:09:12:139][864] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:09:12:139][865] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:09:12:139][866] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:09:12:139][867] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:09:12:139][868] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:09:12:139][869] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:09:12:139][870] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:09:12:139][871] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:09:12:139][872] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:09:12:139][873] Update_last_used_VFO_A . Update . Band: 10, Freq: 478000, Mode: A 
+[23:23:09:12:139][874] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:09:12:139][875] Update_last_used_VFO_A . Finished 
+[23:23:09:12:139][876] Update_last_used_VFO_A . Last_used File Closed
+[23:23:09:12:139][877] Update_Startup - Called. freq: 478000, mode: A
+[23:23:09:12:140][878] Update_Startup - Finished 
+
+[23:23:09:12:592][879] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:09:12:592][880] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:09:12:592][881] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:09:12:592][882] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:12:592][883] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:09:12:620][884] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:12:620][885] Set_band_normal . Finished . Band: 630
+[23:23:09:12:620][886] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:12:620][887] Set_last_used_VFO_A . finished 
+[23:23:09:12:650][888] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:12:731][889] Command_Interface. CMD_SET_MAIN_FREQ: 476000
+[23:23:09:12:731][890] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 476000
+[23:23:09:12:731][891] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 476000
+[23:23:09:12:731][892] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:12:732][893] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 476000
+[23:23:09:12:776][894] Set_band_normal . Frequency: 476000, Offset: 12000 
+[23:23:09:12:776][895] Set_band_normal . Finished . Band: 630
+[23:23:09:12:776][896] Set_last_used_VFO_A called . Freq: 476000, Mode: A 
+[23:23:09:12:776][897] Set_last_used_VFO_A . finished 
+[23:23:09:12:791][898] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:09:13:788][899] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 2
+[23:23:09:14:244][900] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 3
+
+[23:23:09:14:829][901] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:09:14:829][902] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:09:14:829][903] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:09:14:829][904] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:14:829][905] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:09:14:864][906] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:14:864][907] Set_band_normal . Finished . Band: 630
+[23:23:09:14:864][908] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:14:864][909] Set_last_used_VFO_A . finished 
+[23:23:09:14:880][910] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:14:896][911] Command_Interface. CMD_SET_MAIN_FREQ: 474000
+[23:23:09:14:896][912] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 474000
+[23:23:09:14:896][913] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 474000
+[23:23:09:14:896][914] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:14:896][915] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 474000
+[23:23:09:14:942][916] Set_band_normal . Frequency: 474000, Offset: 12000 
+[23:23:09:14:942][917] Set_band_normal . Finished . Band: 630
+[23:23:09:14:942][918] Set_last_used_VFO_A called . Freq: 474000, Mode: A 
+[23:23:09:14:942][919] Set_last_used_VFO_A . finished 
+[23:23:09:14:958][920] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:14:958][921] Command_Interface. CMD_SET_MAIN_FREQ: 473000
+[23:23:09:14:958][922] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 473000
+[23:23:09:14:958][923] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 473000
+[23:23:09:14:958][924] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:14:958][925] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 473000
+[23:23:09:15:005][926] Set_band_normal . Frequency: 473000, Offset: 12000 
+[23:23:09:15:005][927] Set_band_normal . Finished . Band: 630
+[23:23:09:15:005][928] Set_last_used_VFO_A called . Freq: 473000, Mode: A 
+[23:23:09:15:005][929] Set_last_used_VFO_A . finished 
+[23:23:09:15:021][930] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:09:15:144][931] Update_last_used_VFO_A . Previous Freq: 478000, G_tune_freq: 473000, Previous Mode A, G_mode A 
+[23:23:09:15:145][932] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:09:15:145][933] Update_last_used_VFO_A . Update . Band: 0, Freq: 481000, Mode: A 
+[23:23:09:15:145][934] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:09:15:145][935] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:09:15:145][936] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:09:15:145][937] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:09:15:145][938] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:09:15:145][939] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:09:15:145][940] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:09:15:145][941] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:09:15:145][942] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:09:15:145][943] Update_last_used_VFO_A . Update . Band: 10, Freq: 473000, Mode: A 
+[23:23:09:15:145][944] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:09:15:145][945] Update_last_used_VFO_A . Finished 
+[23:23:09:15:145][946] Update_last_used_VFO_A . Last_used File Closed
+[23:23:09:15:145][947] Update_Startup - Called. freq: 473000, mode: A
+[23:23:09:15:146][948] Update_Startup - Finished 
+
+[23:23:09:15:407][949] Command_Interface. CMD_SET_MAIN_FREQ: 472000
+[23:23:09:15:407][950] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 472000
+[23:23:09:15:407][951] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 472000
+[23:23:09:15:407][952] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:15:407][953] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 472000
+[23:23:09:15:438][954] Set_band_normal . Frequency: 472000, Offset: 12000 
+[23:23:09:15:438][955] Set_band_normal . Finished . Band: 630
+[23:23:09:15:438][956] Set_last_used_VFO_A called . Freq: 472000, Mode: A 
+[23:23:09:15:438][957] Set_last_used_VFO_A . finished 
+[23:23:09:15:470][958] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:15:470][959] Command_Interface. CMD_SET_MAIN_FREQ: 471000
+[23:23:09:15:470][960] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 471000
+[23:23:09:15:470][961] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 471000
+[23:23:09:15:470][962] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:15:470][963] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 471000
+[23:23:09:15:516][964] Set_band_normal . Frequency: 471000, Offset: 12000 
+[23:23:09:15:516][965] Set_band_normal . Finished . Band: 630
+[23:23:09:15:516][966] Set_last_used_VFO_A called . Freq: 471000, Mode: A 
+[23:23:09:15:516][967] Set_last_used_VFO_A . finished 
+[23:23:09:15:532][968] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:15:532][969] Command_Interface. CMD_SET_MAIN_FREQ: 470000
+[23:23:09:15:532][970] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 470000
+[23:23:09:15:532][971] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 470000
+[23:23:09:15:532][972] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:15:532][973] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 470000
+[23:23:09:15:579][974] Set_band_normal . Frequency: 470000, Offset: 12000 
+[23:23:09:15:579][975] Set_band_normal . Finished . Band: 630
+[23:23:09:15:579][976] Set_last_used_VFO_A called . Freq: 470000, Mode: A 
+[23:23:09:15:579][977] Set_last_used_VFO_A . finished 
+[23:23:09:15:595][978] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:15:610][979] Command_Interface. CMD_SET_MAIN_FREQ: 469000
+[23:23:09:15:610][980] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 469000
+[23:23:09:15:610][981] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 469000
+[23:23:09:15:610][982] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:15:610][983] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 469000
+[23:23:09:15:641][984] Set_band_normal . Frequency: 469000, Offset: 12000 
+[23:23:09:15:641][985] Set_band_normal . Finished . Band: 630
+[23:23:09:15:641][986] Set_last_used_VFO_A called . Freq: 469000, Mode: A 
+[23:23:09:15:641][987] Set_last_used_VFO_A . finished 
+[23:23:09:15:673][988] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:09:16:061][989] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 2
+[23:23:09:18:149][990] Update_last_used_VFO_A . Previous Freq: 473000, G_tune_freq: 469000, Previous Mode A, G_mode A 
+[23:23:09:18:149][991] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:09:18:149][992] Update_last_used_VFO_A . Update . Band: 0, Freq: 469000, Mode: A 
+[23:23:09:18:149][993] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:09:18:149][994] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:09:18:149][995] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:09:18:149][996] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:09:18:149][997] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:09:18:149][998] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:09:18:149][999] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:09:18:149][1000] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:09:18:149][1001] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:09:18:149][1002] Update_last_used_VFO_A . Update . Band: 10, Freq: 471000, Mode: A 
+[23:23:09:18:149][1003] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:09:18:149][1004] Update_last_used_VFO_A . Finished 
+[23:23:09:18:150][1005] Update_last_used_VFO_A . Last_used File Closed
+[23:23:09:18:150][1006] Update_Startup - Called. freq: 469000, mode: A
+[23:23:09:18:150][1007] Update_Startup - Finished 
+[23:23:09:23:310][1008] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 3
+
+[23:23:09:24:588][1009] Command_Interface. CMD_SET_MAIN_FREQ: 470000
+[23:23:09:24:588][1010] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 470000
+[23:23:09:24:588][1011] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 470000
+[23:23:09:24:588][1012] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:24:588][1013] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 470000
+[23:23:09:24:631][1014] Set_band_normal . Frequency: 470000, Offset: 12000 
+[23:23:09:24:631][1015] Set_band_normal . Finished . Band: 630
+[23:23:09:24:631][1016] Set_last_used_VFO_A called . Freq: 470000, Mode: A 
+[23:23:09:24:631][1017] Set_last_used_VFO_A . finished 
+[23:23:09:24:647][1018] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:24:699][1019] Command_Interface. CMD_SET_MAIN_FREQ: 471000
+[23:23:09:24:700][1020] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 471000
+[23:23:09:24:700][1021] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 471000
+[23:23:09:24:700][1022] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:24:700][1023] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 471000
+[23:23:09:24:724][1024] Set_band_normal . Frequency: 471000, Offset: 12000 
+[23:23:09:24:724][1025] Set_band_normal . Finished . Band: 630
+[23:23:09:24:724][1026] Set_last_used_VFO_A called . Freq: 471000, Mode: A 
+[23:23:09:24:724][1027] Set_last_used_VFO_A . finished 
+[23:23:09:24:755][1028] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:24:771][1029] Command_Interface. CMD_SET_MAIN_FREQ: 472000
+[23:23:09:24:771][1030] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 472000
+[23:23:09:24:771][1031] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 472000
+[23:23:09:24:771][1032] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:24:771][1033] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 472000
+[23:23:09:24:817][1034] Set_band_normal . Frequency: 472000, Offset: 12000 
+[23:23:09:24:817][1035] Set_band_normal . Finished . Band: 630
+[23:23:09:24:817][1036] Set_last_used_VFO_A called . Freq: 472000, Mode: A 
+[23:23:09:24:817][1037] Set_last_used_VFO_A . finished 
+[23:23:09:24:833][1038] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:24:833][1039] Command_Interface. CMD_SET_MAIN_FREQ: 473000
+[23:23:09:24:833][1040] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 473000
+[23:23:09:24:833][1041] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 473000
+[23:23:09:24:833][1042] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:24:833][1043] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 473000
+[23:23:09:24:879][1044] Set_band_normal . Frequency: 473000, Offset: 12000 
+[23:23:09:24:879][1045] Set_band_normal . Finished . Band: 630
+[23:23:09:24:879][1046] Set_last_used_VFO_A called . Freq: 473000, Mode: A 
+[23:23:09:24:879][1047] Set_last_used_VFO_A . finished 
+[23:23:09:24:894][1048] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:24:894][1049] Command_Interface. CMD_SET_MAIN_FREQ: 474000
+[23:23:09:24:894][1050] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 474000
+[23:23:09:24:894][1051] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 474000
+[23:23:09:24:894][1052] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:24:894][1053] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 474000
+[23:23:09:24:941][1054] Set_band_normal . Frequency: 474000, Offset: 12000 
+[23:23:09:24:941][1055] Set_band_normal . Finished . Band: 630
+[23:23:09:24:941][1056] Set_last_used_VFO_A called . Freq: 474000, Mode: A 
+[23:23:09:24:941][1057] Set_last_used_VFO_A . finished 
+[23:23:09:24:957][1058] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:24:973][1059] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:09:24:973][1060] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:09:24:973][1061] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:09:24:973][1062] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:24:973][1063] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:09:25:018][1064] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:25:018][1065] Set_band_normal . Finished . Band: 630
+[23:23:09:25:018][1066] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:25:018][1067] Set_last_used_VFO_A . finished 
+[23:23:09:25:034][1068] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:09:25:601][1069] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 2
+[23:23:09:26:663][1070] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:26:727][1071] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:26:727][1072] Update_User_Controls_ini . Called.
+[23:23:09:26:727][1073] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:26:727][1074] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:26:727][1075] Update_User_Controls_ini . Finished.
+[23:23:09:26:727][1076] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:26:789][1077] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:26:789][1078] Update_User_Controls_ini . Called.
+[23:23:09:26:789][1079] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:26:789][1080] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:26:789][1081] Update_User_Controls_ini . Finished.
+
+[23:23:09:26:790][1082] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:09:26:790][1083] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:09:26:790][1084] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:09:26:790][1085] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:26:790][1086] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:09:26:836][1087] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:26:836][1088] Set_band_normal . Finished . Band: 630
+[23:23:09:26:836][1089] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:26:836][1090] Set_last_used_VFO_A . finished 
+[23:23:09:26:852][1091] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:26:853][1092] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:26:853][1093] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:26:853][1094] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:26:853][1095] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:26:974][1096] ModeChanged. mode: A, Return Status: 4
+[23:23:09:26:974][1097] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:26:974][1098] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:26:974][1099] Set_last_used_VFO_A . finished 
+[23:23:09:26:974][1100] ModeChanged. FINISHED 
+[23:23:09:27:020][1101] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:27:020][1102] Set_band_normal . Finished . Band: 630
+[23:23:09:27:020][1103] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:27:020][1104] Set_last_used_VFO_A . finished 
+[23:23:09:27:036][1105] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:27:098][1106] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:27:099][1107] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:27:099][1108] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:27:160][1109] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:27:160][1110] Update_User_Controls_ini . Called.
+[23:23:09:27:160][1111] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:27:161][1112] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:27:161][1113] Update_User_Controls_ini . Update Failed . File Open FAILED
+[23:23:09:27:161][1114] Update_User_Controls_ini . Finished.
+[23:23:09:27:161][1115] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+[23:23:09:27:191][1116] Update_last_used_VFO_A . Previous Freq: 469000, G_tune_freq: 475000, Previous Mode A, G_mode A 
+[23:23:09:27:191][1117] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:09:27:192][1118] Update_last_used_VFO_A . Update . Band: 0, Freq: 470000, Mode: A 
+[23:23:09:27:192][1119] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:09:27:192][1120] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:09:27:192][1121] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:09:27:192][1122] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:09:27:192][1123] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:09:27:192][1124] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:09:27:192][1125] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:09:27:192][1126] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:09:27:192][1127] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:09:27:192][1128] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: A 
+[23:23:09:27:192][1129] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:09:27:192][1130] Update_last_used_VFO_A . Finished 
+[23:23:09:27:192][1131] Update_last_used_VFO_A . Last_used File Closed
+[23:23:09:27:192][1132] Update_Startup - Called. freq: 475000, mode: A
+[23:23:09:27:192][1133] Update_Startup - Finished 
+
+[23:23:09:27:221][1134] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:27:221][1135] Update_User_Controls_ini . Called.
+[23:23:09:27:222][1136] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:27:222][1137] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:27:222][1138] Update_User_Controls_ini . Finished.
+
+[23:23:09:27:222][1139] Command_Interface. CMD_SET_MAIN_FREQ: 477000
+[23:23:09:27:222][1140] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 477000
+[23:23:09:27:222][1141] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 477000
+[23:23:09:27:222][1142] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:27:222][1143] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 477000
+[23:23:09:27:269][1144] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:27:269][1145] Set_band_normal . Finished . Band: 630
+[23:23:09:27:269][1146] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:27:269][1147] Set_last_used_VFO_A . finished 
+[23:23:09:27:284][1148] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:27:285][1149] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:27:285][1150] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:27:285][1151] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:27:285][1152] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:27:410][1153] ModeChanged. mode: A, Return Status: 4
+[23:23:09:27:410][1154] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:27:410][1155] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:27:410][1156] Set_last_used_VFO_A . finished 
+[23:23:09:27:410][1157] ModeChanged. FINISHED 
+[23:23:09:27:456][1158] Set_band_normal . Frequency: 477000, Offset: 12000 
+[23:23:09:27:456][1159] Set_band_normal . Finished . Band: 630
+[23:23:09:27:456][1160] Set_last_used_VFO_A called . Freq: 477000, Mode: A 
+[23:23:09:27:456][1161] Set_last_used_VFO_A . finished 
+[23:23:09:27:472][1162] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:27:534][1163] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:27:534][1164] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:27:880][1165] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 3
+
+[23:23:09:28:720][1166] Command_Interface. CMD_SET_MAIN_FREQ: 478000
+[23:23:09:28:720][1167] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 478000
+[23:23:09:28:720][1168] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 478000
+[23:23:09:28:720][1169] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:28:720][1170] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 478000
+[23:23:09:28:765][1171] Set_band_normal . Frequency: 478000, Offset: 12000 
+[23:23:09:28:765][1172] Set_band_normal . Finished . Band: 630
+[23:23:09:28:765][1173] Set_last_used_VFO_A called . Freq: 478000, Mode: A 
+[23:23:09:28:765][1174] Set_last_used_VFO_A . finished 
+[23:23:09:28:780][1175] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:28:780][1176] Command_Interface. CMD_SET_MAIN_FREQ: 479000
+[23:23:09:28:780][1177] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 479000
+[23:23:09:28:780][1178] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 479000
+[23:23:09:28:780][1179] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:28:780][1180] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 479000
+[23:23:09:28:827][1181] Set_band_normal . Frequency: 479000, Offset: 12000 
+[23:23:09:28:828][1182] Set_band_normal . Finished . Band: 630
+[23:23:09:28:828][1183] Set_last_used_VFO_A called . Freq: 479000, Mode: A 
+[23:23:09:28:828][1184] Set_last_used_VFO_A . finished 
+[23:23:09:28:843][1185] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:28:858][1186] Command_Interface. CMD_SET_MAIN_FREQ: 480000
+[23:23:09:28:858][1187] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 480000
+[23:23:09:28:858][1188] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 480000
+[23:23:09:28:858][1189] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:28:858][1190] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 480000
+[23:23:09:28:889][1191] Set_band_normal . Frequency: 480000, Offset: 12000 
+[23:23:09:28:889][1192] Set_band_normal . Finished . Band: 630
+[23:23:09:28:889][1193] Set_last_used_VFO_A called . Freq: 480000, Mode: A 
+[23:23:09:28:889][1194] Set_last_used_VFO_A . finished 
+[23:23:09:28:920][1195] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:28:936][1196] Command_Interface. CMD_SET_MAIN_FREQ: 481000
+[23:23:09:28:936][1197] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 481000
+[23:23:09:28:936][1198] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 481000
+[23:23:09:28:936][1199] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:28:936][1200] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 481000
+[23:23:09:28:981][1201] Set_band_normal . Frequency: 481000, Offset: 12000 
+[23:23:09:28:981][1202] Set_band_normal . Finished . Band: 630
+[23:23:09:28:981][1203] Set_last_used_VFO_A called . Freq: 481000, Mode: A 
+[23:23:09:28:981][1204] Set_last_used_VFO_A . finished 
+[23:23:09:28:997][1205] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:28:997][1206] Command_Interface. CMD_SET_MAIN_FREQ: 482000
+[23:23:09:28:997][1207] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 482000
+[23:23:09:28:997][1208] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 482000
+[23:23:09:28:997][1209] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:28:997][1210] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 482000
+[23:23:09:29:044][1211] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:09:29:044][1212] Set_band_normal . Finished . Band: 630
+[23:23:09:29:044][1213] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:09:29:044][1214] Set_last_used_VFO_A . finished 
+[23:23:09:29:059][1215] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:09:30:199][1216] Update_last_used_VFO_A . Previous Freq: 475000, G_tune_freq: 482000, Previous Mode A, G_mode A 
+[23:23:09:30:199][1217] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:09:30:199][1218] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:09:30:199][1219] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:09:30:199][1220] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:09:30:199][1221] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:09:30:199][1222] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:09:30:199][1223] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:09:30:199][1224] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:09:30:199][1225] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:09:30:199][1226] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:09:30:199][1227] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:09:30:199][1228] Update_last_used_VFO_A . Update . Band: 10, Freq: 480000, Mode: A 
+[23:23:09:30:199][1229] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:09:30:199][1230] Update_last_used_VFO_A . Finished 
+[23:23:09:30:199][1231] Update_last_used_VFO_A . Last_used File Closed
+[23:23:09:30:199][1232] Update_Startup - Called. freq: 482000, mode: A
+[23:23:09:30:200][1233] Update_Startup - Finished 
+[23:23:09:31:494][1234] Extended_command . CMD_MFC_SET_ZERO Opcode: 14, Data: 2
+[23:23:09:33:819][1235] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:33:881][1236] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:33:881][1237] Update_User_Controls_ini . Called.
+[23:23:09:33:881][1238] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:33:881][1239] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:33:882][1240] Update_User_Controls_ini . Finished.
+[23:23:09:33:882][1241] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:33:943][1242] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:33:943][1243] Update_User_Controls_ini . Called.
+[23:23:09:33:943][1244] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:33:943][1245] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:33:944][1246] Update_User_Controls_ini . Finished.
+
+[23:23:09:33:944][1247] Command_Interface. CMD_SET_MAIN_FREQ: 482000
+[23:23:09:33:944][1248] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 482000
+[23:23:09:33:944][1249] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 482000
+[23:23:09:33:944][1250] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:33:944][1251] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 482000
+[23:23:09:33:975][1252] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:09:33:975][1253] Set_band_normal . Finished . Band: 630
+[23:23:09:33:975][1254] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:09:33:975][1255] Set_last_used_VFO_A . finished 
+[23:23:09:34:005][1256] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:34:006][1257] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:34:006][1258] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:34:006][1259] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:34:006][1260] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:34:131][1261] ModeChanged. mode: A, Return Status: 4
+[23:23:09:34:131][1262] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:34:131][1263] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:09:34:131][1264] Set_last_used_VFO_A . finished 
+[23:23:09:34:131][1265] ModeChanged. FINISHED 
+[23:23:09:34:176][1266] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:09:34:176][1267] Set_band_normal . Finished . Band: 630
+[23:23:09:34:176][1268] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:09:34:176][1269] Set_last_used_VFO_A . finished 
+[23:23:09:34:192][1270] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:34:255][1271] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:34:255][1272] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:34:255][1273] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:34:317][1274] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:34:317][1275] Update_User_Controls_ini . Called.
+[23:23:09:34:317][1276] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:34:317][1277] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:34:318][1278] Update_User_Controls_ini . Finished.
+[23:23:09:34:318][1279] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:34:378][1280] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:34:378][1281] Update_User_Controls_ini . Called.
+[23:23:09:34:378][1282] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:34:378][1283] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:34:379][1284] Update_User_Controls_ini . Finished.
+
+[23:23:09:34:379][1285] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:09:34:379][1286] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:09:34:379][1287] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:09:34:379][1288] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:34:379][1289] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:09:34:425][1290] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:34:425][1291] Set_band_normal . Finished . Band: 630
+[23:23:09:34:425][1292] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:34:425][1293] Set_last_used_VFO_A . finished 
+[23:23:09:34:440][1294] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:34:440][1295] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:34:440][1296] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:34:440][1297] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:34:440][1298] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:34:564][1299] ModeChanged. mode: A, Return Status: 4
+[23:23:09:34:564][1300] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:34:564][1301] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:34:564][1302] Set_last_used_VFO_A . finished 
+[23:23:09:34:564][1303] ModeChanged. FINISHED 
+[23:23:09:34:611][1304] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:34:611][1305] Set_band_normal . Finished . Band: 630
+[23:23:09:34:611][1306] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:34:611][1307] Set_last_used_VFO_A . finished 
+[23:23:09:34:626][1308] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:34:688][1309] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:34:688][1310] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:35:366][1311] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:35:422][1312] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:35:422][1313] Update_User_Controls_ini . Called.
+[23:23:09:35:422][1314] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:35:422][1315] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:35:422][1316] Update_User_Controls_ini . Finished.
+[23:23:09:35:422][1317] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:35:484][1318] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:35:484][1319] Update_User_Controls_ini . Called.
+[23:23:09:35:484][1320] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:35:484][1321] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:35:485][1322] Update_User_Controls_ini . Finished.
+
+[23:23:09:35:485][1323] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:09:35:485][1324] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:09:35:485][1325] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:09:35:485][1326] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:35:485][1327] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:09:35:532][1328] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:35:532][1329] Set_band_normal . Finished . Band: 630
+[23:23:09:35:532][1330] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:35:532][1331] Set_last_used_VFO_A . finished 
+[23:23:09:35:548][1332] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:35:548][1333] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:09:35:548][1334] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:09:35:548][1335] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:09:35:548][1336] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:35:671][1337] ModeChanged. mode: A, Return Status: 4
+[23:23:09:35:671][1338] ModeChanged. Calling set_last_used for mode A 
+[23:23:09:35:671][1339] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:35:671][1340] Set_last_used_VFO_A . finished 
+[23:23:09:35:671][1341] ModeChanged. FINISHED 
+[23:23:09:35:718][1342] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:09:35:718][1343] Set_band_normal . Finished . Band: 630
+[23:23:09:35:718][1344] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:09:35:718][1345] Set_last_used_VFO_A . finished 
+[23:23:09:35:734][1346] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:09:35:796][1347] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:09:35:796][1348] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:09:35:796][1349] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:09:35:858][1350] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:09:35:858][1351] Update_User_Controls_ini . Called.
+[23:23:09:35:858][1352] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:35:858][1353] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:35:859][1354] Update_User_Controls_ini . Finished.
+[23:23:09:35:859][1355] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:09:35:921][1356] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:09:35:921][1357] Update_User_Controls_ini . Called.
+[23:23:09:35:921][1358] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:35:921][1359] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:35:922][1360] Update_User_Controls_ini . Finished.
+
+[23:23:09:35:922][1361] Command_Interface. CMD_SET_MAIN_FREQ: 136000
+[23:23:09:35:922][1362] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 136000
+[23:23:09:35:922][1363] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 136000
+[23:23:09:35:922][1364] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:09:35:922][1365] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 136000
+[23:23:09:35:936][1366] SetHWLO_queue. CMD_SET_SPEAKER_MUTE. mute_active: 1, delta_freq 339000
+[23:23:09:35:967][1367] SetHWLO_queue . CMD_SET_SPEAKER_MUTE . mute_active: 0, Delta Freq 339000
+[23:23:09:35:967][1368] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:35:967][1369] Set_band_normal . Finished . Band: 2200
+[23:23:09:35:967][1370] Set_last_used_VFO_A called . Freq: 136000, Mode: A 
+[23:23:09:35:967][1371] Set_last_used_VFO_A . finished 
+[23:23:09:35:983][1372] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:09:35:983][1373] Command_Interface. CMD_SET_MAIN_MODE: 2
+[23:23:09:35:983][1374] ModeChanged. mode: U,G_calibrating: 0. STARTED
+[23:23:09:35:983][1375] cw_send_parameters called. Opcode: 0x70, Value: 85, Size: 4
+[23:23:09:35:983][1376] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:36:106][1377] ModeChanged. mode: U, Return Status: 4
+[23:23:09:36:106][1378] ModeChanged. Calling set_last_used for mode U 
+[23:23:09:36:106][1379] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:36:106][1380] Set_last_used_VFO_A . finished 
+[23:23:09:36:106][1381] ModeChanged. FINISHED 
+[23:23:09:36:137][1382] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:36:137][1383] Set_band_normal . Finished . Band: 2200
+[23:23:09:36:137][1384] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:36:137][1385] Set_last_used_VFO_A . finished 
+[23:23:09:36:168][1386] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 85
+[23:23:09:36:216][1387] Update_last_used_VFO_A . Previous Freq: 482000, G_tune_freq: 136000, Previous Mode A, G_mode U 
+[23:23:09:36:216][1388] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:09:36:216][1389] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:09:36:216][1390] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:09:36:216][1391] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:09:36:217][1392] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:09:36:217][1393] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:09:36:217][1394] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:09:36:217][1395] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:09:36:217][1396] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:09:36:217][1397] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:09:36:217][1398] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:09:36:217][1399] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: A 
+[23:23:09:36:217][1400] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:09:36:217][1401] Update_last_used_VFO_A . Finished 
+[23:23:09:36:217][1402] Update_last_used_VFO_A . Last_used File Closed
+[23:23:09:36:217][1403] Update_Startup - Called. freq: 136000, mode: U
+[23:23:09:36:217][1404] Update_Startup - Finished 
+[23:23:09:36:232][1405] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: U
+[23:23:09:36:232][1406] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+
+[23:23:09:42:651][1407] SetModeRxTx Called . transmit 1 
+[23:23:09:42:655][1408] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:09:42:655][1409] Set_PTT. FINISHED. on_off: 1, ptt_switch_inhibited: 1, G_PTT_Switch_Allow: 0
+[23:23:09:42:655][1410] CMD_SET_TX_ON. Set_PTT CALLED. t_opcode_data: 1 FINISHED
+[23:23:09:42:678][1411] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:42:678][1412] Set_band_normal . Finished . Band: 2200
+[23:23:09:42:678][1413] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:42:678][1414] Set_last_used_VFO_A . finished 
+
+[23:23:09:45:084][1415] SetModeRxTx Called . transmit 0 
+[23:23:09:45:086][1416] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:09:45:086][1417] Set_PTT. FINISHED. on_off: 0, ptt_switch_inhibited: 0, G_PTT_Switch_Allow: 1
+[23:23:09:45:086][1418] CMD_SET_TX_ON. Set_PTT CALLED. t_opcode_data: 0 FINISHED
+[23:23:09:45:107][1419] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:45:107][1420] Set_band_normal . Finished . Band: 2200
+[23:23:09:45:107][1421] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:45:107][1422] Set_last_used_VFO_A . finished 
+
+[23:23:09:46:041][1423] CMD_SET_TUNE_POWER . TUNE POWER: 100 
+[23:23:09:46:041][1424] CMD_SET_TUNE_POWER . Calling SDRcore_trans_send_param with param 100 
+[23:23:09:46:041][1425] CMD_SET_TUNE_POWER . Finished 
+
+[23:23:09:46:041][1426] Process_User_Controls . CMD_SET_SPEAKER_MUTE . MUTE: 1 
+[23:23:09:46:041][1427] Process_User_Controls . CMD_SET_SPEAKER_MUTE . Finished 
+[23:23:09:46:041][1428] Update_User_Controls_ini . Called.
+[23:23:09:46:041][1429] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:46:041][1430] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:46:041][1431] Update_User_Controls_ini . Finished.
+
+[23:23:09:46:041][1432] Command_Interface. CMD_SET_MAIN_MODE: 4
+[23:23:09:46:041][1433] ModeChanged. mode: T,G_calibrating: 0. STARTED
+[23:23:09:46:041][1434] cw_send_parameters called. Opcode: 0x70, Value: 84, Size: 4
+[23:23:09:46:041][1435] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:46:165][1436] ModeChanged. mode: T, Return Status: 4
+[23:23:09:46:165][1437] ModeChanged. Calling set_last_used for mode T 
+[23:23:09:46:165][1438] Set_last_used_VFO_A called . Freq: 136000, Mode: T 
+[23:23:09:46:165][1439] Set_last_used_VFO_A . Invalid mode: T 
+[23:23:09:46:165][1440] Set_last_used_VFO_A . finished 
+[23:23:09:46:165][1441] ModeChanged. FINISHED 
+[23:23:09:46:212][1442] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:46:212][1443] Set_band_normal . Finished . Band: 2200
+[23:23:09:46:212][1444] Set_last_used_VFO_A called . Freq: 136000, Mode: T 
+[23:23:09:46:212][1445] Set_last_used_VFO_A . Invalid mode: T 
+[23:23:09:46:212][1446] Set_last_used_VFO_A . finished 
+[23:23:09:46:227][1447] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 84
+[23:23:09:46:288][1448] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: T
+[23:23:09:46:288][1449] Tune_button called . on_off: 1, previous_mode:  ,G_mode: T
+
+[23:23:09:46:288][1450] SetModeRxTx Called . transmit 1 
+[23:23:09:46:296][1451] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:09:46:296][1452] Spectrum_Waterfall_send_param. op_code: 0xBA, op_data: 1
+[23:23:09:46:320][1453] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:46:320][1454] Set_band_normal . Finished . Band: 2200
+[23:23:09:46:320][1455] Set_last_used_VFO_A called . Freq: 136000, Mode: T 
+[23:23:09:46:320][1456] Set_last_used_VFO_A . Invalid mode: T 
+[23:23:09:46:320][1457] Set_last_used_VFO_A . finished 
+[23:23:09:46:351][1458] Tune_button . Finished. Status: 1
+
+[23:23:09:47:988][1459] Process_User_Controls . CMD_SET_SPEAKER_MUTE . MUTE: 0 
+[23:23:09:47:988][1460] Process_User_Controls . CMD_SET_SPEAKER_MUTE . Finished 
+[23:23:09:47:988][1461] Update_User_Controls_ini . Called.
+[23:23:09:47:988][1462] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:09:47:988][1463] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:09:47:988][1464] Update_User_Controls_ini . Finished.
+[23:23:09:47:988][1465] Tune_button called . on_off: 0, previous_mode:  ,G_mode: T
+
+[23:23:09:47:988][1466] SetModeRxTx Called . transmit 0 
+[23:23:09:47:990][1467] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:09:47:990][1468] Spectrum_Waterfall_send_param. op_code: 0xBA, op_data: 0
+[23:23:09:48:012][1469] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:48:012][1470] Set_band_normal . Finished . Band: 2200
+[23:23:09:48:012][1471] Set_last_used_VFO_A called . Freq: 136000, Mode: T 
+[23:23:09:48:012][1472] Set_last_used_VFO_A . Invalid mode: T 
+[23:23:09:48:012][1473] Set_last_used_VFO_A . finished 
+[23:23:09:48:044][1474] Tune_button . Finished. Status: 0
+
+[23:23:09:48:044][1475] Command_Interface. CMD_SET_MAIN_MODE: 2
+[23:23:09:48:044][1476] ModeChanged. mode: U,G_calibrating: 0. STARTED
+[23:23:09:48:044][1477] cw_send_parameters called. Opcode: 0x70, Value: 85, Size: 4
+[23:23:09:48:044][1478] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:09:48:168][1479] ModeChanged. mode: U, Return Status: 4
+[23:23:09:48:168][1480] ModeChanged. Calling set_last_used for mode U 
+[23:23:09:48:168][1481] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:48:168][1482] Set_last_used_VFO_A . finished 
+[23:23:09:48:168][1483] ModeChanged. FINISHED 
+[23:23:09:48:199][1484] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:48:199][1485] Set_band_normal . Finished . Band: 2200
+[23:23:09:48:199][1486] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:48:199][1487] Set_last_used_VFO_A . finished 
+[23:23:09:48:231][1488] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 85
+[23:23:09:48:293][1489] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: U
+
+[23:23:09:49:612][1490] SetModeRxTx Called . transmit 1 
+[23:23:09:49:614][1491] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:09:49:614][1492] Set_PTT. FINISHED. on_off: 1, ptt_switch_inhibited: 1, G_PTT_Switch_Allow: 0
+[23:23:09:49:614][1493] CMD_SET_TX_ON. Set_PTT CALLED. t_opcode_data: 1 FINISHED
+[23:23:09:49:629][1494] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:49:629][1495] Set_band_normal . Finished . Band: 2200
+[23:23:09:49:629][1496] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:49:629][1497] Set_last_used_VFO_A . finished 
+
+[23:23:09:50:788][1498] SetModeRxTx Called . transmit 0 
+[23:23:09:50:793][1499] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:09:50:793][1500] Set_PTT. FINISHED. on_off: 0, ptt_switch_inhibited: 0, G_PTT_Switch_Allow: 1
+[23:23:09:50:793][1501] CMD_SET_TX_ON. Set_PTT CALLED. t_opcode_data: 0 FINISHED
+[23:23:09:50:817][1502] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:09:50:817][1503] Set_band_normal . Finished . Band: 2200
+[23:23:09:50:817][1504] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:09:50:817][1505] Set_last_used_VFO_A . finished 
+
+[23:23:12:04:671][1506] Command_Interface. CMD_SET_MAIN_MODE: 3
+[23:23:12:04:671][1507] ModeChanged. mode: C,G_calibrating: 0. STARTED
+[23:23:12:04:671][1508] cw_send_parameters called. Opcode: 0x70, Value: 67, Size: 4
+[23:23:12:04:671][1509] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:04:798][1510] ModeChanged. mode: C, Return Status: 4
+[23:23:12:04:798][1511] ModeChanged. Calling set_last_used for mode C 
+[23:23:12:04:798][1512] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:04:798][1513] Set_last_used_VFO_A . finished 
+[23:23:12:04:798][1514] ModeChanged. FINISHED 
+[23:23:12:04:814][1515] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:04:845][1516] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:04:845][1517] Set_band_normal . Finished . Band: 2200
+[23:23:12:04:845][1518] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:04:845][1519] Set_last_used_VFO_A . finished 
+[23:23:12:04:859][1520] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 67
+[23:23:12:04:922][1521] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: C
+[23:23:12:06:592][1522] Update_last_used_VFO_A . Previous Freq: 136000, G_tune_freq: 136000, Previous Mode U, G_mode C 
+[23:23:12:06:592][1523] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:06:592][1524] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:06:592][1525] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:06:592][1526] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:06:592][1527] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:06:592][1528] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:06:592][1529] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:06:592][1530] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:06:592][1531] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:06:592][1532] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:06:592][1533] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:06:592][1534] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: A 
+[23:23:12:06:592][1535] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: C 
+[23:23:12:06:592][1536] Update_last_used_VFO_A . Finished 
+[23:23:12:06:592][1537] Update_last_used_VFO_A . Last_used File Closed
+
+[23:23:12:07:788][1538] CMD_SET_TUNE_POWER . TUNE POWER: 100 
+[23:23:12:07:788][1539] CMD_SET_TUNE_POWER . Calling SDRcore_trans_send_param with param 100 
+[23:23:12:07:788][1540] CMD_SET_TUNE_POWER . Finished 
+
+[23:23:12:07:788][1541] Process_User_Controls . Command_Interface . CMD_SET_CW_BW: 2 
+[23:23:12:07:788][1542] Update_User_Controls_ini . Called.
+[23:23:12:07:788][1543] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:07:788][1544] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:07:789][1545] Update_User_Controls_ini . Finished.
+
+[23:23:12:07:789][1546] Process_User_Controls. CMD_SET_CW_PITCH
+[23:23:12:07:789][1547] cw_send_parameters called. Opcode: 0x90, Value: 1, Size: 4
+[23:23:12:07:789][1548] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:07:852][1549] cw_send_parameters called. Opcode: 0x7F, Value: 1, Size: 4
+[23:23:12:07:852][1550] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:07:932][1551] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:07:932][1552] Spectrum_Waterfall_send_param. op_code: 0xD2, op_data: 1
+[23:23:12:07:963][1553] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:07:963][1554] Set_band_normal . Finished . Band: 2200
+[23:23:12:07:963][1555] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:07:963][1556] Set_last_used_VFO_A . finished 
+[23:23:12:07:995][1557] Process_User_Controls. CMD_SET_CW_PITCH. G_cw_pitch: -600, Index: 1
+[23:23:12:07:995][1558] Process_User_Controls. CMD_SET_CW_PITCH FINISHED
+[23:23:12:07:995][1559] Update_User_Controls_ini . Called.
+[23:23:12:07:995][1560] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:07:995][1561] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:07:995][1562] Update_User_Controls_ini . Finished.
+
+[23:23:12:07:995][1563] CMD_SET_TUNE_POWER . TUNE POWER: 100 
+[23:23:12:07:995][1564] CMD_SET_TUNE_POWER . Calling SDRcore_trans_send_param with param 100 
+[23:23:12:07:996][1565] CMD_SET_TUNE_POWER . Finished 
+[23:23:12:07:996][1566] Extended_command . CMD_SET_IQBD_MONITOR Opcode: 9, Data: 0
+[23:23:12:07:996][1567] Command_Interface . CMD_SET_CONFIGURATION_COMMAND. t_opcode_data: 3
+[23:23:12:07:996][1568] Manage_Configuration_Command . KEYBOARD_STOP . ret: 0, error: test
+
+[23:23:12:07:996][1569] Process_Frequency_Calibration. CMD_SET_CAL_LOOSE. opcode_data_8_bit: 1. FINISHED
+
+[23:23:12:07:996][1570] CMD_SET_TUNE_POWER . TUNE POWER: 100 
+[23:23:12:07:996][1571] CMD_SET_TUNE_POWER . Calling SDRcore_trans_send_param with param 100 
+[23:23:12:07:996][1572] CMD_SET_TUNE_POWER . Finished 
+
+[23:23:12:07:996][1573] Process_User_Controls . CMD_SET_SPEAKER_MUTE . MUTE: 1 
+[23:23:12:07:996][1574] Process_User_Controls . CMD_SET_SPEAKER_MUTE . Finished 
+[23:23:12:07:996][1575] Update_User_Controls_ini . Called.
+[23:23:12:07:996][1576] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:07:996][1577] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:07:996][1578] Update_User_Controls_ini . Finished.
+
+[23:23:12:07:996][1579] Process_User_Controls . CMD_SET_PA_BYPASS . VALUE: 0 
+[23:23:12:07:996][1580] cw_send_parameters called. Opcode: 0xF7, Value: 0, Size: 4
+[23:23:12:07:996][1581] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:08:167][1582] Update_User_Controls_ini . Called.
+[23:23:12:08:167][1583] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:08:167][1584] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:08:167][1585] Update_User_Controls_ini . Finished.
+
+[23:23:12:12:373][1586] Process_User_Controls . CMD_SET_SPEAKER_MUTE . MUTE: 0 
+[23:23:12:12:373][1587] Process_User_Controls . CMD_SET_SPEAKER_MUTE . Finished 
+[23:23:12:12:373][1588] Update_User_Controls_ini . Called.
+[23:23:12:12:373][1589] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:12:373][1590] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:12:373][1591] Update_User_Controls_ini . Finished.
+
+[23:23:12:12:882][1592] Process_User_Controls . CMD_SET_SPEAKER_MUTE . MUTE: 0 
+[23:23:12:12:883][1593] Process_User_Controls . CMD_SET_SPEAKER_MUTE . Finished 
+[23:23:12:12:883][1594] Update_User_Controls_ini . Called.
+[23:23:12:12:883][1595] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:12:883][1596] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:12:884][1597] Update_User_Controls_ini . Finished.
+
+[23:23:12:12:884][1598] CMD_CALIBRATION_MASTER_RESET . Called . Initializing all variables 
+
+[23:23:12:20:588][1599] Command_Interface. CMD_SET_MAIN_FREQ: 136000
+[23:23:12:20:588][1600] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 136000
+[23:23:12:20:588][1601] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 136000
+[23:23:12:20:588][1602] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 2200
+[23:23:12:20:588][1603] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 136000
+[23:23:12:20:604][1604] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:20:635][1605] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:20:635][1606] Set_band_normal . Finished . Band: 2200
+[23:23:12:20:635][1607] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:20:635][1608] Set_last_used_VFO_A . finished 
+[23:23:12:20:651][1609] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:21:543][1610] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:12:21:543][1611] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:12:21:543][1612] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:12:21:543][1613] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 2200
+[23:23:12:21:543][1614] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:12:21:552][1615] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 475000, offset_lo: 462400.000000, G_CW_Offset: -600  
+[23:23:12:21:552][1616] SetHWLO_queue. CMD_SET_SPEAKER_MUTE. mute_active: 1, delta_freq 339000
+[23:23:12:21:584][1617] SetHWLO_queue . CMD_SET_SPEAKER_MUTE . mute_active: 0, Delta Freq 339000
+[23:23:12:21:584][1618] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:12:21:584][1619] Set_band_normal . Finished . Band: 630
+[23:23:12:21:584][1620] Set_last_used_VFO_A called . Freq: 475000, Mode: C 
+[23:23:12:21:584][1621] Set_last_used_VFO_A . finished 
+[23:23:12:21:599][1622] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:12:21:645][1623] Update_last_used_VFO_A . Previous Freq: 136000, G_tune_freq: 475000, Previous Mode C, G_mode C 
+[23:23:12:21:645][1624] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:21:645][1625] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:21:645][1626] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:21:645][1627] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:21:645][1628] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:21:645][1629] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:21:645][1630] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:21:645][1631] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:21:645][1632] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:21:645][1633] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:21:646][1634] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:21:646][1635] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: C 
+[23:23:12:21:646][1636] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: C 
+[23:23:12:21:646][1637] Update_last_used_VFO_A . Finished 
+[23:23:12:21:646][1638] Update_last_used_VFO_A . Last_used File Closed
+[23:23:12:21:646][1639] Update_Startup - Called. freq: 475000, mode: C
+[23:23:12:21:646][1640] Update_Startup - Finished 
+
+[23:23:12:22:707][1641] Command_Interface. CMD_SET_MAIN_FREQ: 136000
+[23:23:12:22:707][1642] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 136000
+[23:23:12:22:707][1643] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 136000
+[23:23:12:22:707][1644] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:12:22:707][1645] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 136000
+[23:23:12:22:707][1646] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:22:707][1647] SetHWLO_queue. CMD_SET_SPEAKER_MUTE. mute_active: 1, delta_freq 339000
+[23:23:12:22:738][1648] SetHWLO_queue . CMD_SET_SPEAKER_MUTE . mute_active: 0, Delta Freq 339000
+[23:23:12:22:738][1649] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:22:738][1650] Set_band_normal . Finished . Band: 2200
+[23:23:12:22:738][1651] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:22:738][1652] Set_last_used_VFO_A . finished 
+[23:23:12:22:770][1653] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+[23:23:12:24:658][1654] Update_last_used_VFO_A . Previous Freq: 475000, G_tune_freq: 136000, Previous Mode C, G_mode C 
+[23:23:12:24:658][1655] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:24:658][1656] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:24:658][1657] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:24:658][1658] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:24:658][1659] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:24:658][1660] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:24:658][1661] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:24:658][1662] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:24:658][1663] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:24:658][1664] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:24:658][1665] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:24:658][1666] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: C 
+[23:23:12:24:658][1667] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: C 
+[23:23:12:24:658][1668] Update_last_used_VFO_A . Finished 
+[23:23:12:24:658][1669] Update_last_used_VFO_A . Last_used File Closed
+[23:23:12:24:658][1670] Update_Startup - Called. freq: 136000, mode: C
+[23:23:12:24:659][1671] Update_Startup - Finished 
+[23:23:12:28:715][1672] Tune_button called . on_off: 0, previous_mode:  ,G_mode: C
+
+[23:23:12:28:715][1673] SetModeRxTx Called . transmit 0 
+[23:23:12:28:720][1674] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:12:28:720][1675] Spectrum_Waterfall_send_param. op_code: 0xBA, op_data: 0
+[23:23:12:28:727][1676] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:28:758][1677] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:28:758][1678] Set_band_normal . Finished . Band: 2200
+[23:23:12:28:758][1679] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:28:758][1680] Set_last_used_VFO_A . finished 
+[23:23:12:28:774][1681] Tune_button . Finished. Status: 0
+
+[23:23:12:28:775][1682] SetModeRxTx Called . transmit 0 
+[23:23:12:28:783][1683] SetModeRxTx. FINISHED. wait_count: 0
+[23:23:12:28:783][1684] Set_PTT. FINISHED. on_off: 0, ptt_switch_inhibited: 0, G_PTT_Switch_Allow: 1
+[23:23:12:28:783][1685] CMD_SET_TX_ON. Set_PTT CALLED. t_opcode_data: 0 FINISHED
+
+[23:23:12:28:783][1686] CMD_GET_POTENTIA_BIAS . G_check_bias: 0
+
+[23:23:12:28:783][1687] CMD_SET_TUNE_POWER . TUNE POWER: 100 
+[23:23:12:28:783][1688] CMD_SET_TUNE_POWER . Calling SDRcore_trans_send_param with param 100 
+[23:23:12:28:783][1689] CMD_SET_TUNE_POWER . Finished 
+[23:23:12:28:783][1690] Extended_command . CMD_SET_IQBD_MONITOR Opcode: 9, Data: 0
+[23:23:12:28:783][1691] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+[23:23:12:28:790][1692] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:28:822][1693] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:28:822][1694] Set_band_normal . Finished . Band: 2200
+[23:23:12:28:822][1695] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:28:822][1696] Set_last_used_VFO_A . finished 
+
+[23:23:12:28:838][1697] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:28:838][1698] Update_User_Controls_ini . Called.
+[23:23:12:28:838][1699] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:28:838][1700] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:28:838][1701] Update_User_Controls_ini . Finished.
+[23:23:12:28:838][1702] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:28:899][1703] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:28:899][1704] Update_User_Controls_ini . Called.
+[23:23:12:28:899][1705] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:28:899][1706] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:28:899][1707] Update_User_Controls_ini . Finished.
+
+[23:23:12:28:899][1708] Command_Interface. CMD_SET_MAIN_FREQ: 136000
+[23:23:12:28:899][1709] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 136000
+[23:23:12:28:899][1710] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 136000
+[23:23:12:28:899][1711] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 2200
+[23:23:12:28:899][1712] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 136000
+[23:23:12:28:913][1713] SetHWLO_queue. Mode C. TX mode: 0, tune_freq: 136000, offset_lo: 123400.000000, G_CW_Offset: -600  
+[23:23:12:28:944][1714] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:28:944][1715] Set_band_normal . Finished . Band: 2200
+[23:23:12:28:944][1716] Set_last_used_VFO_A called . Freq: 136000, Mode: C 
+[23:23:12:28:944][1717] Set_last_used_VFO_A . finished 
+[23:23:12:28:960][1718] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:28:960][1719] Command_Interface. CMD_SET_MAIN_MODE: 2
+[23:23:12:28:960][1720] ModeChanged. mode: U,G_calibrating: 0. STARTED
+[23:23:12:28:960][1721] cw_send_parameters called. Opcode: 0x70, Value: 85, Size: 4
+[23:23:12:28:960][1722] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:29:085][1723] ModeChanged. mode: U, Return Status: 4
+[23:23:12:29:085][1724] ModeChanged. Calling set_last_used for mode U 
+[23:23:12:29:085][1725] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:29:085][1726] Set_last_used_VFO_A . finished 
+[23:23:12:29:085][1727] ModeChanged. FINISHED 
+[23:23:12:29:131][1728] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:29:131][1729] Set_band_normal . Finished . Band: 2200
+[23:23:12:29:131][1730] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:29:131][1731] Set_last_used_VFO_A . finished 
+[23:23:12:29:147][1732] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 85
+[23:23:12:29:209][1733] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: U
+[23:23:12:29:209][1734] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:30:674][1735] Update_last_used_VFO_A . Previous Freq: 136000, G_tune_freq: 136000, Previous Mode C, G_mode U 
+[23:23:12:30:674][1736] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:30:674][1737] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:30:674][1738] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:30:674][1739] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:30:674][1740] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:30:674][1741] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:30:674][1742] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:30:674][1743] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:30:674][1744] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:30:674][1745] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:30:674][1746] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:30:674][1747] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: C 
+[23:23:12:30:674][1748] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:12:30:674][1749] Update_last_used_VFO_A . Finished 
+[23:23:12:30:674][1750] Update_last_used_VFO_A . Last_used File Closed
+[23:23:12:42:857][1751] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:12:42:910][1752] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:42:910][1753] Update_User_Controls_ini . Called.
+[23:23:12:42:910][1754] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:42:910][1755] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:42:912][1756] Update_User_Controls_ini . Finished.
+[23:23:12:42:912][1757] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:42:972][1758] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:42:972][1759] Update_User_Controls_ini . Called.
+[23:23:12:42:973][1760] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:42:973][1761] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:42:974][1762] Update_User_Controls_ini . Finished.
+
+[23:23:12:42:974][1763] Command_Interface. CMD_SET_MAIN_FREQ: 136000
+[23:23:12:42:974][1764] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 136000
+[23:23:12:42:974][1765] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 136000
+[23:23:12:42:974][1766] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 2200
+[23:23:12:42:974][1767] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 136000
+[23:23:12:43:019][1768] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:43:019][1769] Set_band_normal . Finished . Band: 2200
+[23:23:12:43:019][1770] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:43:019][1771] Set_last_used_VFO_A . finished 
+[23:23:12:43:035][1772] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:43:035][1773] Command_Interface. CMD_SET_MAIN_MODE: 2
+[23:23:12:43:035][1774] ModeChanged. mode: U,G_calibrating: 0. STARTED
+[23:23:12:43:035][1775] cw_send_parameters called. Opcode: 0x70, Value: 85, Size: 4
+[23:23:12:43:035][1776] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:43:160][1777] ModeChanged. mode: U, Return Status: 4
+[23:23:12:43:160][1778] ModeChanged. Calling set_last_used for mode U 
+[23:23:12:43:160][1779] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:43:160][1780] Set_last_used_VFO_A . finished 
+[23:23:12:43:160][1781] ModeChanged. FINISHED 
+[23:23:12:43:207][1782] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:43:207][1783] Set_band_normal . Finished . Band: 2200
+[23:23:12:43:207][1784] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:43:207][1785] Set_last_used_VFO_A . finished 
+[23:23:12:43:223][1786] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 85
+[23:23:12:43:285][1787] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: U
+[23:23:12:43:286][1788] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:43:286][1789] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:12:43:348][1790] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:43:348][1791] Update_User_Controls_ini . Called.
+[23:23:12:43:348][1792] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:43:348][1793] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:43:349][1794] Update_User_Controls_ini . Finished.
+[23:23:12:43:349][1795] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:43:410][1796] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:43:410][1797] Update_User_Controls_ini . Called.
+[23:23:12:43:410][1798] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:43:410][1799] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:43:411][1800] Update_User_Controls_ini . Finished.
+
+[23:23:12:43:411][1801] Command_Interface. CMD_SET_MAIN_FREQ: 482000
+[23:23:12:43:411][1802] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 482000
+[23:23:12:43:411][1803] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 482000
+[23:23:12:43:411][1804] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 2200
+[23:23:12:43:411][1805] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 482000
+[23:23:12:43:425][1806] SetHWLO_queue. CMD_SET_SPEAKER_MUTE. mute_active: 1, delta_freq 346000
+[23:23:12:43:456][1807] SetHWLO_queue . CMD_SET_SPEAKER_MUTE . mute_active: 0, Delta Freq 346000
+[23:23:12:43:456][1808] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:12:43:456][1809] Set_band_normal . Finished . Band: 630
+[23:23:12:43:457][1810] Set_last_used_VFO_A called . Freq: 482000, Mode: U 
+[23:23:12:43:457][1811] Set_last_used_VFO_A . finished 
+[23:23:12:43:472][1812] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:43:472][1813] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:12:43:472][1814] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:12:43:472][1815] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:12:43:472][1816] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:43:595][1817] ModeChanged. mode: A, Return Status: 4
+[23:23:12:43:595][1818] ModeChanged. Calling set_last_used for mode A 
+[23:23:12:43:595][1819] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:12:43:595][1820] Set_last_used_VFO_A . finished 
+[23:23:12:43:595][1821] ModeChanged. FINISHED 
+[23:23:12:43:641][1822] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:12:43:641][1823] Set_band_normal . Finished . Band: 630
+[23:23:12:43:641][1824] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:12:43:641][1825] Set_last_used_VFO_A . finished 
+[23:23:12:43:656][1826] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:12:43:718][1827] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:12:43:718][1828] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:45:714][1829] Update_last_used_VFO_A . Previous Freq: 136000, G_tune_freq: 482000, Previous Mode U, G_mode A 
+[23:23:12:45:714][1830] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:45:715][1831] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:45:715][1832] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:45:715][1833] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:45:715][1834] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:45:715][1835] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:45:715][1836] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:45:715][1837] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:45:715][1838] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:45:715][1839] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:45:715][1840] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:45:715][1841] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: C 
+[23:23:12:45:715][1842] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:12:45:715][1843] Update_last_used_VFO_A . Finished 
+[23:23:12:45:715][1844] Update_last_used_VFO_A . Last_used File Closed
+[23:23:12:45:715][1845] Update_Startup - Called. freq: 482000, mode: A
+[23:23:12:45:716][1846] Update_Startup - Finished 
+[23:23:12:47:258][1847] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:12:47:315][1848] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:47:315][1849] Update_User_Controls_ini . Called.
+[23:23:12:47:315][1850] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:47:315][1851] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:47:315][1852] Update_User_Controls_ini . Finished.
+[23:23:12:47:315][1853] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:47:377][1854] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:47:377][1855] Update_User_Controls_ini . Called.
+[23:23:12:47:377][1856] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:47:377][1857] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:47:378][1858] Update_User_Controls_ini . Finished.
+
+[23:23:12:47:378][1859] Command_Interface. CMD_SET_MAIN_FREQ: 482000
+[23:23:12:47:378][1860] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 482000
+[23:23:12:47:378][1861] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 482000
+[23:23:12:47:378][1862] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:12:47:378][1863] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 482000
+[23:23:12:47:424][1864] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:12:47:424][1865] Set_band_normal . Finished . Band: 630
+[23:23:12:47:424][1866] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:12:47:424][1867] Set_last_used_VFO_A . finished 
+[23:23:12:47:439][1868] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:47:439][1869] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:12:47:439][1870] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:12:47:439][1871] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:12:47:439][1872] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:47:563][1873] ModeChanged. mode: A, Return Status: 4
+[23:23:12:47:563][1874] ModeChanged. Calling set_last_used for mode A 
+[23:23:12:47:563][1875] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:12:47:563][1876] Set_last_used_VFO_A . finished 
+[23:23:12:47:563][1877] ModeChanged. FINISHED 
+[23:23:12:47:609][1878] Set_band_normal . Frequency: 482000, Offset: 12000 
+[23:23:12:47:609][1879] Set_band_normal . Finished . Band: 630
+[23:23:12:47:609][1880] Set_last_used_VFO_A called . Freq: 482000, Mode: A 
+[23:23:12:47:609][1881] Set_last_used_VFO_A . finished 
+[23:23:12:47:625][1882] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:12:47:688][1883] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:12:47:688][1884] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:47:688][1885] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:12:47:749][1886] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:47:749][1887] Update_User_Controls_ini . Called.
+[23:23:12:47:749][1888] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:47:749][1889] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:47:750][1890] Update_User_Controls_ini . Finished.
+[23:23:12:47:750][1891] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:47:812][1892] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:47:812][1893] Update_User_Controls_ini . Called.
+[23:23:12:47:812][1894] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:47:812][1895] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:47:812][1896] Update_User_Controls_ini . Finished.
+
+[23:23:12:47:812][1897] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:12:47:812][1898] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:12:47:812][1899] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:12:47:812][1900] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:12:47:812][1901] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:12:47:859][1902] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:12:47:859][1903] Set_band_normal . Finished . Band: 630
+[23:23:12:47:859][1904] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:12:47:859][1905] Set_last_used_VFO_A . finished 
+[23:23:12:47:875][1906] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:47:875][1907] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:12:47:875][1908] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:12:47:875][1909] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:12:47:875][1910] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:47:999][1911] ModeChanged. mode: A, Return Status: 4
+[23:23:12:47:999][1912] ModeChanged. Calling set_last_used for mode A 
+[23:23:12:47:999][1913] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:12:47:999][1914] Set_last_used_VFO_A . finished 
+[23:23:12:47:999][1915] ModeChanged. FINISHED 
+[23:23:12:48:045][1916] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:12:48:045][1917] Set_band_normal . Finished . Band: 630
+[23:23:12:48:045][1918] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:12:48:045][1919] Set_last_used_VFO_A . finished 
+[23:23:12:48:060][1920] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:12:48:122][1921] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:12:48:122][1922] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:48:727][1923] Update_last_used_VFO_A . Previous Freq: 482000, G_tune_freq: 475000, Previous Mode A, G_mode A 
+[23:23:12:48:727][1924] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:48:728][1925] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:48:728][1926] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:48:728][1927] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:48:728][1928] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:48:728][1929] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:48:728][1930] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:48:728][1931] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:48:728][1932] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:48:728][1933] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:48:728][1934] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:48:728][1935] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: A 
+[23:23:12:48:728][1936] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:12:48:728][1937] Update_last_used_VFO_A . Finished 
+[23:23:12:48:728][1938] Update_last_used_VFO_A . Last_used File Closed
+[23:23:12:48:728][1939] Update_Startup - Called. freq: 475000, mode: A
+[23:23:12:48:728][1940] Update_Startup - Finished 
+[23:23:12:51:439][1941] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:12:51:495][1942] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:51:495][1943] Update_User_Controls_ini . Called.
+[23:23:12:51:495][1944] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:51:495][1945] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:51:496][1946] Update_User_Controls_ini . Finished.
+[23:23:12:51:496][1947] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:51:557][1948] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:51:557][1949] Update_User_Controls_ini . Called.
+[23:23:12:51:557][1950] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:51:557][1951] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:51:558][1952] Update_User_Controls_ini . Finished.
+
+[23:23:12:51:558][1953] Command_Interface. CMD_SET_MAIN_FREQ: 475000
+[23:23:12:51:558][1954] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 475000
+[23:23:12:51:558][1955] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 475000
+[23:23:12:51:558][1956] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:12:51:558][1957] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 475000
+[23:23:12:51:604][1958] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:12:51:604][1959] Set_band_normal . Finished . Band: 630
+[23:23:12:51:604][1960] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:12:51:604][1961] Set_last_used_VFO_A . finished 
+[23:23:12:51:620][1962] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:51:620][1963] Command_Interface. CMD_SET_MAIN_MODE: 0
+[23:23:12:51:620][1964] ModeChanged. mode: A,G_calibrating: 0. STARTED
+[23:23:12:51:620][1965] cw_send_parameters called. Opcode: 0x70, Value: 65, Size: 4
+[23:23:12:51:620][1966] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:51:745][1967] ModeChanged. mode: A, Return Status: 4
+[23:23:12:51:745][1968] ModeChanged. Calling set_last_used for mode A 
+[23:23:12:51:745][1969] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:12:51:745][1970] Set_last_used_VFO_A . finished 
+[23:23:12:51:745][1971] ModeChanged. FINISHED 
+[23:23:12:51:776][1972] Set_band_normal . Frequency: 475000, Offset: 12000 
+[23:23:12:51:776][1973] Set_band_normal . Finished . Band: 630
+[23:23:12:51:776][1974] Set_last_used_VFO_A called . Freq: 475000, Mode: A 
+[23:23:12:51:776][1975] Set_last_used_VFO_A . finished 
+[23:23:12:51:808][1976] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 65
+[23:23:12:51:870][1977] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: A
+[23:23:12:51:870][1978] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:51:870][1979] Spectrum_Waterfall_send_param. op_code: 0xD1, op_data: 2
+
+[23:23:12:51:932][1980] Process_User_Controls . Command_Interface . CMD_SET_BW_HICUT: 2 
+[23:23:12:51:932][1981] Update_User_Controls_ini . Called.
+[23:23:12:51:932][1982] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:51:932][1983] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:51:933][1984] Update_User_Controls_ini . Finished.
+[23:23:12:51:933][1985] Spectrum_Waterfall_send_param. op_code: 0xD0, op_data: 4
+
+[23:23:12:51:994][1986] Process_User_Controls . Command_Interface . CMD_SET_BW_LOCUT: 4 
+[23:23:12:51:994][1987] Update_User_Controls_ini . Called.
+[23:23:12:51:994][1988] Update_User_Controls_ini . Default Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS
+[23:23:12:51:994][1989] Update_User_Controls_ini . user_controls.ini Path: C:\Users\Ron\AppData\Local/mscc-GEMINUS/user_controls.ini
+[23:23:12:51:994][1990] Update_User_Controls_ini . Finished.
+
+[23:23:12:51:995][1991] Command_Interface. CMD_SET_MAIN_FREQ: 136000
+[23:23:12:51:995][1992] Command_Interface. CMD_SET_MAIN_FREQ. Calling SetHWLO with: 136000
+[23:23:12:51:995][1993] Command_Interface. CMD_SET_MAIN_FREQ. Calling set_last_used for Freq: 136000
+[23:23:12:51:995][1994] Command_Interface. CMD_SET_MAIN_FREQ. G_band_normal: 630
+[23:23:12:51:995][1995] Spectrum_Waterfall_send_param. op_code: 0x91, op_data: 136000
+[23:23:12:52:009][1996] SetHWLO_queue. CMD_SET_SPEAKER_MUTE. mute_active: 1, delta_freq 339000
+[23:23:12:52:041][1997] SetHWLO_queue . CMD_SET_SPEAKER_MUTE . mute_active: 0, Delta Freq 339000
+[23:23:12:52:041][1998] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:52:041][1999] Set_band_normal . Finished . Band: 2200
+[23:23:12:52:041][2000] Set_last_used_VFO_A called . Freq: 136000, Mode: A 
+[23:23:12:52:041][2001] Set_last_used_VFO_A . finished 
+[23:23:12:52:057][2002] Command_Interface. CMD_SET_MAIN_FREQ. Finished
+
+[23:23:12:52:057][2003] Command_Interface. CMD_SET_MAIN_MODE: 2
+[23:23:12:52:057][2004] ModeChanged. mode: U,G_calibrating: 0. STARTED
+[23:23:12:52:057][2005] cw_send_parameters called. Opcode: 0x70, Value: 85, Size: 4
+[23:23:12:52:057][2006] cw_send_parameters. Calling usbControlMsgOUT
+[23:23:12:52:182][2007] ModeChanged. mode: U, Return Status: 4
+[23:23:12:52:182][2008] ModeChanged. Calling set_last_used for mode U 
+[23:23:12:52:182][2009] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:52:182][2010] Set_last_used_VFO_A . finished 
+[23:23:12:52:182][2011] ModeChanged. FINISHED 
+[23:23:12:52:213][2012] Set_band_normal . Frequency: 136000, Offset: 12000 
+[23:23:12:52:213][2013] Set_band_normal . Finished . Band: 2200
+[23:23:12:52:213][2014] Set_last_used_VFO_A called . Freq: 136000, Mode: U 
+[23:23:12:52:213][2015] Set_last_used_VFO_A . finished 
+[23:23:12:52:245][2016] Spectrum_Waterfall_send_param. op_code: 0x92, op_data: 85
+[23:23:12:52:307][2017] Command_Interface. CMD_SET_MAIN_MODE. Finished. mode: U
+[23:23:12:52:307][2018] Extended_command . CMD_SET_ANTENNA_SWITCH Opcode: 8, Data: 0
+[23:23:12:54:732][2019] Update_last_used_VFO_A . Previous Freq: 475000, G_tune_freq: 136000, Previous Mode A, G_mode U 
+[23:23:12:54:732][2020] Update_last_used_VFO_A . Open: C:\Users\Ron\AppData\Local/mscc-GEMINUS/vfoa/Last_used.ini 
+[23:23:12:54:732][2021] Update_last_used_VFO_A . Update . Band: 0, Freq: 482000, Mode: A 
+[23:23:12:54:732][2022] Update_last_used_VFO_A . Update . Band: 1, Freq: 24900000, Mode: C 
+[23:23:12:54:732][2023] Update_last_used_VFO_A . Update . Band: 2, Freq: 21074000, Mode: C 
+[23:23:12:54:732][2024] Update_last_used_VFO_A . Update . Band: 3, Freq: 18100000, Mode: C 
+[23:23:12:54:732][2025] Update_last_used_VFO_A . Update . Band: 4, Freq: 14074000, Mode: C 
+[23:23:12:54:732][2026] Update_last_used_VFO_A . Update . Band: 5, Freq: 10136000, Mode: C 
+[23:23:12:54:732][2027] Update_last_used_VFO_A . Update . Band: 6, Freq: 7074000, Mode: C 
+[23:23:12:54:732][2028] Update_last_used_VFO_A . Update . Band: 7, Freq: 5330500, Mode: C 
+[23:23:12:54:732][2029] Update_last_used_VFO_A . Update . Band: 8, Freq: 3510000, Mode: C 
+[23:23:12:54:732][2030] Update_last_used_VFO_A . Update . Band: 9, Freq: 2002200, Mode: A 
+[23:23:12:54:732][2031] Update_last_used_VFO_A . Update . Band: 10, Freq: 475000, Mode: A 
+[23:23:12:54:732][2032] Update_last_used_VFO_A . Update . Band: 11, Freq: 136000, Mode: U 
+[23:23:12:54:732][2033] Update_last_used_VFO_A . Finished 
+[23:23:12:54:733][2034] Update_last_used_VFO_A . Last_used File Closed
+[23:23:12:54:733][2035] Update_Startup - Called. freq: 136000, mode: U
+[23:23:12:54:733][2036] Update_Startup - Finished 
+[23:23:13:02:892][2037] CMD_SET_STOP . calling Stop_all. t_opcode_data: 0 
+
+[23:23:13:02:892][2038] Stop_all Called. update_transceiver: 0, shutdown_status: 0
+[23:23:13:03:023][2039] Spectrum_Waterfall_send_param. op_code: 0xFF, op_data: 0
+[23:23:13:06:091][2040] Stop_all. NORMAL EXIT 
+[23:23:13:06:091][2041] Stop_all. FINISHED
+[23:23:13:06:091][2042] Freq_Dequeue_thread . NORMAL EXIT.
+[23:23:13:06:107][23:23:13:06:107][2043] Get_Key_Down_Status NORMAL EXIT.  key: 0
+[2044] Gui_send_message. NORMAL EXIT
+[23:23:13:06:107][2045] Manage_MKII_PTT_Switch. NORMAL EXIT.
+[23:23:13:06:185][2046] Flusher_thread . NORMAL EXIT 
+[23:23:13:06:759][2047] Update_last_used_thread . NORMAL EXIT.
+[23:23:13:07:101][2048] Command_Interface . NORMAL EXIT.
+[23:23:13:07:601][2049] main. NORMAL EXIT 

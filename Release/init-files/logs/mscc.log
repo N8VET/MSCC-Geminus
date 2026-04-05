@@ -1,0 +1,1227 @@
+18:08:24 Sunday, February 23, 2025
+  :0 Main_form. Location: {X=2710,Y=109}
+-------------------------------
+18:08:24 Sunday, February 23, 2025
+  :1  STARTING
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :2 frmGUI Called
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :3 frmMain_Load Called
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :4 MSCC Version: 02/23/2025  
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :5 Initialize_Spectrum START
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :6 pic_size W: 777 H: 76 pic X location: 8
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :7 Initialize_Spectrum_Box W: 777H: 76
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :8 Initialize_Spectrum FINSHED
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :9 Initialize_Waterfall -> Called
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :10 Init -> W: 777 H: 76
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :11 Init - > waterfall_data created
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :12 Initialize_Waterfall Finished
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :13 Main_Tab_Enter -> Entered
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :14 Main_Tab_Enter -> Finished
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :15 Smeter_Timer_Tick: Smeter_controls.Display_Mode: 20
+-------------------------------
+18:08:27 Sunday, February 23, 2025
+  :16 Manage_Text_Display: display_mode: True
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :17 timer3_Tick -> RUNNING
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :18 timer3_Tick -> RUNNING
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :19 Initialize_Network Called
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :20 getIiniStates -> ini file: C:\Users\Ron\AppData\Local/mscc-GEMINUS/mscc.ini
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :21 MSCC Port Address: 8889
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :22 GetLocalIPAddress: 10.2.0.2
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :23 MSCC IP ADDRESS: 127.0.1.1
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :24 DLL Port Address: 8888
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :25 GetLocalIPAddress: 10.2.0.2
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :26 Initialize_Network -> Remote Host: 127.0.1.1
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :27 Initialize_Network -> MS-SDR Target IP Address: 127.0.1.1 Port: 8888
+-------------------------------
+18:08:28 Sunday, February 23, 2025
+  :28 timer3_Tick -> Sending CMD_SEND_GUI_STATUS
+-------------------------------
+18:08:29 Sunday, February 23, 2025
+  :29 timer3_Tick -> RUNNING
+-------------------------------
+18:08:30 Sunday, February 23, 2025
+  :30 timer3_Tick -> RUNNING
+-------------------------------
+18:08:30 Sunday, February 23, 2025
+  :31 timer3_Tick -> RUNNING
+-------------------------------
+18:08:31 Sunday, February 23, 2025
+  :32 timer3_Tick -> RUNNING
+-------------------------------
+18:08:31 Sunday, February 23, 2025
+  :33 timer3_Tick -> RUNNING
+-------------------------------
+18:08:32 Sunday, February 23, 2025
+  :34 timer3_Tick -> RUNNING
+-------------------------------
+18:08:32 Sunday, February 23, 2025
+  :35 timer3_Tick -> RUNNING
+-------------------------------
+18:08:33 Sunday, February 23, 2025
+  :36 timer3_Tick -> RUNNING
+-------------------------------
+18:08:33 Sunday, February 23, 2025
+  :37 timer3_Tick -> RUNNING
+-------------------------------
+18:08:34 Sunday, February 23, 2025
+  :38 timer3_Tick -> RUNNING
+-------------------------------
+18:08:34 Sunday, February 23, 2025
+  :39 timer3_Tick -> RUNNING
+-------------------------------
+18:08:35 Sunday, February 23, 2025
+  :40 timer3_Tick -> RUNNING
+-------------------------------
+18:08:35 Sunday, February 23, 2025
+  :41 timer3_Tick -> RUNNING
+-------------------------------
+18:08:36 Sunday, February 23, 2025
+  :42 timer3_Tick -> RUNNING
+-------------------------------
+18:08:36 Sunday, February 23, 2025
+  :43 timer3_Tick -> RUNNING
+-------------------------------
+18:08:37 Sunday, February 23, 2025
+  :44 timer3_Tick -> RUNNING
+-------------------------------
+18:08:37 Sunday, February 23, 2025
+  :45 timer3_Tick -> RUNNING
+-------------------------------
+18:08:38 Sunday, February 23, 2025
+  :46 timer3_Tick -> RUNNING
+-------------------------------
+18:08:38 Sunday, February 23, 2025
+  :47 timer3_Tick -> RUNNING
+-------------------------------
+18:08:39 Sunday, February 23, 2025
+  :48 timer3_Tick -> RUNNING
+-------------------------------
+18:08:39 Sunday, February 23, 2025
+  :49 timer3_Tick -> RUNNING
+-------------------------------
+18:08:39 Sunday, February 23, 2025
+  :50 Master_Controls.MSSDR_running
+-------------------------------
+18:08:39 Sunday, February 23, 2025
+  :51 Main_Form -> Init_RPi_Settings STARTED
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :52 Manage_Text_Display: display_mode: True
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :53 Select_Freq_Digit_Pointer: 2
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :54 Master_State_Machine. VFOA Default_Filters_Configured
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :55 Initialize_MFC -> Starting
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :56 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :57 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :58 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :59 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :60 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :61 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :62 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :63 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :64 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :65 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :66 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :67 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :68 parse_line -> Start
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :69 parse_line -> Finish
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :70 Initialize_MFC -> middle_switch: 6
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :71 Tuning Knob Initialization Finished: 1567
+-------------------------------
+18:08:40 Sunday, February 23, 2025
+  :72 Master_State_Machine. Filter_High_Index: 1
+-------------------------------
+18:08:41 Sunday, February 23, 2025
+  :73 Select_Freq_Digit_Pointer: 2
+-------------------------------
+18:09:03 Sunday, February 23, 2025
+  :74 Mic_Gain_ScroolBar_mouseenter
+-------------------------------
+18:09:03 Sunday, February 23, 2025
+  :75 Mic_Gain_ScroolBar_mouseleave
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :76 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :77 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :78 Set_mode_display called -> Finished
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :79 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :80 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :81 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :82 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :83 Set_GEM_Band Finished 
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :84 Set_GEM_Band called.  Band:  2
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :85 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :86 Set_mode_display called -> Finished
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :87 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :88 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :89 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :90 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :91 Set_GEM_Band Finished 
+-------------------------------
+18:09:04 Sunday, February 23, 2025
+  :92 Master_State_Machine. Filter_High_Index: 2
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :93 Set_GEM_Band called.  Band:  2
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :94 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :95 Set_mode_display called -> Finished
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :96 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :97 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :98 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :99 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :100 Set_GEM_Band Finished 
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :101 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :102 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :103 Set_mode_display called -> Finished
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :104 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :105 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :106 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :107 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:09 Sunday, February 23, 2025
+  :108 Set_GEM_Band Finished 
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :109 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :110 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :111 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :112 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :113 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :114 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :115 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :116 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :117 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :118 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :119 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :120 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :121 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :122 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :123 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :124 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :125 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :126 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :127 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:10 Sunday, February 23, 2025
+  :128 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :129 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :130 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :131 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :132 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :133 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :134 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :135 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :136 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :137 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :138 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :139 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :140 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :141 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :142 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :143 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:11 Sunday, February 23, 2025
+  :144 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :145 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :146 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :147 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :148 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :149 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :150 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :151 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:12 Sunday, February 23, 2025
+  :152 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:13 Sunday, February 23, 2025
+  :153 Set_Default_Digit: 3
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :154 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :155 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :156 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :157 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :158 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :159 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :160 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :161 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :162 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :163 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :164 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:14 Sunday, February 23, 2025
+  :165 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :166 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :167 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :168 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :169 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :170 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :171 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :172 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :173 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :174 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :175 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :176 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :177 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :178 Manage_Main_Frequency -> n: -1
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :179 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :180 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :181 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:15 Sunday, February 23, 2025
+  :182 Set_Default_Digit: 3
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :183 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :184 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :185 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :186 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :187 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :188 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :189 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :190 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :191 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :192 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :193 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :194 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :195 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :196 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :197 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :198 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :199 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :200 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :201 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :202 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :203 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :204 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:24 Sunday, February 23, 2025
+  :205 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:25 Sunday, February 23, 2025
+  :206 Set_Default_Digit: 3
+-------------------------------
+18:09:25 Sunday, February 23, 2025
+  :207 Set_Default_Digit: 3
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :208 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :209 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :210 Set_mode_display called -> Finished
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :211 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :212 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :213 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :214 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :215 Set_GEM_Band Finished 
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :216 Set_GEM_Band called.  Band:  2
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :217 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :218 Set_mode_display called -> Finished
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :219 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :220 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :221 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :222 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:26 Sunday, February 23, 2025
+  :223 Set_GEM_Band Finished 
+-------------------------------
+18:09:27 Sunday, February 23, 2025
+  :224 Set_Default_Digit: 3
+-------------------------------
+18:09:27 Sunday, February 23, 2025
+  :225 Set_Default_Digit: 3
+-------------------------------
+18:09:27 Sunday, February 23, 2025
+  :226 Set_Default_Digit: 3
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :227 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :228 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :229 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :230 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :231 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :232 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :233 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :234 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :235 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :236 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :237 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :238 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :239 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :240 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :241 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :242 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :243 Manage_Main_Frequency -> n: 1
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :244 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :245 Zero_Frequency -> FreqDigit: 3 Remainder: 0
+-------------------------------
+18:09:28 Sunday, February 23, 2025
+  :246 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:31 Sunday, February 23, 2025
+  :247 Set_Default_Digit: 3
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :248 Set_GEM_Band called.  Band:  2
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :249 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :250 Set_mode_display called -> Finished
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :251 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :252 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :253 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :254 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :255 Set_GEM_Band Finished 
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :256 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :257 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :258 Set_mode_display called -> Finished
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :259 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :260 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:33 Sunday, February 23, 2025
+  :261 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :262 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :263 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :264 Set_mode_display called -> Finished
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :265 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :266 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :267 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :268 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :269 Set_GEM_Band Finished 
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :270 Set_GEM_Band called.  Band:  0
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :271 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: U
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :272 Set_mode_display called -> Finished
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :273 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :274 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :275 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :276 Set_GEM_Band -> Current Mode: U
+-------------------------------
+18:09:35 Sunday, February 23, 2025
+  :277 Set_GEM_Band Finished 
+-------------------------------
+18:09:41 Sunday, February 23, 2025
+  :278 Set_Default_Digit: 3
+-------------------------------
+18:09:41 Sunday, February 23, 2025
+  :279 Set_Default_Digit: 3
+-------------------------------
+18:09:41 Sunday, February 23, 2025
+  :280 Set_Default_Digit: 3
+-------------------------------
+18:09:41 Sunday, February 23, 2025
+  :281 Set_Default_Digit: 3
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :282 PTT Entered (button1)
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :283 PTT finished (button1) 
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :284 Smeter_Timer_Tick: Smeter_controls.Text_Display_Dbm_mode: True
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :285 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :286 Configure_Meter: Smeter_controls.Display_Mode: 10 Smeter_controls.selected_mode:  0
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :287 Smeter_Timer_Tick: Smeter_controls.Text_Display_Dbm_mode: True
+-------------------------------
+18:09:42 Sunday, February 23, 2025
+  :288 Manage_Text_Display: display_mode: False
+-------------------------------
+18:09:45 Sunday, February 23, 2025
+  :289 PTT Entered (button1)
+-------------------------------
+18:09:45 Sunday, February 23, 2025
+  :290 Smeter_Timer_Tick: Smeter_controls.Display_Mode: 0
+-------------------------------
+18:09:45 Sunday, February 23, 2025
+  :291 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:45 Sunday, February 23, 2025
+  :292 Client_Settings. START
+-------------------------------
+18:09:45 Sunday, February 23, 2025
+  :293 Client_Settings. FINISHED
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :294 buttTune_Click
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :295 buttTune_Click -> finished 
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :296 Smeter_Timer_Tick: Smeter_controls.Text_Display_Dbm_mode: True
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :297 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :298 Configure_Meter: Smeter_controls.Display_Mode: 10 Smeter_controls.selected_mode:  4
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :299 Smeter_Timer_Tick: Smeter_controls.Text_Display_Dbm_mode: True
+-------------------------------
+18:09:46 Sunday, February 23, 2025
+  :300 Manage_Text_Display: display_mode: False
+-------------------------------
+18:09:47 Sunday, February 23, 2025
+  :301 buttTune_Click
+-------------------------------
+18:09:47 Sunday, February 23, 2025
+  :302 Tune -> Current Band: 0 Current Mode Number: 2
+-------------------------------
+18:09:48 Sunday, February 23, 2025
+  :303 Smeter_Timer_Tick: Smeter_controls.Display_Mode: 4
+-------------------------------
+18:09:48 Sunday, February 23, 2025
+  :304 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:48 Sunday, February 23, 2025
+  :305 Smeter_Timer_Tick: Smeter_controls.Previous_Meter_Configuration: 4
+-------------------------------
+18:09:48 Sunday, February 23, 2025
+  :306 Configure_Meter: Smeter_controls.Display_Mode: 10 Smeter_controls.selected_mode:  0
+-------------------------------
+18:09:48 Sunday, February 23, 2025
+  :307 Smeter_Timer_Tick: Smeter_controls.Display_Mode: 0
+-------------------------------
+18:09:48 Sunday, February 23, 2025
+  :308 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:49 Sunday, February 23, 2025
+  :309 PTT Entered (button1)
+-------------------------------
+18:09:49 Sunday, February 23, 2025
+  :310 Smeter_Timer_Tick: Smeter_controls.Text_Display_Dbm_mode: True
+-------------------------------
+18:09:49 Sunday, February 23, 2025
+  :311 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:49 Sunday, February 23, 2025
+  :312 Configure_Meter: Smeter_controls.Display_Mode: 10 Smeter_controls.selected_mode:  0
+-------------------------------
+18:09:49 Sunday, February 23, 2025
+  :313 Smeter_Timer_Tick: Smeter_controls.Text_Display_Dbm_mode: True
+-------------------------------
+18:09:49 Sunday, February 23, 2025
+  :314 Manage_Text_Display: display_mode: False
+-------------------------------
+18:09:50 Sunday, February 23, 2025
+  :315 PTT Entered (button1)
+-------------------------------
+18:09:50 Sunday, February 23, 2025
+  :316 Smeter_Timer_Tick: Smeter_controls.Display_Mode: 0
+-------------------------------
+18:09:50 Sunday, February 23, 2025
+  :317 Manage_Text_Display: display_mode: True
+-------------------------------
+18:09:50 Sunday, February 23, 2025
+  :318 Client_Settings. START
+-------------------------------
+18:09:50 Sunday, February 23, 2025
+  :319 Client_Settings. FINISHED
+-------------------------------
+18:11:57 Sunday, February 23, 2025
+  :320 Set_Default_Digit: 3
+-------------------------------
+18:11:57 Sunday, February 23, 2025
+  :321 Set_Default_Digit: 3
+-------------------------------
+18:11:57 Sunday, February 23, 2025
+  :322 Set_Default_Digit: 3
+-------------------------------
+18:11:57 Sunday, February 23, 2025
+  :323 Set_Default_Digit: 3
+-------------------------------
+18:11:57 Sunday, February 23, 2025
+  :324 Set_Default_Digit: 3
+-------------------------------
+18:11:57 Sunday, February 23, 2025
+  :325 Set_Default_Digit: 3
+-------------------------------
+18:12:00 Sunday, February 23, 2025
+  :326 Main_Tab_Leave -> Entered
+-------------------------------
+18:12:00 Sunday, February 23, 2025
+  :327 Main_Tab_Leave -> Finished
+-------------------------------
+18:12:00 Sunday, February 23, 2025
+  :328 TX_Tab_Enter. Fortis_Devices: 6
+-------------------------------
+18:12:04 Sunday, February 23, 2025
+  :329 freqcaltab_Enter -> entered
+-------------------------------
+18:12:07 Sunday, February 23, 2025
+  :330 freqcaltab_Leave -> Entered
+-------------------------------
+18:12:07 Sunday, February 23, 2025
+  :331331 Tab index is 2
+-------------------------------
+18:12:07 Sunday, February 23, 2025
+  :332 reset: True
+-------------------------------
+18:12:07 Sunday, February 23, 2025
+  :333 freqcaltab_Leave -> Finished
+-------------------------------
+18:12:07 Sunday, February 23, 2025
+  :334 Power tab entered
+-------------------------------
+18:12:08 Sunday, February 23, 2025
+  :335 Client_Settings. START
+-------------------------------
+18:12:08 Sunday, February 23, 2025
+  :336 Client_Settings. FINISHED
+-------------------------------
+18:12:12 Sunday, February 23, 2025
+  :337 powertabPage1_Leave -> code.current_band: 0
+-------------------------------
+18:12:14 Sunday, February 23, 2025
+  :338 MFC_Enter -> MFC tab entered
+-------------------------------
+18:12:14 Sunday, February 23, 2025
+  :339 MFC_Enter -> Master_Controls.QRP_Mode: True
+-------------------------------
+18:12:14 Sunday, February 23, 2025
+  :340 MFC_Enter -> Finished
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :341 MFC_Leave -> Master_Controls.QRP_Mode: True
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :342 MFC_Leave -> Band_Bank.Geminus_Bank.Current_Band : 0
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :343 Set_GEM_Band called.  Band:  0
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :344 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: U
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :345 Set_mode_display called -> Finished
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :346 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :347 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :348 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :349 Set_GEM_Band -> Current Mode: U
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :350 Set_GEM_Band Finished 
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :351 Tab index is 5
+-------------------------------
+18:12:28 Sunday, February 23, 2025
+  :352 MFC_Leave -> Finished
+-------------------------------
+18:12:35 Sunday, February 23, 2025
+  :353 Main_Tab_Enter -> Entered
+-------------------------------
+18:12:35 Sunday, February 23, 2025
+  :354 Main_Tab_Enter -> Finished
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :355 Set_GEM_Band called.  Band:  0
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :356 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: U
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :357 Set_mode_display called -> Finished
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :358 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :359 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :360 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :361 Set_GEM_Band -> Current Mode: U
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :362 Set_GEM_Band Finished 
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :363 Set_GEM_Band called.  Band:  2
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :364 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :365 Set_mode_display called -> Finished
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :366 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :367 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :368 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :369 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:12:42 Sunday, February 23, 2025
+  :370 Set_GEM_Band Finished 
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :371 Set_GEM_Band called.  Band:  2
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :372 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :373 Set_mode_display called -> Finished
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :374 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :375 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :376 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :377 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :378 Set_GEM_Band Finished 
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :379 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :380 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :381 Set_mode_display called -> Finished
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :382 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :383 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :384 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :385 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:12:47 Sunday, February 23, 2025
+  :386 Set_GEM_Band Finished 
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :387 Set_GEM_Band called.  Band:  1
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :388 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: A
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :389 Set_mode_display called -> Finished
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :390 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :391 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :392 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :393 Set_GEM_Band -> Current Mode: A
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :394 Set_GEM_Band Finished 
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :395 Set_GEM_Band called.  Band:  0
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :396 Set_mode_display called. VFOA_Last_Used.Last_used.Current_mode: U
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :397 Set_mode_display called -> Finished
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :398 Zero_Frequency_VFOA -> Called
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :399 Zero_Frequency -> FreqDigit: 2 Remainder: 0
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :400 Display_Main_Freq_VFOA. GEMINUS MODE. SETTING LF/MF
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :401 Set_GEM_Band -> Current Mode: U
+-------------------------------
+18:12:51 Sunday, February 23, 2025
+  :402 Set_GEM_Band Finished 
+-------------------------------
+18:13:02 Sunday, February 23, 2025
+  :403 Client_Settings. START
+-------------------------------
+18:13:02 Sunday, February 23, 2025
+  :404 Client_Settings. FINISHED
+-------------------------------
+18:13:02 Sunday, February 23, 2025
+  :405 MSCC shutdown by user
+-------------------------------
+18:13:02 Sunday, February 23, 2025
+  :406 Client_Settings. START
+-------------------------------
+18:13:02 Sunday, February 23, 2025
+  :407 Client_Settings. FINISHED
+-------------------------------
+18:13:02 Sunday, February 23, 2025
+  :408 MSCC shutdown by System Close button
+-------------------------------

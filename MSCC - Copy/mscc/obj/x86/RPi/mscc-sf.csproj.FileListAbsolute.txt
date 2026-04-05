@@ -1,0 +1,27 @@
+G:\CloudStation\MSCC-SF\mscc\Properties\mscc.settings
+G:\CloudStation\MSCC-SF\mscc\Properties\mscc.Designer.cs
+G:\CloudStation\MSCC-SF\mscc\mscc.exe.config
+G:\CloudStation\MSCC-SF\mscc\mscc.exe
+G:\CloudStation\MSCC-SF\mscc\mscc.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\bin\Properties\mscc.settings
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\bin\Properties\mscc.Designer.cs
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\bin\mscc.exe.config
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\bin\mscc.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\bin\mscc.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\bin\VU_MeterLibrary.dll
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\Release\MSCC\Properties\mscc.settings
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\Release\MSCC\Properties\mscc.Designer.cs
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\Release\MSCC\mscc.exe.config
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\Release\MSCC\mscc.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\Release\MSCC\mscc.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\OmniaGUI.Main_form.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\OmniaGUI.panadapter_control.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\OmniaGUI.shutdown.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\OmniaGUI.MonitorForm.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\OmniaGUI.Properties.Resources.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\mscc-sf.csproj.GenerateResource.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\mscc-sf.csproj.CoreCompileInputs.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\mscc-sf.csproj.CopyComplete
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\mscc.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\mscc.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-SF\mscc\obj\x86\RPi\xDialog.MsgBox.resources

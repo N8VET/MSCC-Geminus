@@ -1,0 +1,525 @@
+16:28:46 Friday, January 24, 2025
+  :0 Form1_Load Called
+---------------
+16:28:46 Friday, January 24, 2025
+  :1 Initialize_Waterfall -> Called
+---------------
+16:28:46 Friday, January 24, 2025
+  :2 Init -> W: 792 H: 76
+---------------
+16:28:46 Friday, January 24, 2025
+  :3 Init - > waterfall_data created
+---------------
+16:28:46 Friday, January 24, 2025
+  :4 Initialize_Waterfall Finished
+---------------
+16:28:46 Friday, January 24, 2025
+  :5 Set_Starup_Position: New Position: {X=8,Y=420}
+---------------
+16:28:48 Friday, January 24, 2025
+  :6 CMD_SET_CW_PITCH Received: 1
+---------------
+16:28:57 Friday, January 24, 2025
+  :7 Update_init.  Spectrum_Master_Controls.System_Ready: True
+---------------
+16:28:58 Friday, January 24, 2025
+  :8 Unknown Opcode Received: 206
+---------------
+16:28:59 Friday, January 24, 2025
+  :9 CMD_SET_DISPLAY_FREQ: 14074000
+---------------
+16:28:59 Friday, January 24, 2025
+  :10 Spectrum_Last_used.Current_mode: U
+---------------
+16:28:59 Friday, January 24, 2025
+  :11 CMD_SET_DISPLAY_FREQ: 14074000
+---------------
+16:28:59 Friday, January 24, 2025
+  :12 CMD_SET_DISPLAY_FREQ: 14074000
+---------------
+16:28:59 Friday, January 24, 2025
+  :13 Spectrum_Last_used.Current_mode: U
+---------------
+16:28:59 Friday, January 24, 2025
+  :14 CMD_SET_DISPLAY_FREQ: 14074000
+---------------
+16:28:59 Friday, January 24, 2025
+  :15 Unknown Opcode Received: 206
+---------------
+16:29:00 Friday, January 24, 2025
+  :16 CMD_SET_BW_HICUT Received: 1
+---------------
+16:29:00 Friday, January 24, 2025
+  :17 Unknown Opcode Received: 208
+---------------
+16:29:00 Friday, January 24, 2025
+  :18 CMD_SET_CW_PITCH Received: 1
+---------------
+16:29:16 Friday, January 24, 2025
+  :19 CMD_SET_X_POSITION: 252
+---------------
+16:29:16 Friday, January 24, 2025
+  :20 CMD_SET_Y_POSITION: 4
+---------------
+16:29:16 Friday, January 24, 2025
+  :21 Set_Starup_Position x /y. STARTED
+---------------
+16:29:16 Friday, January 24, 2025
+  :22 Set_Starup_Position x /y.  New Position: {X=260,Y=424}
+---------------
+16:29:16 Friday, January 24, 2025
+  :23 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:16 Friday, January 24, 2025
+  :24 Manage_Form. Mode: 5
+---------------
+16:29:16 Friday, January 24, 2025
+  :25 CMD_SET_X_POSITION: 370
+---------------
+16:29:16 Friday, January 24, 2025
+  :26 CMD_SET_Y_POSITION: 4
+---------------
+16:29:16 Friday, January 24, 2025
+  :27 Set_Starup_Position x /y. STARTED
+---------------
+16:29:16 Friday, January 24, 2025
+  :28 Set_Starup_Position x /y.  New Position: {X=378,Y=424}
+---------------
+16:29:16 Friday, January 24, 2025
+  :29 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:16 Friday, January 24, 2025
+  :30 Manage_Form. Mode: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :31 CMD_SET_X_POSITION: 214
+---------------
+16:29:17 Friday, January 24, 2025
+  :32 CMD_SET_Y_POSITION: 3
+---------------
+16:29:17 Friday, January 24, 2025
+  :33 Set_Starup_Position x /y. STARTED
+---------------
+16:29:17 Friday, January 24, 2025
+  :34 Set_Starup_Position x /y.  New Position: {X=222,Y=423}
+---------------
+16:29:17 Friday, January 24, 2025
+  :35 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :36 Manage_Form. Mode: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :37 CMD_SET_X_POSITION: 156
+---------------
+16:29:17 Friday, January 24, 2025
+  :38 CMD_SET_Y_POSITION: 4
+---------------
+16:29:17 Friday, January 24, 2025
+  :39 Set_Starup_Position x /y. STARTED
+---------------
+16:29:17 Friday, January 24, 2025
+  :40 Set_Starup_Position x /y.  New Position: {X=164,Y=424}
+---------------
+16:29:17 Friday, January 24, 2025
+  :41 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :42 Manage_Form. Mode: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :43 CMD_SET_X_POSITION: 93
+---------------
+16:29:17 Friday, January 24, 2025
+  :44 CMD_SET_Y_POSITION: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :45 Set_Starup_Position x /y. STARTED
+---------------
+16:29:17 Friday, January 24, 2025
+  :46 Set_Starup_Position x /y.  New Position: {X=101,Y=425}
+---------------
+16:29:17 Friday, January 24, 2025
+  :47 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:17 Friday, January 24, 2025
+  :48 Manage_Form. Mode: 5
+---------------
+16:29:18 Friday, January 24, 2025
+  :49 CMD_SET_X_POSITION: 94
+---------------
+16:29:18 Friday, January 24, 2025
+  :50 CMD_SET_Y_POSITION: 5
+---------------
+16:29:18 Friday, January 24, 2025
+  :51 Set_Starup_Position x /y. STARTED
+---------------
+16:29:18 Friday, January 24, 2025
+  :52 Set_Starup_Position x /y.  New Position: {X=102,Y=425}
+---------------
+16:29:18 Friday, January 24, 2025
+  :53 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:18 Friday, January 24, 2025
+  :54 Manage_Form. Mode: 5
+---------------
+16:29:39 Friday, January 24, 2025
+  :55 Spectrum_Last_used.Current_mode: C
+---------------
+16:29:42 Friday, January 24, 2025
+  :56 CMD_SET_X_POSITION: 150
+---------------
+16:29:42 Friday, January 24, 2025
+  :57 CMD_SET_Y_POSITION: 16
+---------------
+16:29:42 Friday, January 24, 2025
+  :58 Set_Starup_Position x /y. STARTED
+---------------
+16:29:42 Friday, January 24, 2025
+  :59 Set_Starup_Position x /y.  New Position: {X=158,Y=436}
+---------------
+16:29:42 Friday, January 24, 2025
+  :60 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:42 Friday, January 24, 2025
+  :61 Manage_Form. Mode: 5
+---------------
+16:29:43 Friday, January 24, 2025
+  :62 CMD_SET_X_POSITION: 147
+---------------
+16:29:43 Friday, January 24, 2025
+  :63 CMD_SET_Y_POSITION: 16
+---------------
+16:29:43 Friday, January 24, 2025
+  :64 Set_Starup_Position x /y. STARTED
+---------------
+16:29:43 Friday, January 24, 2025
+  :65 Set_Starup_Position x /y.  New Position: {X=155,Y=436}
+---------------
+16:29:43 Friday, January 24, 2025
+  :66 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:43 Friday, January 24, 2025
+  :67 Manage_Form. Mode: 5
+---------------
+16:29:44 Friday, January 24, 2025
+  :68 CMD_SET_CW_PITCH Received: 1
+---------------
+16:29:44 Friday, January 24, 2025
+  :69 CMD_SET_DISPLAY_FREQ: 14074000
+---------------
+16:29:44 Friday, January 24, 2025
+  :70 Spectrum_Last_used.Current_mode: U
+---------------
+16:29:44 Friday, January 24, 2025
+  :71 CMD_SET_DISPLAY_FREQ: 14074000
+---------------
+16:29:49 Friday, January 24, 2025
+  :72 CMD_SET_X_POSITION: 0
+---------------
+16:29:49 Friday, January 24, 2025
+  :73 CMD_SET_Y_POSITION: 4
+---------------
+16:29:49 Friday, January 24, 2025
+  :74 Set_Starup_Position x /y. STARTED
+---------------
+16:29:49 Friday, January 24, 2025
+  :75 Set_Starup_Position x /y.  New Position: {X=8,Y=424}
+---------------
+16:29:50 Friday, January 24, 2025
+  :76 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:50 Friday, January 24, 2025
+  :77 Manage_Form. Mode: 5
+---------------
+16:29:55 Friday, January 24, 2025
+  :78 CMD_SET_X_POSITION: 169
+---------------
+16:29:56 Friday, January 24, 2025
+  :79 CMD_SET_Y_POSITION: 10
+---------------
+16:29:56 Friday, January 24, 2025
+  :80 Set_Starup_Position x /y. STARTED
+---------------
+16:29:56 Friday, January 24, 2025
+  :81 Set_Starup_Position x /y.  New Position: {X=177,Y=430}
+---------------
+16:29:56 Friday, January 24, 2025
+  :82 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:56 Friday, January 24, 2025
+  :83 Manage_Form. Mode: 5
+---------------
+16:29:56 Friday, January 24, 2025
+  :84 CMD_SET_X_POSITION: 254
+---------------
+16:29:56 Friday, January 24, 2025
+  :85 CMD_SET_Y_POSITION: 10
+---------------
+16:29:56 Friday, January 24, 2025
+  :86 Set_Starup_Position x /y. STARTED
+---------------
+16:29:56 Friday, January 24, 2025
+  :87 Set_Starup_Position x /y.  New Position: {X=262,Y=430}
+---------------
+16:29:56 Friday, January 24, 2025
+  :88 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:56 Friday, January 24, 2025
+  :89 Manage_Form. Mode: 5
+---------------
+16:29:56 Friday, January 24, 2025
+  :90 CMD_SET_X_POSITION: 184
+---------------
+16:29:56 Friday, January 24, 2025
+  :91 CMD_SET_Y_POSITION: 13
+---------------
+16:29:56 Friday, January 24, 2025
+  :92 Set_Starup_Position x /y. STARTED
+---------------
+16:29:56 Friday, January 24, 2025
+  :93 Set_Starup_Position x /y.  New Position: {X=192,Y=433}
+---------------
+16:29:57 Friday, January 24, 2025
+  :94 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :95 Manage_Form. Mode: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :96 CMD_SET_X_POSITION: 175
+---------------
+16:29:57 Friday, January 24, 2025
+  :97 CMD_SET_Y_POSITION: 13
+---------------
+16:29:57 Friday, January 24, 2025
+  :98 Set_Starup_Position x /y. STARTED
+---------------
+16:29:57 Friday, January 24, 2025
+  :99 Set_Starup_Position x /y.  New Position: {X=183,Y=433}
+---------------
+16:29:57 Friday, January 24, 2025
+  :100 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :101 Manage_Form. Mode: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :102 CMD_SET_X_POSITION: 165
+---------------
+16:29:57 Friday, January 24, 2025
+  :103 CMD_SET_Y_POSITION: 14
+---------------
+16:29:57 Friday, January 24, 2025
+  :104 Set_Starup_Position x /y. STARTED
+---------------
+16:29:57 Friday, January 24, 2025
+  :105 Set_Starup_Position x /y.  New Position: {X=173,Y=434}
+---------------
+16:29:57 Friday, January 24, 2025
+  :106 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :107 Manage_Form. Mode: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :108 CMD_SET_X_POSITION: 163
+---------------
+16:29:57 Friday, January 24, 2025
+  :109 CMD_SET_Y_POSITION: 14
+---------------
+16:29:57 Friday, January 24, 2025
+  :110 Set_Starup_Position x /y. STARTED
+---------------
+16:29:57 Friday, January 24, 2025
+  :111 Set_Starup_Position x /y.  New Position: {X=171,Y=434}
+---------------
+16:29:57 Friday, January 24, 2025
+  :112 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :113 Manage_Form. Mode: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :114 CMD_SET_X_POSITION: 157
+---------------
+16:29:57 Friday, January 24, 2025
+  :115 CMD_SET_Y_POSITION: 16
+---------------
+16:29:57 Friday, January 24, 2025
+  :116 Set_Starup_Position x /y. STARTED
+---------------
+16:29:57 Friday, January 24, 2025
+  :117 Set_Starup_Position x /y.  New Position: {X=165,Y=436}
+---------------
+16:29:57 Friday, January 24, 2025
+  :118 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :119 Manage_Form. Mode: 5
+---------------
+16:29:57 Friday, January 24, 2025
+  :120 CMD_SET_X_POSITION: 150
+---------------
+16:29:57 Friday, January 24, 2025
+  :121 CMD_SET_Y_POSITION: 16
+---------------
+16:29:57 Friday, January 24, 2025
+  :122 Set_Starup_Position x /y. STARTED
+---------------
+16:29:57 Friday, January 24, 2025
+  :123 Set_Starup_Position x /y.  New Position: {X=158,Y=436}
+---------------
+16:29:58 Friday, January 24, 2025
+  :124 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:58 Friday, January 24, 2025
+  :125 Manage_Form. Mode: 5
+---------------
+16:29:58 Friday, January 24, 2025
+  :126 CMD_SET_X_POSITION: 143
+---------------
+16:29:58 Friday, January 24, 2025
+  :127 CMD_SET_Y_POSITION: 16
+---------------
+16:29:58 Friday, January 24, 2025
+  :128 Set_Starup_Position x /y. STARTED
+---------------
+16:29:58 Friday, January 24, 2025
+  :129 Set_Starup_Position x /y.  New Position: {X=151,Y=436}
+---------------
+16:29:58 Friday, January 24, 2025
+  :130 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:58 Friday, January 24, 2025
+  :131 Manage_Form. Mode: 5
+---------------
+16:29:58 Friday, January 24, 2025
+  :132 CMD_SET_X_POSITION: 129
+---------------
+16:29:58 Friday, January 24, 2025
+  :133 CMD_SET_Y_POSITION: 16
+---------------
+16:29:58 Friday, January 24, 2025
+  :134 Set_Starup_Position x /y. STARTED
+---------------
+16:29:58 Friday, January 24, 2025
+  :135 Set_Starup_Position x /y.  New Position: {X=137,Y=436}
+---------------
+16:29:58 Friday, January 24, 2025
+  :136 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:58 Friday, January 24, 2025
+  :137 Manage_Form. Mode: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :138 CMD_SET_X_POSITION: 93
+---------------
+16:29:59 Friday, January 24, 2025
+  :139 CMD_SET_Y_POSITION: 16
+---------------
+16:29:59 Friday, January 24, 2025
+  :140 Set_Starup_Position x /y. STARTED
+---------------
+16:29:59 Friday, January 24, 2025
+  :141 Set_Starup_Position x /y.  New Position: {X=101,Y=436}
+---------------
+16:29:59 Friday, January 24, 2025
+  :142 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :143 Manage_Form. Mode: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :144 CMD_SET_X_POSITION: 82
+---------------
+16:29:59 Friday, January 24, 2025
+  :145 CMD_SET_Y_POSITION: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :146 Set_Starup_Position x /y. STARTED
+---------------
+16:29:59 Friday, January 24, 2025
+  :147 Set_Starup_Position x /y.  New Position: {X=90,Y=425}
+---------------
+16:29:59 Friday, January 24, 2025
+  :148 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :149 Manage_Form. Mode: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :150 CMD_SET_X_POSITION: 91
+---------------
+16:29:59 Friday, January 24, 2025
+  :151 CMD_SET_Y_POSITION: 4
+---------------
+16:29:59 Friday, January 24, 2025
+  :152 Set_Starup_Position x /y. STARTED
+---------------
+16:29:59 Friday, January 24, 2025
+  :153 Set_Starup_Position x /y.  New Position: {X=99,Y=424}
+---------------
+16:29:59 Friday, January 24, 2025
+  :154 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :155 Manage_Form. Mode: 5
+---------------
+16:29:59 Friday, January 24, 2025
+  :156 CMD_SET_X_POSITION: 94
+---------------
+16:29:59 Friday, January 24, 2025
+  :157 CMD_SET_Y_POSITION: 2
+---------------
+16:29:59 Friday, January 24, 2025
+  :158 Set_Starup_Position x /y. STARTED
+---------------
+16:29:59 Friday, January 24, 2025
+  :159 Set_Starup_Position x /y.  New Position: {X=102,Y=422}
+---------------
+16:30:00 Friday, January 24, 2025
+  :160 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:30:00 Friday, January 24, 2025
+  :161 Manage_Form. Mode: 5
+---------------
+16:30:00 Friday, January 24, 2025
+  :162 CMD_SET_X_POSITION: 91
+---------------
+16:30:00 Friday, January 24, 2025
+  :163 CMD_SET_Y_POSITION: 2
+---------------
+16:30:00 Friday, January 24, 2025
+  :164 Set_Starup_Position x /y. STARTED
+---------------
+16:30:00 Friday, January 24, 2025
+  :165 Set_Starup_Position x /y.  New Position: {X=99,Y=422}
+---------------
+16:30:00 Friday, January 24, 2025
+  :166 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:30:00 Friday, January 24, 2025
+  :167 Manage_Form. Mode: 5
+---------------
+16:30:00 Friday, January 24, 2025
+  :168 CMD_SET_X_POSITION: 87
+---------------
+16:30:00 Friday, January 24, 2025
+  :169 CMD_SET_Y_POSITION: 2
+---------------
+16:30:00 Friday, January 24, 2025
+  :170 Set_Starup_Position x /y. STARTED
+---------------
+16:30:00 Friday, January 24, 2025
+  :171 Set_Starup_Position x /y.  New Position: {X=95,Y=422}
+---------------
+16:30:00 Friday, January 24, 2025
+  :172 CMD_SET_DISPLAY_MODE received: 5
+---------------
+16:30:00 Friday, January 24, 2025
+  :173 Manage_Form. Mode: 5
+---------------
+16:30:04 Friday, January 24, 2025
+  :174 Stop Command Received
+---------------

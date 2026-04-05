@@ -1,0 +1,69 @@
+        /*private void frmMain_Load(object sender, EventArgs e)
+        {
+            MonitorTextBoxText(" frmMain_load CALLED");
+            //bool Subsystem_start = false;
+
+            //String path = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
+            //path += "/mscc-MKII/logs/mscc.log";
+
+            //Subsystem_start = oCode.Start_subsystem(1);
+            //if (!Subsystem_start)
+            //{
+            //    MessageBox.Show("Subsystem Startup FAILED. MSCC is terminating",
+            //        "MSCC", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //    Application.Exit();
+            //}
+        }*/
+
+        /*private void Main_window_moved(object sender, EventArgs e)
+        {
+            Point delta_location = new Point(0, 0);
+            MonitorTextBoxText(" Main Window Moved. Called ");
+            this.Focus();
+            Window_controls.Docking_Controls.Main_location = this.Location;
+            if (Settings.Default.Docked)
+            {
+                if (Window_controls.Docking_Controls.Main_location.X >= Window_controls.Docking_Controls.Previous_Main_location.X)
+                {
+                    delta_location.X = Window_controls.Docking_Controls.Main_location.X -
+                        Window_controls.Docking_Controls.Previous_Main_location.X;
+
+                }
+                else
+                {
+                    delta_location.X = Window_controls.Docking_Controls.Previous_Main_location.X -
+                        Window_controls.Docking_Controls.Main_location.X;
+
+
+                }
+                if (Window_controls.Docking_Controls.Main_location.Y >= Window_controls.Docking_Controls.Previous_Main_location.Y)
+                {
+                    delta_location.Y = Window_controls.Docking_Controls.Main_location.Y -
+                        Window_controls.Docking_Controls.Previous_Main_location.Y;
+
+
+
+                }
+                else
+                {
+                    delta_location.Y = Window_controls.Docking_Controls.Previous_Main_location.Y -
+                        Window_controls.Docking_Controls.Main_location.Y;
+
+                }
+
+
+            }
+            Window_controls.Docking_Controls.Previous_Main_location = Window_controls.Docking_Controls.Main_location;
+        }*/
+		
+		   /*try
+            {
+                BackgroundWorker manage_background = new BackgroundWorker();
+                manage_background.DoWork += Manage_Background;
+                manage_background.RunWorkerAsync();
+            }
+            catch
+            {
+                Write_Debug_Message(" manage_background Start: FAILED");
+            }*/
+

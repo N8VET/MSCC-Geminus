@@ -1,0 +1,9 @@
+﻿  main.c
+  Generating code
+  0 of 8 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SDRcore.vcxproj -> G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\Servers\list-audio-devices\Release\bin\check-audio-devices.exe
+  G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\Servers\list-audio-devices\LIBS\pthreadVC2.dll -> G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\Servers\list-audio-devices\Release\bin\pthreadVC2.dll
+  1 File(s) copied

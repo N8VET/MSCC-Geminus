@@ -1,0 +1,16 @@
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\Release\MSCC\Properties\mscc.settings
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\Release\MSCC\Properties\mscc.Designer.cs
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\Release\MSCC\mscc.exe.config
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\Release\MSCC\mscc.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\Release\MSCC\mscc.pdb
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\mscc.csproj.AssemblyReference.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.Main_form.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.panadapter_control.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.shutdown.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.MonitorForm.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\OmniaGUI.Properties.Resources.resources
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\mscc.csproj.GenerateResource.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\mscc.csproj.CoreCompileInputs.cache
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\mscc.csproj.CopyComplete
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\mscc.exe
+G:\Ham Radio\ominaSDR\Hardware\MSCC-MKII-Windows\MSCC\mscc\obj\x86\RPi\mscc.pdb

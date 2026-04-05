@@ -1,0 +1,9 @@
+﻿  main.c
+  Generating code
+  2 of 30 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  SDRcore.vcxproj -> G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\mscc-init.exe
+  G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Servers\mscc-init\LIBS\pthreadVC2.dll -> G:\Ham Radio\ominaSDR\Hardware\MSCC-Geminus-Windows\Release\pthreadVC2.dll
+  1 File(s) copied
